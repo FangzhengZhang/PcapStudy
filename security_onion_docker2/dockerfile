@@ -1,0 +1,12 @@
+FROM ubuntu:22.04
+CMD echo "Start building ..."
+RUN apt update &&\
+    apt -y upgrade &&\
+    apt install -y wget &&\
+    apt install -y gpg &&\
+    apt -y install git curl ethtool &&\
+    git clone https://github.com/Security-Onion-Solutions/securityonion &&\
+    apt install -y whiptail &&\
+    wget https://raw.githubusercontent.com/Security-Onion-Solutions/securityonion/master/KEYS -O - | gpg --import -   &&\
+    wget https://github.com/Security-Onion-Solutions/securityonion/raw/master/sigs/securityonion-2.3.181-20221021.iso.sig &&\
+    wget https://download.securityonion.net/file/securityonion/securityonion-2.3.181-20221021.iso &&\

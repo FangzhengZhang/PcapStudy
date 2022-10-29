@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  onion:
+    image: ubuntu:22.04
+    container_name: Securty_Onion_2
+    hostname: OnionCat
+    build: ./dockerfile
+    
