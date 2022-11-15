@@ -1,0 +1,102 @@
+2022-01-06 (THURSDAY) - TA551 (SHATHAK) PUSHES ICEDID (BOKBOT)
+
+CHAIN OF EVENTS:
+ 
+- malspam --> password-protected zip attachment --> extracted Word doc --> enable macros --> installer DLL for IcedID --> IcedIDpost-infection activity --> Cobalt Strike as follow-up malware
+
+NOTES:
+
+- This is the second day in a row for TA551 activity in January 2022.
+
+- Today's TA551 activity used Word documents with both English templates, even though the file names were mostly Italian.
+
+9 EXAMPLES OF TA551 WORD DOCS WITH MACROS:
+
+- b67d518e580131c4fd143ae625704d27f72093546b497140b6d847a4bea7e911  Materiale 01.22.doc
+- 6f1034cf538f2cc3ef364da056253a17342672b5983e5026da4fc0e766241337  certificato 01.22.doc
+- ee869b92bfd6414b59db291070427e9516f71d61fe0297fdc497f073432fe42f  dettagli_01.06.2022.doc
+- 248d305422c44ec3a0479538dc9bb2dc3f2d77e412dc051d3a8a694d170868ed  diretto-01.22.doc
+- a208e81281b4ee74117662340931fb1fe6d6eb427a3d4d39527fe2b5496721cf  documento ufficiale.01.22 2.doc
+- e7d6dbcd89ee418c50c4447a7ce7c56f7f88157b9cb959b56f37cd7f2ee788de  documento ufficiale.01.22.doc
+- 395ed974722b981240cdf4955f3131412f45a779299a44c27d005748aada8f66  fatti,01.22.doc
+- ccaaac6cc825aa985b2b5171bff4afbb7fd22354607a670daf974272ef48916a  figure.01.22.doc
+- 3bb6732475779b42b7d6fe10623866dbf38b70f198aad24670a368dce7db3139  figure_01.06.2022.doc
+
+AT LEAST 3 DOMAINS HOSTING THE INSTALLER DLL:
+
+- 45.142.212.97 - fittravisd.com
+- 80.71.157.6 - pausemaddend.com
+- 80.71.157.216 - thompsonstorages.com
+
+EXAMPLES OF URLS FOR INSTALLER DLL:
+
+- http://fittravisd.com/vcnh/26816/K8dpV4zCTN/sas5?user=2q41lrXslk1ymzkye&q=jrAzsw&search=OugMhZt8pNoVawJt1fHEVA2NmBWJiV&ref=CRS1hOi&id=SSpMZkz&B4ND90=nWZC0
+
+- http://fittravisd.com/vcnh/nEW0PZBTdsFHRwfD/VrROMjos/98557/YFe8Z5JAzsUVju7BiqbA9XslWjMR/vAdTtvp214U/gjaKxJ46TKlqLsby8skPtQY5KcRGqCcstHIKmxBp4JBM3mWH/sas6?veQW=Rmz&time=ohys873J0575KudEydiZaA&sid=rQU97KaruwBqSChi83OLAfi3
+
+- http://fittravisd.com/vcnh/sc9qGPwmNkb9w2DS4OQ8aYf21nR9mm7AoMZWR/iXLZfpwyTr5CPMMD9CuBrGwXNdJHPUshBZyFJbmliHIgUgY/5Yd6T3GoT3h5PlthTJeAOA04PKMmCx1w/83790/YXimsLKI/xlFhEOkbxeO8bbQu2LE44zVfLHTQ5/29661/sas4?user=cXqJ9XKHUsn&ref=nJGjmKU7pdii7QdjARv8oZvfEr3B&=FnHFqwrWluo8nSgB
+
+- http://pausemaddend.com/vcnh/N5gf7LhG8ahciotEz1Ams9QcToXu/95P28kK8737IRCoQxRx9T71I7fP7YAotEYImRLgS/ZDjonGtrnF3ftEhFCeR3jv1fu3tzE0rTJVDydU/5y6KNXjtiHCU6UgT88X/90323/olAP5WuYJFO1DZDdERyg7LGoUFAjk2mffQDU0ysxq8rO/sas3?ZchNMIiP=i3pxh2Csu&id=h1NYvssuvZ7E7AoaHImg4kBEAVe&cid=QHWnvhYFQ2vOWb&nr20g0dt=DhGew&0oYBBsN=BsTv7A6PJzLaxDJv&q=jBmryyYoH4w0&user=D5FR9KsARcb8CpreMOl5bqs&FUs=yfVLwB1zyztk7&search=a9QBcsGiaKKkw7hxg8YhQU3ne2f
+
+- http://thompsonstorages.com/vcnh/31815/15915/Ebkqanyvr/o4Esy9Fj/J47u3zVsm9UeR/q/H8RkWViGdVNkvH5Dfmoqq/sas6?vc=ms45GLbESn&ref=L4NJTwjzfB&time=UolZxRrN4LjHCiNGLcfaBFua&q=8eHh2Hd0kfbT0sjjwqP6RKsAsvp&page=pATdFg9SV2
+
+5 EXAMPLES OF HTA FILES:
+
+- e4fd4dd09255b554e8ea7fff440fcc2a8e9661cb7e25427339f8742e4f37490b  cardTableAsus.htA
+- 8a93afa8d7825545c4b07ff0de4028beb439fc8dab01f23616bb7ca69c260b10  computerCardComputer.htA
+- 5be7ba879b849099f5c4b4eb579a28ea750b9a7d5a89504d7fb59e307daef99d  mouseCardMouse.htA
+- 1ad282df4cb8715590084e268b15bf06011d7ee65f17c0e4914ce989d6d4ab52  mouseI7Table.htA
+- cc2c2efb250bd56241979a33414fdd680c8c7584c21b445ac97efbdc2f3aa9a7  notebookI7.htA
+
+LOCATIONS OF THE HTA FILES:
+
+- C:\Users\[username]\Documents\
+
+10 EXAMPLES OF INSTALLER DLLS:
+
+- 9ec8a660c7c42a6f693957d18ef6fbc217efb804af00e2ef8187dac35da33ebb  computerProcessorTable.jpg
+- 5968b8aa9fc01f8c9e4fbc9e217510743063c4a3f09ec7053a103a3bdb98622e  keyboardMonitorMonitor.jpg
+- ebb8b9a88c7f657c2269b587391634a346e561f43de83e2b8f3888f575d98f63  keyboardMonitorMonitor.jpg
+- d33a99ecca3de7599c334bb39942583fea53bcbdb620ae7e6b4cf3b36a7e410c  monitorCardGigabyte.jpg
+- 13ca1107b68d79082c405b90c80675540113892bb8940a49acfacaa6f47a1e9d  processorKeyboard.jpg
+
+LOCATION FOR THE INSTALLER DLL FILES:
+
+- C:\Users\Public\
+
+DLL RUN METHOD:
+
+- regsvr32.exe [filename]
+
+ICEDID INSTALLER TRAFFIC:
+
+- port 443 - aws.amazon.com - HTTPS traffic
+- 194.147.115.14 port 80 - joikarendal.com - GET /
+
+GZIP BINARY FROM JOIKARENDAL.COM:
+
+- SHA256 hash: 7b2dac316b9139040b6329f67aeeef3a5582bda2dd73b1282dfcecf588cf43bc
+- File size: 399,995 bytes
+- File location: http://joikarendal.com/
+- File type: gzip compressed data, was "Lock.txt", from FAT filesystem (MS-DOS, OS/2, NT), original size modulo 2^32 1768744
+
+LICENSE.TXT USED TO RUN PERSISTENT ICEDID DLL:
+
+- SHA256 hash: cfc202b44509f2f607d365858a8218dfdc6b26f8087efcc5e46f4fef9ab53705
+- File size: 341,898 bytes
+- File location: C:\Users\[username]\AppData\Roaming\BasketLevel\license.dat
+- File type: data
+- Note: Same SHA256 hash seen yesterday (2022-01-05)
+
+PERSISTENT ICEDID DLL FROM AN INFECTED WINDOWS HOST:
+
+- SHA256 hash: 7f0d16893127feab8975b013be97938a37a17e0d5cdd5303b6fc22d349db803c
+- File size: 57,344 bytes
+- File location: C:\Users\[username]\AppData\Local\{29FF5CD9-D048-18E5-9B2C-DEA89ADFE1B6}\juicqita1.dll
+- File type: PE32+ executable (DLL) (GUI) x86-64, for MS Windows
+- Run method: rundll32.exe [filename],DllMain --om="[path to license.dat]"
+
+ICEDID C2 TRAFFIC:
+
+- 5.181.80.225 port 443 - upperdown.eu - HTTPS traffic
+- 94.140.112.43 port 443 - landofrayz.com - HTTPS traffic

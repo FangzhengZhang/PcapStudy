@@ -1,0 +1,86 @@
+2021-05-24 (MONDAY) - TA551 (SHATHAK) WORD DOCS WITH MACROS FOR ICEDID (BOKBOT):
+
+CHAIN OF EVENTS:
+ 
+- malspam --> password-protected zip attachment --> extracted Word doc --> enable macros --> installer DLL for IcedID --> IcedID infection activity
+ 
+10 EXAMPLES OF TA551 WORD DOCS WITH MACROS:
+
+- 5a77eeb0247a01d810cef17e943798f94f944cd654f8a624b332dbfedadcee84  deed contract,05.24.21.doc
+- b319d405609e0cf9952873e897d1f0b1918aa14069f5ef0c75b38be94a9532b3  enjoin_05.21.doc
+- 27a00929f11d8bcf42a85a06cdc6fd9d42aea036ce96e09cfc1206c1a6172eef  facts.05.24.2021.doc
+- 7267d12364c624ea7449ef3874c0e4031e82f4da923e70392793f9810fe2b3b3  instruct,05.21.doc
+- a6904dfe9197c1591bde516ca2fd8ef6a015c5bee739002ab65e981afd369c04  instruct-05.21.doc
+- dad6c68e4b04701845d48650ef35e4224ece57c0142f07f14123c43f1188b471  intelligence 05.24.2021.doc
+- 1fd7ee337a61fabe6a9eaee1c148eab24f124cf7c1cefe3214030230224e7322  intelligence_05.24.2021.doc
+- 55d1de828700dd0c8c709557fdb3a9c79b4eef675e6881de0e3eed5232d8186d  order_05.21.doc
+- c37c5d89dfa9e706bde7862f8f93fd754ba95af2b0e02339b31ecf62140c918f  require_05.21.doc
+- 9d69120817b4ac819baafd977397d713beb2fb4a24f8d66992f52f3a5d24dd7f  statistics-05.21.doc
+
+AT LEAST 4 DOMAINS HOSTING THE INSTALLER DLL:
+
+- awkwardmanagement2013z.com - 193.203.203.20
+- bartonmercyz.com - 45.142.212.100
+- pactrichardsz.com - 193.203.203.51
+- rawstock2020z.com - 45.153.230.2
+
+EXAMPLES OF URLS FOR INSTALLER DLL:
+
+- http://awkwardmanagement2013z.com/adda/97989/L1gilQRdZq/69162/21769/92295/LDaP53s4jS/xmbPmbPLTBgcHiQBTvpV3/FiRpMcV1KQoZvQXF/lun4?ref=QMM2RoYUyJaRoSyKnsQTWwia3HAT&id=Vmd8BZgkL2LfL0Q6rP5E90A4IuV6uK&=L3nxZvx0pbc&bxwa6j=W1JDNxusaKQ52ftR&cid=CEY1IPTRZnuRMLPgWYwL&EAebOs=D7BBL9IK3Z2O
+
+- http://awkwardmanagement2013z.com/adda/9s0FC1SUwCVdKc/32541/urXKGi99s61qn/2zWFXBUCEzID6533LeaHCBKW8i2BgTK2tv65LHO6zB5U/FR9mKOmT56YvRyYMNxNO8TrbzWm0lywR93pQdi/hDH6xTy2IpZu23Z2da1Msz3jvCxI/lun5?q=mxi36A0FwF3xOBqgJLy&q=r8KyyXMpP1jPMoxGlGbi0YtxIS7JY&page=IkQSqAS04O8u87Q8y4JiPM0&=n5gm5SRUPzbAQ0cYQwmc2XDP9G&=vXcwNqDHoTQGD&=mbwpVsF6aBYrq5wGySWxT
+
+- http://bartonmercyz.com/adda/pnAvkNsmQygJ3UTByxFrrHqdi5wodVNWNVAk/KxPPC1XE2K8wmcqF/32889/yCi6C1ylY1jJqAbXlbehyL5oqPNvMj0mYILaPZ/IBS0twUYrdTMsFp7RkyewbUOKGB6pOc/85071/81257/lun2?page=RU&=Ir6JGI
+
+- http://pactrichardsz.com/adda/tcramKBLr/71076/9l97rCTTU76g2V13NEmBDnkMyIEUZ/56675/2LWOJu0EpqpT8P0vxo6XGmAebqLL8Ouz7f74eXug4DXCJ/5NjZ9ngLM23ZrUWw5/Hc6imL7IRdH42yq7feq2jdhzAY4WUu/84397/lvB7wF9H2w7/MRaRHevSYynAOGKAXW5YBd/lun5?q=2KPz6PkSZFexGReTFuyOUaWDQ&search=uubQgP0&AKf=QDcKdnCPLblV6N&q=pyt2Lfni4C8
+
+- http://pactrichardsz.com/adda/403/UfFWoISqGePrw9Z48ilW/l8/19703/d8Hl4Gt3hbMr/50318/8XncJp5/bclP9G7gD1E6t9w22zQj9fcC9DH/lun6?time=KJVWvugnbvdk0EInGgeCqaLEYILz&user=WPDwU4b
+
+- http://rawstock2020z.com/adda/UpQVX1qGxaoFJ5CPaupEVAD5A7DCfhfdwNOltTcXJhIy/e4Xj4ZDU5/FDr3Oxov3aCnDk6igpim9db816dJ5VnJ518fddrRcTNEgR8/tWJZzb/vkb98lRnLHNugnAdZPjLK1zRUrtIj/59076/29920/lun1?Ib=yT9JEHbG6&user=81NhsJPAiqM&page=9fTFTgAot2GuRaR&search=nFrlWU55LUoyzZSPAZtwwhF
+
+- http://rawstock2020z.com/adda/64802/2lP3VB8qH27OOIY4ef/53211/73420/4712/74823/lun3?search=c6UghQUr40xyh&sid=8u2ml0lL7j9rcLVvMdEyB&FSXfrkrz=aiIQ6Q8amXOwGXb0fIgd&ufziPH=kLE4tg&user=NWuY&=wkS
+
+12 EXAMPLES OF HTA (6 FILES) AND INSTALLER DLLS (6 FILES):
+
+- 807409d3c8e30d22c2960e40ce447877adc76f3a466fc134e94bb34eb4662220  globalFuncButton.hta
+- bd4e8d4300a4ce4b1d720f8a4cab1c1ddfb7764d8ea56d54a60c3a053ab76f30  globalFuncButton.jpg
+- 13284bc3666c50dad61f4fd08e880b4af3fb45c777e785a695405b83d78dd4b9  lenPtr.hta
+- b6603384f1c01a24b95abc0466fa4e8a1c78ed4154ba179fcd100dadb5076819  lenPtr.jpg
+- d1339d87d654a7572fdc691c7453cf70b61c58f8deb9c9bbb598f4aa026b4659  sizeTempStruct.hta
+- 2d96a3f885a90f08e75ffb0877033b3a3803b128def666e55227d8db3e2867c3  sizeTempStruct.jpg
+- 493d15304710b82baa776cb77c4a9a871e76ccbefd1713b1f3a1918aea22660c  tableW.hta
+- 79cbf744caf6cf0c25a5dd5077477336fd8110ede19d0fba25c634d0109bd8b9  tableW.jpg
+- 003886eee27c805825655d4385f6ca409452733c2cc9f3d51a71f2f8d148d722  textMemTmp.hta
+- 75f986a976dfaa5882d5021ed3180444e7876b200221b9cf7a332e5ab022951f  textMemTmp.jpg
+- aedd1b1a1f61a2f8710f2a3be794b5552f3e34534b4d05c8849defc71cd665b9  tmpSizeLocal.hta
+- 24b4d4da790b032e6c0017132586d587f49031daa708a52cb2b68341594557c2  tmpSizeLocal.jpg
+
+LOCATION FOR THE HTA AND INSTALLER DLL FILES:
+
+- C:\Users\Public\
+
+DLL RUN METHOD:
+
+- rundll32.exe [filename],PluginInit
+
+MALWARE FROM AN INFECTED WINDOWS HOST:
+
+- SHA256 hash: 29d2a8344bd725d7a8b43cc77a82b3db57a5226ce792ac4b37e7f73ec468510e
+- File size: 341,098 bytes
+- File location: C:\Users\[username]\AppData\Roaming\ShortOrdinary\license.dat
+- File description: binary data file used to run IcedID DLL below
+- Note: This file was originally submitted to VirusTotal on 2021-03-24
+
+- SHA256 hash: 647e7210af220356632df3ef8421242dbedbd2676eabb30846e984ddba040619
+- File size: 28,160 bytes
+- File location: C:\Users\[username]\AppData\Roaming\dotopo2\xeitapmp.dll
+- File description: IcedID DLL persistent on an infected Windows host
+- Run method: rundll32.exe [filename],update /i:"ShortOrdinary\license.dat"
+
+TRAFFIC FROM AN INFECTED WINDOWS HOST:
+
+- 79.141.166.39 port 443 - klosterrion.casa - HTTPS traffic
+- 79.141.166.39 port 443 - nighterlikorew.casa - HTTPS traffic
+- 79.141.166.39 port 443 - wenettoauto.golf - HTTPS traffic
+- 79.141.166.39 port 443 - ventuaustria.digital - HTTPS traffic
+- 194.5.249.150 port 8080 - TCP traffic

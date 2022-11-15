@@ -1,0 +1,79 @@
+2021-04-29 (THURSDAY) - TA551 (SHATHAK) ICEDID (BOKBOT) MALWARE INFO:
+
+NOTES:
+
+- During April 2021 up through yesterday (2021-04-28), TA551 (Shathak) has pushed Ursnif (Gozi/ISFB) malware using Italian and German templates for the associated Word docs.
+
+- Today, we're back to seeing English template Word docs, and the malware has changed from Ursnif to IcedID (Bokbot)
+
+CHAIN OF EVENTS:
+
+- email --> password-protected zip attachment --> extracted Word doc --> enable macros --> Installer DLL --> traffic to gziploader domain --> IcedID DLL --> IcedID C2 activity
+
+MALWARE:
+
+- SHA256 hash: 489b8731d5bbff56ad54f7fbf6b96325582dcabb07a143d39f7ac20c0e52050e
+- File size: 81,407 bytes
+- File name: official paper_04.21.doc
+- File description: Word doc with macro for IcedID
+
+- SHA256 hash: a3bd154325eb4076560cfc8a9193151f03108918d05e0bca4750261b757089ec
+- File size: 2,932 bytes
+- File location: C:\Users\Public\procClearCopy.hta
+- File description: HTA file dropped after enabling macros on the above Word document
+
+- SHA256 hash: 134a04ffd6ea9949fe3bacbb3ff0698ae6371829a1d201d6c66f25411068e17f
+- File size: 319,576 bytes
+- File location: http://tooldunlap.com/dgsos/14975/zqvJptl1sZLYPeCx7Secp9tUjNF9T1F/xOC1zXgfPqjyx4Kvqe0dGM5i41rNLO3lwvn1x/qwsxDITPgQCHp5r8DcJ/ok4i/57288/39020/30274/vur8?cid=E6M6Np8nhXnu4ndPEJTeYC70v85&SyEC=IGCUjuITwVSt6jyKguK&user=TfG9YaSOt9xEkNl02cyIyXS9l9&cid=nc19K9DBQ5lcK
+- File location: C:\Users\Public\procClearCopy.jpg
+- File description: Installer DLL for IcedID
+- Run method: "C:\Windows\System32\regsvr32.exe" c:\users\public\procClearCopy.jpg
+
+- SHA256 hash: a839d0c8c84a4f5c7abb788940e6de5744e77f52703918ff4adb4ecb2ac8391f
+- File size: 616,795 bytes
+- File location: http://tooldunlap.com/
+- File description: Fake gzip file called by installer DLL used to create IcedID DLL and license.dat files 
+
+- SHA256 hash: 29d2a8344bd725d7a8b43cc77a82b3db57a5226ce792ac4b37e7f73ec468510e
+- File size: 341,098 bytes
+- File location: C:\Users\[username]\AppData\Roaming\JourneyProud\license.dat
+- File description: binary data file used to run IcedID DLL files
+
+- SHA256 hash: 5f8d09b34af11c4a87d0f9fa3df39e2c0ca996648324336bfc3dc3c4993b28de
+- File size: 274,944 bytes
+- File location: C:\Users\natasha.romanov\AppData\Roaming\{438D1905-D70C-48C3-2A55-236E1DCAFD7}\natasha.romanov\nokeuc2.dll
+- File description: Persistent DLL for IcedID infection
+- Run method: rundll32.exe [filename],update /i:"JourneyProud\license.dat"
+
+TRAFFIC:
+
+URL FOR INSTALLER DLL:
+
+- 45.142.212.180 port 80 - tooldunlap.com - GET /dgsos/14975/zqvJptl1sZLYPeCx7Secp9tUjNF9T1F/xOC1zXgfPqjyx4Kvqe0dGM5i41rNLO3lwvn1x/qwsxDITPgQCHp5r8DcJ/ok4i/57288/39020/30274/vur8?cid=E6M6Np8nhXnu4ndPEJTeYC70v85&SyEC=IGCUjuITwVSt6jyKguK&user=TfG9YaSOt9xEkNl02cyIyXS9l9&cid=nc19K9DBQ5lcK HTTP/1.1
+
+CONNECTIVITY AND DATA CHECK BY INSTALLER DLL:
+
+- port 443 - aws.amazon.com - HTTPS traffic
+
+DOMAIN HOSTING GZIPLOADER BINARY:
+
+- 83.97.20.126 port 80 - refolloprello.top - GET / HTTP/1.1 
+
+ICEDID C2 TRAFFIC:
+
+- 83.97.20.160 port 443 - rangstatepol.top - HTTPS Traffic
+
+OTHER DOMAINS REPORTED BY VIRUSTOTAL ON 83.97.20.160:
+
+(READ: DATE REPORTED: DOMAIN)
+
+- 2021-04-29: quantisranti.xyz
+- 2021-04-29: eahnowneede.website
+- 2021-04-29: tuashoutting.website
+- 2021-04-29: hidethisfact.top
+- 2021-04-29: xiolodiogo.club
+- 2021-04-29: ultimarulle.top
+- 2021-04-24: thulleultinn.club
+- 2021-04-23: dictorecovery.cyou
+- 2021-04-23: expertulthima.club
+- 2021-04-23: oxythuler.cyou

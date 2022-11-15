@@ -1,0 +1,137 @@
+2021-06-02 (WEDNESDAY) - TA551 (SHATHAK) WORD DOCS WITH MACROS FOR ICEDID (BOKBOT):
+
+CHAIN OF EVENTS:
+ 
+- malspam --> password-protected zip attachment --> extracted Word doc --> enable macros --> installer DLL for IcedID --> IcedID infection activity
+ 
+14 EXAMPLES OF TA551 WORD DOCS WITH MACROS:
+
+- 5721912135a2ff7d87a57f936229032269e28a039f54cb31cfa03d02326fac9d  adjure_06.21.doc
+- d0ebbca1b56ea0dec7148d5748d816109b9661289b11e8cdd9c36deb686209e6  bid_06.02.2021.doc
+- 35eaed4dde764da5bc8e6fa9102d09b65e4406d71029bb5fd9e636ca4e1424e5  charge-06.21.doc
+- ea14ef17d86ee2efb0a6117d7ae8e0597785e372198ffd00d157ebc56f7920cd  commerce .06.21.doc
+- 302faa829d3f84dbd0ae4636d6f35fd4556416f0e62ee98f5bc76bd3c18fdb4d  deed contract 06.21.doc
+- f335f56790382833150eace69b94b50c41065c53004121c31dd510d11d397462  details-06.21.doc
+- cc721111b5924cfeb91440ecaccc60ecc30d10fffbdab262f7c0a17027f527d1  docs 06.02.2021.doc
+- 3d1a8722259afe397b10b353e0c360c3c9816d774fcdb5686451175b78adc6f3  document_06.21.doc
+- 950c46df5501fb2e81cb7b165f051a4fc8317e4f749956bce1dafb0e121c304e  figures-06.21.doc
+- 77e21ed15382228cb36536ab8195e51ad274651745c2037b12f58a218a40adee  legal agreement,06.21.doc
+- 621933d53d16c0b141918295fac09e1b3a1051d626ac5746afd55070b378114a  official paper-06.21.doc
+- 9f1107e38798da0421026a5b5b0803d42621574cf4080a73d9fd05b1db75989c  official paper_06.21.doc
+- b24ca419e35a9a2875ecad63ca1e2cb940d564abce779b7de9b912b9e06defc4  particulars 06.02.2021.doc
+- ce0a612774a52a2129b431ed27f86e977fb1f0ebec59681088ffd084e732859e  statistics_06.02.2021.doc
+
+AT LEAST 6 DOMAINS HOSTING THE INSTALLER DLL:
+
+- 45.142.213.105 - coursemcclurez.com
+- 45.142.213.163 - cryfund2015z.com
+- 45.142.215.227 - ribswansonz.com
+- 45.142.215.228 - sisteraudit2019z.com
+- 45.142.215.242 - turngas2008z.com
+- 162.248.225.18 - ramseyquantumz.com
+
+EXAMPLES OF URLS FOR INSTALLER DLL:
+
+- http://coursemcclurez.com/adda/T/5xBOnOkAQixWY7/JQNizzLtuT6BVV0xRecCKVVHAAR6PkgGrIPN/sose5?user=anRsIkfbv&time=0qobcg4DyUX11ZLF5yHrIevFn&page=1K2n8iJ&i9y9SwJu=yVaCtZ9s0gUfn&q=hj9xWh4I6PDdXOPDey&id=Vr4pf&user=mHMoD292T&search=uZVgg21LyVRFdD2FABGZvQlnkM90&q=Dwc1s67MbWC24TGoOjMXC
+
+- http://cryfund2015z.com/adda/NYp6E8NZ/69bMxpjXQ8sjdaCtoQevz1i1u1f6mH5lTo/kXJbmJ0tdz1iCNfKNfErriJrNMplz1cgYT2MKIpZ5/uJ67nSRTegX496/J7114vbdL03HTQtr4INSnQQ1oYZiei4/xpIgURh79MRasZs1zRvJHd0W/pHmgFDP9hOcUcQaSUPXT/sose12?page=1upXSR0bnx&ref=80hJKlk0X3lOQl97&7pB04C9kle=6Od13N23n8GqPcBf&ref=7ojE6tyeOxSXlN8NiYFfJhjf
+
+- http://ribswansonz.com/adda/WtR5knQxsPnoOVFtles9xQVfmoP7gVmCe4/JUJ/2uHHxL5A1hOTzfIzMn85JTUp3wp1OtsSBtos/5IbYQ7EqxExNvMViAtpF8b56YUyks5UzrHJy/7uKCF5gmtzD/14008/sose5?sid=BRNS4UAEibzE02cXqksbgoN&4cfzH8LY=zzFI&user=ijWlc3aeha4jT7ILRSIkxVadMdE&=gmMVBxJM&CKkeLjpF2r=YLAWlNK6wtm8&time=ECDnIukcX11nsr&ref=um86lb8VKpmnUSM3zVQ3VpxYH
+
+- http://ramseyquantumz.com/adda/gEdfyu/XKMEXva7wnp17qIf/P6LZWsfbNEEXB/S5px4ras6p794d8BAyygJFc76frDNx6LofxY0BAgcjB46/nhamERfjRoABt0m3thi2/DoWG4rRvQ31mEyU/Nt4M8cB2o3xdUuZxyuxIFwhX4yO072d4FY6/sose1?yB5va1ay2=6VLeg3qX&=f33shUkwOkhT2bQbGNvt&id=nCetXPed&page=V5nvzjDZDClD3&sid=khvkplSALRAnmpk4G5lvHtl1R&search=8kEb1tU0sH1iV8c&page=b8jsbRG1UqXa&time=tWVA&3nr=oX
+
+- http://sisteraudit2019z.com/adda/J5dJHdBeMU6BjCM2al/EwAwD8purFOqW/36005/44935/16901/QPCpFqx3ez051kem0kWeDEmwTRcze6FfDVvSzsUk/26679/sose9?q=PtKChouRatBKf4y&3jpgJmR9=El56FXiYmitVdrRNb1aX&Be=gUX1DhZbMsFNPDPRky&ref=qvEEXdO9oMiuq&search=hnzBGBO4R4dKv7hKRAYFDQLA&B6OwYj99=ONUGGWGsxkMDsa2b3b&search=z0M44RgdUiZnM
+
+8 EXAMPLES OF HTA FILES:
+
+- 532179549cab31503322645b40da2d0f5d9fb6949501989edea12930184e5574  bQuery.hta
+- 6472cdb8c5ccf376667c67f78ae6a1c25ae26ae214c0513fd9a422799a857342  booleanZeroC.hta
+- b25865183c5cd2c5e550aca8476e592b62ed3e37e6b628f955bbed454fdbb100  collectionBoxConst.hta
+- 526b83020907e0bf29ecdc968b8dae80dc6c5c4e8be049940f79434b25dfc02d  copyFunction.hta
+- f2853a980ec905710695b3d5e3a6c38ace906f7dcd12b4cb35cbeb621afe3b26  docBorderWin.hta
+- 3f1dbb57e5e35b18ca512af187dbe6639fb64a2713bdd7d6d5cca6b1b95dd277  selDel.hta
+- 18ee9d59df8b18619aa97536a803b6f806acb1524b4ff81a00e6106d00e7d051  swapHTpl.hta
+- 0c262088fbddbe311b0ade60901a78f057afa0ac2cce99b7d1287a9c20ee0242  vbInitRemove.hta
+
+8 EXAMPLES OF INSTALLER DLLS:
+
+- ef051eba865c6508fc1692fcf051135ae898364808b8d4a3396601006abea9dd  bQuery.jpg
+- e12bb613f1772ddb94e3e5aa4452777095d90debd3278c606b1e8edac6541b5a  booleanZeroC.jpg
+- 51658887e46c88ed6d5861861a55c989d256a7962fb848fe833096ed6b049441  collectionBoxConst.jpg
+- d13e105c5d101d0b2b1cf6e5e4f198dd18df50447dc333ffba42a1386cc732e6  copyFunction.jpg
+- 9b6b3b62f816d3b9a63f20ba92006ce20d103adc67c564d4ea780069404656d6  docBorderWin.jpg
+- 34b299c782b585805d0360513a8da77ca35091952adee7e690441312400162e0  selDel.jpg
+- 2b7ce6df991b70fa552737cc13bee9534a00a53702ea94a92b67d9e166192f33  swapHTpl.jpg
+- a2a9ecf82d0ab335d901f5d7e4f085c4d03692e5eadb52d0ac5843d387204fe0  vbInitRemove.jpg
+
+LOCATION FOR THE HTA FILES:
+
+- Same directory as the associated Word document
+
+LOCATION FOR THE INSTALLER DLL FILES:
+
+- C:\Users\Public\
+
+DLL RUN METHOD:
+
+- rundll32.exe [filename],PluginInit
+
+MALWARE FROM AN INFECTED WINDOWS HOST:
+
+- SHA256 hash: ea872a29ed2189432ff3f8ce807412eaa200928fadf9eb918518be5d5bd0ca1e
+- File size: 747,869 bytes
+- File location: http://supplementik.top/
+- File description: fake gzip file used to create license.dat and persistent IcedID DLL below
+
+- SHA256 hash: 29d2a8344bd725d7a8b43cc77a82b3db57a5226ce792ac4b37e7f73ec468510e
+- File size: 341,098 bytes
+- File location: C:\Users\[username]\AppData\Roaming\ComicFantasy\license.dat
+- File description: encoded binary used to run persistent IcedID DLL, same file hash first reported to VirusTotal on 2021-03-24.
+
+- SHA256 hash: 3ed5d0476d1ce4fd325666072983d295609fe94c5b65d5db47a53f462ac7a4dc
+- File size: 406,016 bytes
+- File location: C:\Users\[username]\AppData\Local\[username]\Tetoomdu64.dll
+- File description: IcedID DLL persistent on the infected Windows host
+- Run method: rundll32.exe "C:\Users\[username]\AppData\Local\[username]\Tetoomdu64.dll",update /i:"ComicFantasy\license.dat"
+
+TRAFFIC GENERATED BY ONE OF THE INSTALLER DLL FILES:
+
+- port 443 - aws.amazon.com - HTTPS traffic
+- 172.67.169.59 port 80 - supplementik.top - GET /
+
+TRAFFIC GENERATED BY ANOTHER ONE OF THE INSTALLER DLL FILES:
+
+- port 443 - aws.amazon.com - HTTPS traffic
+- 172.67.169.184 port 80 - buzzinmaster.live - GET /
+
+TRAFFIC FROM AN INFECTED WINDOWS HOST:
+
+- 185.33.85.35 port 443 - fimlubindu.top - HTTPS IcedID C2 traffic
+- 194.5.249.46 port 443 - extrimefigim.top - HTTPS IcedID C2 traffic
+- 185.33.85.35 port 443 - kilodaser4.fit - HTTPS IcedID C2 traffic
+- 185.33.85.35 port 443 - arhannexa5.top - HTTPS IcedID C2 traffic
+- 38.135.122.194 port 8080 - TCP traffic (not HTTP or HTTPS) caused by IcedID
+
+ICEDID C2 DOMAINS ON 185.33.85.35 REPORTED TO VIRUSTOTAL:
+
+(domain name - date first reported)
+
+- bigcostarikas.top - 2021-05-27
+- esaquell.website - 2021-05-19
+- kilodaser4.fit - 2021-05-19
+- arhannexa5.top - 2021-05-19
+- tournamento3.online - 2021-05-16
+- fimlubindu.top - 2021-05-13
+- fimlubindu.club - 2021-05-13
+
+ICEDID C2 DOMAINS ON 194.5.249.46 REPORTED TO VIRUSTOTAL:
+
+(domain name - date first reported)
+
+- extrimefigim.top - 2021-05-25
+- beggings.top - 2021-05-20
+- kindsoftpron.top - 2021-05-18
+- vindurualeg.top - 2021-05-13
+- chiefier.website - 2021-05-13
+- dekoloeo.space - 2021-05-13
+- vindurualeg.club - 2021-05-13

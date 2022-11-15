@@ -1,0 +1,3910 @@
+[
+  {
+    "_index": "packets-2022-01-06",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.encap_type": "1",
+          "frame.time": "Jan  6, 2022 18:19:28.431878000 Eastern Standard Time",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1641511168.431878000",
+          "frame.time_delta": "0.000000000",
+          "frame.time_delta_displayed": "0.000000000",
+          "frame.time_relative": "0.000000000",
+          "frame.number": "1",
+          "frame.len": "541",
+          "frame.cap_len": "541",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:ip:tcp:http",
+          "frame.coloring_rule.name": "HTTP",
+          "frame.coloring_rule.string": "http || tcp.port == 80 || http2"
+        },
+        "eth": {
+          "eth.dst": "20:e5:2a:b6:93:f1",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "Netgear_b6:93:f1",
+            "eth.dst.oui": "2155818",
+            "eth.dst.oui_resolved": "Netgear",
+            "eth.addr": "20:e5:2a:b6:93:f1",
+            "eth.addr_resolved": "Netgear_b6:93:f1",
+            "eth.addr.oui": "2155818",
+            "eth.addr.oui_resolved": "Netgear",
+            "eth.dst.lg": "0",
+            "eth.lg": "0",
+            "eth.dst.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.src": "00:08:02:1c:47:ae",
+          "eth.src_tree": {
+            "eth.src_resolved": "HewlettP_1c:47:ae",
+            "eth.src.oui": "2050",
+            "eth.src.oui_resolved": "Hewlett Packard",
+            "eth.addr": "00:08:02:1c:47:ae",
+            "eth.addr_resolved": "HewlettP_1c:47:ae",
+            "eth.addr.oui": "2050",
+            "eth.addr.oui_resolved": "Hewlett Packard",
+            "eth.src.lg": "0",
+            "eth.lg": "0",
+            "eth.src.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x0800"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "527",
+          "ip.id": "0xa555",
+          "ip.flags": "0x40",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "1",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "128",
+          "ip.proto": "6",
+          "ip.checksum": "0x550e",
+          "ip.checksum.status": "2",
+          "ip.src": "10.1.6.101",
+          "ip.addr": "10.1.6.101",
+          "ip.src_host": "10.1.6.101",
+          "ip.host": "10.1.6.101",
+          "ip.dst": "80.71.157.216",
+          "ip.addr": "80.71.157.216",
+          "ip.dst_host": "80.71.157.216",
+          "ip.host": "80.71.157.216"
+        },
+        "tcp": {
+          "tcp.srcport": "55805",
+          "tcp.dstport": "80",
+          "tcp.port": "55805",
+          "tcp.port": "80",
+          "tcp.stream": "0",
+          "tcp.completeness": "8",
+          "tcp.len": "487",
+          "tcp.seq": "1",
+          "tcp.seq_raw": "3195583020",
+          "tcp.nxtseq": "488",
+          "tcp.ack": "1",
+          "tcp.ack_raw": "383552093",
+          "tcp.hdr_len": "20",
+          "tcp.flags": "0x0018",
+          "tcp.flags_tree": {
+            "tcp.flags.res": "0",
+            "tcp.flags.ns": "0",
+            "tcp.flags.cwr": "0",
+            "tcp.flags.ecn": "0",
+            "tcp.flags.urg": "0",
+            "tcp.flags.ack": "1",
+            "tcp.flags.push": "1",
+            "tcp.flags.reset": "0",
+            "tcp.flags.syn": "0",
+            "tcp.flags.fin": "0",
+            "tcp.flags.str": "·······AP···"
+          },
+          "tcp.window_size_value": "1024",
+          "tcp.window_size": "1024",
+          "tcp.window_size_scalefactor": "-1",
+          "tcp.checksum": "0x6d30",
+          "tcp.checksum.status": "2",
+          "tcp.urgent_pointer": "0",
+          "Timestamps": {
+            "tcp.time_relative": "0.000000000",
+            "tcp.time_delta": "0.000000000"
+          },
+          "tcp.analysis": {
+            "tcp.analysis.bytes_in_flight": "487",
+            "tcp.analysis.push_bytes_sent": "487"
+          },
+          "tcp.payload": "47:45:54:20:2f:76:63:6e:68:2f:33:31:38:31:35:2f:31:35:39:31:35:2f:45:62:6b:71:61:6e:79:76:72:2f:6f:34:45:73:79:39:46:6a:2f:4a:34:37:75:33:7a:56:73:6d:39:55:65:52:2f:71:2f:48:38:52:6b:57:56:69:47:64:56:4e:6b:76:48:35:44:66:6d:6f:71:71:2f:73:61:73:36:3f:76:63:3d:6d:73:34:35:47:4c:62:45:53:6e:26:72:65:66:3d:4c:34:4e:4a:54:77:6a:7a:66:42:26:74:69:6d:65:3d:55:6f:6c:5a:78:52:72:4e:34:4c:6a:48:43:69:4e:47:4c:63:66:61:42:46:75:61:26:71:3d:38:65:48:68:32:48:64:30:6b:66:62:54:30:73:6a:6a:77:71:50:36:52:4b:73:41:73:76:70:26:70:61:67:65:3d:70:41:54:64:46:67:39:53:56:32:20:48:54:54:50:2f:31:2e:31:0d:0a:41:63:63:65:70:74:3a:20:2a:2f:2a:0d:0a:41:63:63:65:70:74:2d:4c:61:6e:67:75:61:67:65:3a:20:65:6e:2d:75:73:0d:0a:41:63:63:65:70:74:2d:45:6e:63:6f:64:69:6e:67:3a:20:67:7a:69:70:2c:20:64:65:66:6c:61:74:65:0d:0a:55:73:65:72:2d:41:67:65:6e:74:3a:20:4d:6f:7a:69:6c:6c:61:2f:34:2e:30:20:28:63:6f:6d:70:61:74:69:62:6c:65:3b:20:4d:53:49:45:20:37:2e:30:3b:20:57:69:6e:64:6f:77:73:20:4e:54:20:31:30:2e:30:3b:20:57:4f:57:36:34:3b:20:54:72:69:64:65:6e:74:2f:37:2e:30:3b:20:2e:4e:45:54:34:2e:30:43:3b:20:2e:4e:45:54:34:2e:30:45:3b:20:2e:4e:45:54:20:43:4c:52:20:32:2e:30:2e:35:30:37:32:37:3b:20:2e:4e:45:54:20:43:4c:52:20:33:2e:30:2e:33:30:37:32:39:3b:20:2e:4e:45:54:20:43:4c:52:20:33:2e:35:2e:33:30:37:32:39:29:0d:0a:48:6f:73:74:3a:20:74:68:6f:6d:70:73:6f:6e:73:74:6f:72:61:67:65:73:2e:63:6f:6d:0d:0a:43:6f:6e:6e:65:63:74:69:6f:6e:3a:20:4b:65:65:70:2d:41:6c:69:76:65:0d:0a:0d:0a"
+        },
+        "http": {
+          "GET /vcnh/31815/15915/Ebkqanyvr/o4Esy9Fj/J47u3zVsm9UeR/q/H8RkWViGdVNkvH5Dfmoqq/sas6?vc=ms45GLbESn&ref=L4NJTwjzfB&time=UolZxRrN4LjHCiNGLcfaBFua&q=8eHh2Hd0kfbT0sjjwqP6RKsAsvp&page=pATdFg9SV2 HTTP/1.1\\r\\n": {
+            "_ws.expert": {
+              "http.chat": "",
+              "_ws.expert.message": "GET /vcnh/31815/15915/Ebkqanyvr/o4Esy9Fj/J47u3zVsm9UeR/q/H8RkWViGdVNkvH5Dfmoqq/sas6?vc=ms45GLbESn&ref=L4NJTwjzfB&time=UolZxRrN4LjHCiNGLcfaBFua&q=8eHh2Hd0kfbT0sjjwqP6RKsAsvp&page=pATdFg9SV2 HTTP/1.1\\r\\n",
+              "_ws.expert.severity": "2097152",
+              "_ws.expert.group": "33554432"
+            },
+            "http.request.method": "GET",
+            "http.request.uri": "/vcnh/31815/15915/Ebkqanyvr/o4Esy9Fj/J47u3zVsm9UeR/q/H8RkWViGdVNkvH5Dfmoqq/sas6?vc=ms45GLbESn&ref=L4NJTwjzfB&time=UolZxRrN4LjHCiNGLcfaBFua&q=8eHh2Hd0kfbT0sjjwqP6RKsAsvp&page=pATdFg9SV2",
+            "http.request.uri_tree": {
+              "http.request.uri.path": "/vcnh/31815/15915/Ebkqanyvr/o4Esy9Fj/J47u3zVsm9UeR/q/H8RkWViGdVNkvH5Dfmoqq/sas6",
+              "http.request.uri.query": "vc=ms45GLbESn&ref=L4NJTwjzfB&time=UolZxRrN4LjHCiNGLcfaBFua&q=8eHh2Hd0kfbT0sjjwqP6RKsAsvp&page=pATdFg9SV2",
+              "http.request.uri.query_tree": {
+                "http.request.uri.query.parameter": "vc=ms45GLbESn",
+                "http.request.uri.query.parameter": "ref=L4NJTwjzfB",
+                "http.request.uri.query.parameter": "time=UolZxRrN4LjHCiNGLcfaBFua",
+                "http.request.uri.query.parameter": "q=8eHh2Hd0kfbT0sjjwqP6RKsAsvp",
+                "http.request.uri.query.parameter": "page=pATdFg9SV2"
+              }
+            },
+            "http.request.version": "HTTP/1.1"
+          },
+          "http.accept": "*/*",
+          "http.request.line": "Accept: */*\r\n",
+          "http.accept_language": "en-us",
+          "http.request.line": "Accept-Language: en-us\r\n",
+          "http.accept_encoding": "gzip, deflate",
+          "http.request.line": "Accept-Encoding: gzip, deflate\r\n",
+          "http.user_agent": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 10.0; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729)",
+          "http.request.line": "User-Agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 10.0; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729)\r\n",
+          "http.host": "thompsonstorages.com",
+          "http.request.line": "Host: thompsonstorages.com\r\n",
+          "http.connection": "Keep-Alive",
+          "http.request.line": "Connection: Keep-Alive\r\n",
+          "\\r\\n": "",
+          "http.request.full_uri": "http://thompsonstorages.com/vcnh/31815/15915/Ebkqanyvr/o4Esy9Fj/J47u3zVsm9UeR/q/H8RkWViGdVNkvH5Dfmoqq/sas6?vc=ms45GLbESn&ref=L4NJTwjzfB&time=UolZxRrN4LjHCiNGLcfaBFua&q=8eHh2Hd0kfbT0sjjwqP6RKsAsvp&page=pATdFg9SV2",
+          "http.request": "1",
+          "http.request_number": "1"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2022-01-06",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.encap_type": "1",
+          "frame.time": "Jan  6, 2022 18:19:37.210128000 Eastern Standard Time",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1641511177.210128000",
+          "frame.time_delta": "8.778250000",
+          "frame.time_delta_displayed": "8.778250000",
+          "frame.time_relative": "8.778250000",
+          "frame.number": "2",
+          "frame.len": "246",
+          "frame.cap_len": "246",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:ip:tcp:tls",
+          "frame.coloring_rule.name": "TCP",
+          "frame.coloring_rule.string": "tcp"
+        },
+        "eth": {
+          "eth.dst": "20:e5:2a:b6:93:f1",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "Netgear_b6:93:f1",
+            "eth.dst.oui": "2155818",
+            "eth.dst.oui_resolved": "Netgear",
+            "eth.addr": "20:e5:2a:b6:93:f1",
+            "eth.addr_resolved": "Netgear_b6:93:f1",
+            "eth.addr.oui": "2155818",
+            "eth.addr.oui_resolved": "Netgear",
+            "eth.dst.lg": "0",
+            "eth.lg": "0",
+            "eth.dst.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.src": "00:08:02:1c:47:ae",
+          "eth.src_tree": {
+            "eth.src_resolved": "HewlettP_1c:47:ae",
+            "eth.src.oui": "2050",
+            "eth.src.oui_resolved": "Hewlett Packard",
+            "eth.addr": "00:08:02:1c:47:ae",
+            "eth.addr_resolved": "HewlettP_1c:47:ae",
+            "eth.addr.oui": "2050",
+            "eth.addr.oui_resolved": "Hewlett Packard",
+            "eth.src.lg": "0",
+            "eth.lg": "0",
+            "eth.src.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x0800"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "232",
+          "ip.id": "0xdbae",
+          "ip.flags": "0x40",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "1",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "128",
+          "ip.proto": "6",
+          "ip.checksum": "0x8d6d",
+          "ip.checksum.status": "2",
+          "ip.src": "10.1.6.101",
+          "ip.addr": "10.1.6.101",
+          "ip.src_host": "10.1.6.101",
+          "ip.host": "10.1.6.101",
+          "ip.dst": "52.109.76.33",
+          "ip.addr": "52.109.76.33",
+          "ip.dst_host": "52.109.76.33",
+          "ip.host": "52.109.76.33"
+        },
+        "tcp": {
+          "tcp.srcport": "55806",
+          "tcp.dstport": "443",
+          "tcp.port": "55806",
+          "tcp.port": "443",
+          "tcp.stream": "1",
+          "tcp.completeness": "8",
+          "tcp.len": "192",
+          "tcp.seq": "1",
+          "tcp.seq_raw": "2813638037",
+          "tcp.nxtseq": "193",
+          "tcp.ack": "1",
+          "tcp.ack_raw": "1411902178",
+          "tcp.hdr_len": "20",
+          "tcp.flags": "0x0018",
+          "tcp.flags_tree": {
+            "tcp.flags.res": "0",
+            "tcp.flags.ns": "0",
+            "tcp.flags.cwr": "0",
+            "tcp.flags.ecn": "0",
+            "tcp.flags.urg": "0",
+            "tcp.flags.ack": "1",
+            "tcp.flags.push": "1",
+            "tcp.flags.reset": "0",
+            "tcp.flags.syn": "0",
+            "tcp.flags.fin": "0",
+            "tcp.flags.str": "·······AP···"
+          },
+          "tcp.window_size_value": "515",
+          "tcp.window_size": "515",
+          "tcp.window_size_scalefactor": "-1",
+          "tcp.checksum": "0xc35b",
+          "tcp.checksum.status": "2",
+          "tcp.urgent_pointer": "0",
+          "Timestamps": {
+            "tcp.time_relative": "0.000000000",
+            "tcp.time_delta": "0.000000000"
+          },
+          "tcp.analysis": {
+            "tcp.analysis.bytes_in_flight": "192",
+            "tcp.analysis.push_bytes_sent": "192"
+          },
+          "tcp.payload": "16:03:03:00:bb:01:00:00:b7:03:03:61:d7:79:14:40:bc:d7:c1:7f:64:b7:34:ef:04:c8:f4:a3:85:f9:ba:b3:8f:09:86:af:60:5b:eb:e0:c4:8a:1d:00:00:26:c0:2c:c0:2b:c0:30:c0:2f:c0:24:c0:23:c0:28:c0:27:c0:0a:c0:09:c0:14:c0:13:00:9d:00:9c:00:3d:00:3c:00:35:00:2f:00:0a:01:00:00:68:00:00:00:1e:00:1c:00:00:19:6e:65:78:75:73:2e:6f:66:66:69:63:65:61:70:70:73:2e:6c:69:76:65:2e:63:6f:6d:00:05:00:05:01:00:00:00:00:00:0a:00:08:00:06:00:1d:00:17:00:18:00:0b:00:02:01:00:00:0d:00:1a:00:18:08:04:08:05:08:06:04:01:05:01:02:01:04:03:05:03:02:03:02:02:06:01:06:03:00:23:00:00:00:17:00:00:ff:01:00:01:00"
+        },
+        "tls": {
+          "tls.record": {
+            "tls.record.content_type": "22",
+            "tls.record.version": "0x0303",
+            "tls.record.length": "187",
+            "tls.handshake": {
+              "tls.handshake.type": "1",
+              "tls.handshake.length": "183",
+              "tls.handshake.version": "0x0303",
+              "tls.handshake.random": "61:d7:79:14:40:bc:d7:c1:7f:64:b7:34:ef:04:c8:f4:a3:85:f9:ba:b3:8f:09:86:af:60:5b:eb:e0:c4:8a:1d",
+              "tls.handshake.random_tree": {
+                "tls.handshake.random_time": "Jan  6, 2022 18:19:48.000000000 Eastern Standard Time",
+                "tls.handshake.random_bytes": "40:bc:d7:c1:7f:64:b7:34:ef:04:c8:f4:a3:85:f9:ba:b3:8f:09:86:af:60:5b:eb:e0:c4:8a:1d"
+              },
+              "tls.handshake.session_id_length": "0",
+              "tls.handshake.cipher_suites_length": "38",
+              "tls.handshake.ciphersuites": {
+                "tls.handshake.ciphersuite": "0xc02c",
+                "tls.handshake.ciphersuite": "0xc02b",
+                "tls.handshake.ciphersuite": "0xc030",
+                "tls.handshake.ciphersuite": "0xc02f",
+                "tls.handshake.ciphersuite": "0xc024",
+                "tls.handshake.ciphersuite": "0xc023",
+                "tls.handshake.ciphersuite": "0xc028",
+                "tls.handshake.ciphersuite": "0xc027",
+                "tls.handshake.ciphersuite": "0xc00a",
+                "tls.handshake.ciphersuite": "0xc009",
+                "tls.handshake.ciphersuite": "0xc014",
+                "tls.handshake.ciphersuite": "0xc013",
+                "tls.handshake.ciphersuite": "0x009d",
+                "tls.handshake.ciphersuite": "0x009c",
+                "tls.handshake.ciphersuite": "0x003d",
+                "tls.handshake.ciphersuite": "0x003c",
+                "tls.handshake.ciphersuite": "0x0035",
+                "tls.handshake.ciphersuite": "0x002f",
+                "tls.handshake.ciphersuite": "0x000a"
+              },
+              "tls.handshake.comp_methods_length": "1",
+              "tls.handshake.comp_methods": {
+                "tls.handshake.comp_method": "0"
+              },
+              "tls.handshake.extensions_length": "104",
+              "Extension: server_name (len=30)": {
+                "tls.handshake.extension.type": "0",
+                "tls.handshake.extension.len": "30",
+                "Server Name Indication extension": {
+                  "tls.handshake.extensions_server_name_list_len": "28",
+                  "tls.handshake.extensions_server_name_type": "0",
+                  "tls.handshake.extensions_server_name_len": "25",
+                  "tls.handshake.extensions_server_name": "nexus.officeapps.live.com"
+                }
+              },
+              "Extension: status_request (len=5)": {
+                "tls.handshake.extension.type": "5",
+                "tls.handshake.extension.len": "5",
+                "tls.handshake.extensions_status_request_type": "1",
+                "tls.handshake.extensions_status_request_responder_ids_len": "0",
+                "tls.handshake.extensions_status_request_exts_len": "0"
+              },
+              "Extension: supported_groups (len=8)": {
+                "tls.handshake.extension.type": "10",
+                "tls.handshake.extension.len": "8",
+                "tls.handshake.extensions_supported_groups_length": "6",
+                "tls.handshake.extensions_supported_groups": {
+                  "tls.handshake.extensions_supported_group": "0x001d",
+                  "tls.handshake.extensions_supported_group": "0x0017",
+                  "tls.handshake.extensions_supported_group": "0x0018"
+                }
+              },
+              "Extension: ec_point_formats (len=2)": {
+                "tls.handshake.extension.type": "11",
+                "tls.handshake.extension.len": "2",
+                "tls.handshake.extensions_ec_point_formats_length": "1",
+                "tls.handshake.extensions_ec_point_formats": {
+                  "tls.handshake.extensions_ec_point_format": "0"
+                }
+              },
+              "Extension: signature_algorithms (len=26)": {
+                "tls.handshake.extension.type": "13",
+                "tls.handshake.extension.len": "26",
+                "tls.handshake.sig_hash_alg_len": "24",
+                "tls.handshake.sig_hash_algs": {
+                  "tls.handshake.sig_hash_alg": "0x0804",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "8",
+                    "tls.handshake.sig_hash_sig": "4"
+                  },
+                  "tls.handshake.sig_hash_alg": "0x0805",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "8",
+                    "tls.handshake.sig_hash_sig": "5"
+                  },
+                  "tls.handshake.sig_hash_alg": "0x0806",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "8",
+                    "tls.handshake.sig_hash_sig": "6"
+                  },
+                  "tls.handshake.sig_hash_alg": "0x0401",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "4",
+                    "tls.handshake.sig_hash_sig": "1"
+                  },
+                  "tls.handshake.sig_hash_alg": "0x0501",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "5",
+                    "tls.handshake.sig_hash_sig": "1"
+                  },
+                  "tls.handshake.sig_hash_alg": "0x0201",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "2",
+                    "tls.handshake.sig_hash_sig": "1"
+                  },
+                  "tls.handshake.sig_hash_alg": "0x0403",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "4",
+                    "tls.handshake.sig_hash_sig": "3"
+                  },
+                  "tls.handshake.sig_hash_alg": "0x0503",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "5",
+                    "tls.handshake.sig_hash_sig": "3"
+                  },
+                  "tls.handshake.sig_hash_alg": "0x0203",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "2",
+                    "tls.handshake.sig_hash_sig": "3"
+                  },
+                  "tls.handshake.sig_hash_alg": "0x0202",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "2",
+                    "tls.handshake.sig_hash_sig": "2"
+                  },
+                  "tls.handshake.sig_hash_alg": "0x0601",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "6",
+                    "tls.handshake.sig_hash_sig": "1"
+                  },
+                  "tls.handshake.sig_hash_alg": "0x0603",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "6",
+                    "tls.handshake.sig_hash_sig": "3"
+                  }
+                }
+              },
+              "Extension: session_ticket (len=0)": {
+                "tls.handshake.extension.type": "35",
+                "tls.handshake.extension.len": "0",
+                "tls.handshake.extension.data": ""
+              },
+              "Extension: extended_master_secret (len=0)": {
+                "tls.handshake.extension.type": "23",
+                "tls.handshake.extension.len": "0"
+              },
+              "Extension: renegotiation_info (len=1)": {
+                "tls.handshake.extension.type": "65281",
+                "tls.handshake.extension.len": "1",
+                "Renegotiation Info extension": {
+                  "tls.handshake.extensions_reneg_info_len": "0"
+                }
+              },
+              "tls.handshake.ja3_full": "771,49196-49195-49200-49199-49188-49187-49192-49191-49162-49161-49172-49171-157-156-61-60-53-47-10,0-5-10-11-13-35-23-65281,29-23-24,0",
+              "tls.handshake.ja3": "a0e9f5d64349fb13191bc781f81f42e1"
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2022-01-06",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.encap_type": "1",
+          "frame.time": "Jan  6, 2022 18:19:38.067550000 Eastern Standard Time",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1641511178.067550000",
+          "frame.time_delta": "0.857422000",
+          "frame.time_delta_displayed": "0.857422000",
+          "frame.time_relative": "9.635672000",
+          "frame.number": "3",
+          "frame.len": "251",
+          "frame.cap_len": "251",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:ip:tcp:tls",
+          "frame.coloring_rule.name": "TCP",
+          "frame.coloring_rule.string": "tcp"
+        },
+        "eth": {
+          "eth.dst": "20:e5:2a:b6:93:f1",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "Netgear_b6:93:f1",
+            "eth.dst.oui": "2155818",
+            "eth.dst.oui_resolved": "Netgear",
+            "eth.addr": "20:e5:2a:b6:93:f1",
+            "eth.addr_resolved": "Netgear_b6:93:f1",
+            "eth.addr.oui": "2155818",
+            "eth.addr.oui_resolved": "Netgear",
+            "eth.dst.lg": "0",
+            "eth.lg": "0",
+            "eth.dst.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.src": "00:08:02:1c:47:ae",
+          "eth.src_tree": {
+            "eth.src_resolved": "HewlettP_1c:47:ae",
+            "eth.src.oui": "2050",
+            "eth.src.oui_resolved": "Hewlett Packard",
+            "eth.addr": "00:08:02:1c:47:ae",
+            "eth.addr_resolved": "HewlettP_1c:47:ae",
+            "eth.addr.oui": "2050",
+            "eth.addr.oui_resolved": "Hewlett Packard",
+            "eth.src.lg": "0",
+            "eth.lg": "0",
+            "eth.src.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x0800"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "237",
+          "ip.id": "0xba96",
+          "ip.flags": "0x40",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "1",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "128",
+          "ip.proto": "6",
+          "ip.checksum": "0xae82",
+          "ip.checksum.status": "2",
+          "ip.src": "10.1.6.101",
+          "ip.addr": "10.1.6.101",
+          "ip.src_host": "10.1.6.101",
+          "ip.host": "10.1.6.101",
+          "ip.dst": "52.109.76.31",
+          "ip.addr": "52.109.76.31",
+          "ip.dst_host": "52.109.76.31",
+          "ip.host": "52.109.76.31"
+        },
+        "tcp": {
+          "tcp.srcport": "55807",
+          "tcp.dstport": "443",
+          "tcp.port": "55807",
+          "tcp.port": "443",
+          "tcp.stream": "2",
+          "tcp.completeness": "8",
+          "tcp.len": "197",
+          "tcp.seq": "1",
+          "tcp.seq_raw": "3154544488",
+          "tcp.nxtseq": "198",
+          "tcp.ack": "1",
+          "tcp.ack_raw": "2852452761",
+          "tcp.hdr_len": "20",
+          "tcp.flags": "0x0018",
+          "tcp.flags_tree": {
+            "tcp.flags.res": "0",
+            "tcp.flags.ns": "0",
+            "tcp.flags.cwr": "0",
+            "tcp.flags.ecn": "0",
+            "tcp.flags.urg": "0",
+            "tcp.flags.ack": "1",
+            "tcp.flags.push": "1",
+            "tcp.flags.reset": "0",
+            "tcp.flags.syn": "0",
+            "tcp.flags.fin": "0",
+            "tcp.flags.str": "·······AP···"
+          },
+          "tcp.window_size_value": "515",
+          "tcp.window_size": "515",
+          "tcp.window_size_scalefactor": "-1",
+          "tcp.checksum": "0x4afe",
+          "tcp.checksum.status": "2",
+          "tcp.urgent_pointer": "0",
+          "Timestamps": {
+            "tcp.time_relative": "0.000000000",
+            "tcp.time_delta": "0.000000000"
+          },
+          "tcp.analysis": {
+            "tcp.analysis.bytes_in_flight": "197",
+            "tcp.analysis.push_bytes_sent": "197"
+          },
+          "tcp.payload": "16:03:03:00:c0:01:00:00:bc:03:03:61:d7:79:15:58:41:8b:15:ca:05:cf:6c:44:2f:dd:0d:f6:d3:b8:13:35:61:7a:ab:16:65:97:99:7d:4c:ad:d2:00:00:26:c0:2c:c0:2b:c0:30:c0:2f:c0:24:c0:23:c0:28:c0:27:c0:0a:c0:09:c0:14:c0:13:00:9d:00:9c:00:3d:00:3c:00:35:00:2f:00:0a:01:00:00:6d:00:00:00:23:00:21:00:00:1e:6e:65:78:75:73:72:75:6c:65:73:2e:6f:66:66:69:63:65:61:70:70:73:2e:6c:69:76:65:2e:63:6f:6d:00:05:00:05:01:00:00:00:00:00:0a:00:08:00:06:00:1d:00:17:00:18:00:0b:00:02:01:00:00:0d:00:1a:00:18:08:04:08:05:08:06:04:01:05:01:02:01:04:03:05:03:02:03:02:02:06:01:06:03:00:23:00:00:00:17:00:00:ff:01:00:01:00"
+        },
+        "tls": {
+          "tls.record": {
+            "tls.record.content_type": "22",
+            "tls.record.version": "0x0303",
+            "tls.record.length": "192",
+            "tls.handshake": {
+              "tls.handshake.type": "1",
+              "tls.handshake.length": "188",
+              "tls.handshake.version": "0x0303",
+              "tls.handshake.random": "61:d7:79:15:58:41:8b:15:ca:05:cf:6c:44:2f:dd:0d:f6:d3:b8:13:35:61:7a:ab:16:65:97:99:7d:4c:ad:d2",
+              "tls.handshake.random_tree": {
+                "tls.handshake.random_time": "Jan  6, 2022 18:19:49.000000000 Eastern Standard Time",
+                "tls.handshake.random_bytes": "58:41:8b:15:ca:05:cf:6c:44:2f:dd:0d:f6:d3:b8:13:35:61:7a:ab:16:65:97:99:7d:4c:ad:d2"
+              },
+              "tls.handshake.session_id_length": "0",
+              "tls.handshake.cipher_suites_length": "38",
+              "tls.handshake.ciphersuites": {
+                "tls.handshake.ciphersuite": "0xc02c",
+                "tls.handshake.ciphersuite": "0xc02b",
+                "tls.handshake.ciphersuite": "0xc030",
+                "tls.handshake.ciphersuite": "0xc02f",
+                "tls.handshake.ciphersuite": "0xc024",
+                "tls.handshake.ciphersuite": "0xc023",
+                "tls.handshake.ciphersuite": "0xc028",
+                "tls.handshake.ciphersuite": "0xc027",
+                "tls.handshake.ciphersuite": "0xc00a",
+                "tls.handshake.ciphersuite": "0xc009",
+                "tls.handshake.ciphersuite": "0xc014",
+                "tls.handshake.ciphersuite": "0xc013",
+                "tls.handshake.ciphersuite": "0x009d",
+                "tls.handshake.ciphersuite": "0x009c",
+                "tls.handshake.ciphersuite": "0x003d",
+                "tls.handshake.ciphersuite": "0x003c",
+                "tls.handshake.ciphersuite": "0x0035",
+                "tls.handshake.ciphersuite": "0x002f",
+                "tls.handshake.ciphersuite": "0x000a"
+              },
+              "tls.handshake.comp_methods_length": "1",
+              "tls.handshake.comp_methods": {
+                "tls.handshake.comp_method": "0"
+              },
+              "tls.handshake.extensions_length": "109",
+              "Extension: server_name (len=35)": {
+                "tls.handshake.extension.type": "0",
+                "tls.handshake.extension.len": "35",
+                "Server Name Indication extension": {
+                  "tls.handshake.extensions_server_name_list_len": "33",
+                  "tls.handshake.extensions_server_name_type": "0",
+                  "tls.handshake.extensions_server_name_len": "30",
+                  "tls.handshake.extensions_server_name": "nexusrules.officeapps.live.com"
+                }
+              },
+              "Extension: status_request (len=5)": {
+                "tls.handshake.extension.type": "5",
+                "tls.handshake.extension.len": "5",
+                "tls.handshake.extensions_status_request_type": "1",
+                "tls.handshake.extensions_status_request_responder_ids_len": "0",
+                "tls.handshake.extensions_status_request_exts_len": "0"
+              },
+              "Extension: supported_groups (len=8)": {
+                "tls.handshake.extension.type": "10",
+                "tls.handshake.extension.len": "8",
+                "tls.handshake.extensions_supported_groups_length": "6",
+                "tls.handshake.extensions_supported_groups": {
+                  "tls.handshake.extensions_supported_group": "0x001d",
+                  "tls.handshake.extensions_supported_group": "0x0017",
+                  "tls.handshake.extensions_supported_group": "0x0018"
+                }
+              },
+              "Extension: ec_point_formats (len=2)": {
+                "tls.handshake.extension.type": "11",
+                "tls.handshake.extension.len": "2",
+                "tls.handshake.extensions_ec_point_formats_length": "1",
+                "tls.handshake.extensions_ec_point_formats": {
+                  "tls.handshake.extensions_ec_point_format": "0"
+                }
+              },
+              "Extension: signature_algorithms (len=26)": {
+                "tls.handshake.extension.type": "13",
+                "tls.handshake.extension.len": "26",
+                "tls.handshake.sig_hash_alg_len": "24",
+                "tls.handshake.sig_hash_algs": {
+                  "tls.handshake.sig_hash_alg": "0x0804",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "8",
+                    "tls.handshake.sig_hash_sig": "4"
+                  },
+                  "tls.handshake.sig_hash_alg": "0x0805",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "8",
+                    "tls.handshake.sig_hash_sig": "5"
+                  },
+                  "tls.handshake.sig_hash_alg": "0x0806",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "8",
+                    "tls.handshake.sig_hash_sig": "6"
+                  },
+                  "tls.handshake.sig_hash_alg": "0x0401",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "4",
+                    "tls.handshake.sig_hash_sig": "1"
+                  },
+                  "tls.handshake.sig_hash_alg": "0x0501",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "5",
+                    "tls.handshake.sig_hash_sig": "1"
+                  },
+                  "tls.handshake.sig_hash_alg": "0x0201",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "2",
+                    "tls.handshake.sig_hash_sig": "1"
+                  },
+                  "tls.handshake.sig_hash_alg": "0x0403",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "4",
+                    "tls.handshake.sig_hash_sig": "3"
+                  },
+                  "tls.handshake.sig_hash_alg": "0x0503",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "5",
+                    "tls.handshake.sig_hash_sig": "3"
+                  },
+                  "tls.handshake.sig_hash_alg": "0x0203",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "2",
+                    "tls.handshake.sig_hash_sig": "3"
+                  },
+                  "tls.handshake.sig_hash_alg": "0x0202",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "2",
+                    "tls.handshake.sig_hash_sig": "2"
+                  },
+                  "tls.handshake.sig_hash_alg": "0x0601",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "6",
+                    "tls.handshake.sig_hash_sig": "1"
+                  },
+                  "tls.handshake.sig_hash_alg": "0x0603",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "6",
+                    "tls.handshake.sig_hash_sig": "3"
+                  }
+                }
+              },
+              "Extension: session_ticket (len=0)": {
+                "tls.handshake.extension.type": "35",
+                "tls.handshake.extension.len": "0",
+                "tls.handshake.extension.data": ""
+              },
+              "Extension: extended_master_secret (len=0)": {
+                "tls.handshake.extension.type": "23",
+                "tls.handshake.extension.len": "0"
+              },
+              "Extension: renegotiation_info (len=1)": {
+                "tls.handshake.extension.type": "65281",
+                "tls.handshake.extension.len": "1",
+                "Renegotiation Info extension": {
+                  "tls.handshake.extensions_reneg_info_len": "0"
+                }
+              },
+              "tls.handshake.ja3_full": "771,49196-49195-49200-49199-49188-49187-49192-49191-49162-49161-49172-49171-157-156-61-60-53-47-10,0-5-10-11-13-35-23-65281,29-23-24,0",
+              "tls.handshake.ja3": "a0e9f5d64349fb13191bc781f81f42e1"
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2022-01-06",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.encap_type": "1",
+          "frame.time": "Jan  6, 2022 18:20:28.507275000 Eastern Standard Time",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1641511228.507275000",
+          "frame.time_delta": "50.439725000",
+          "frame.time_delta_displayed": "50.439725000",
+          "frame.time_relative": "60.075397000",
+          "frame.number": "4",
+          "frame.len": "235",
+          "frame.cap_len": "235",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:ip:tcp:tls",
+          "frame.coloring_rule.name": "TCP",
+          "frame.coloring_rule.string": "tcp"
+        },
+        "eth": {
+          "eth.dst": "20:e5:2a:b6:93:f1",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "Netgear_b6:93:f1",
+            "eth.dst.oui": "2155818",
+            "eth.dst.oui_resolved": "Netgear",
+            "eth.addr": "20:e5:2a:b6:93:f1",
+            "eth.addr_resolved": "Netgear_b6:93:f1",
+            "eth.addr.oui": "2155818",
+            "eth.addr.oui_resolved": "Netgear",
+            "eth.dst.lg": "0",
+            "eth.lg": "0",
+            "eth.dst.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.src": "00:08:02:1c:47:ae",
+          "eth.src_tree": {
+            "eth.src_resolved": "HewlettP_1c:47:ae",
+            "eth.src.oui": "2050",
+            "eth.src.oui_resolved": "Hewlett Packard",
+            "eth.addr": "00:08:02:1c:47:ae",
+            "eth.addr_resolved": "HewlettP_1c:47:ae",
+            "eth.addr.oui": "2050",
+            "eth.addr.oui_resolved": "Hewlett Packard",
+            "eth.src.lg": "0",
+            "eth.lg": "0",
+            "eth.src.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x0800"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "221",
+          "ip.id": "0x03fe",
+          "ip.flags": "0x40",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "1",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "128",
+          "ip.proto": "6",
+          "ip.checksum": "0x1474",
+          "ip.checksum.status": "2",
+          "ip.src": "10.1.6.101",
+          "ip.addr": "10.1.6.101",
+          "ip.src_host": "10.1.6.101",
+          "ip.host": "10.1.6.101",
+          "ip.dst": "13.249.195.74",
+          "ip.addr": "13.249.195.74",
+          "ip.dst_host": "13.249.195.74",
+          "ip.host": "13.249.195.74"
+        },
+        "tcp": {
+          "tcp.srcport": "55814",
+          "tcp.dstport": "443",
+          "tcp.port": "55814",
+          "tcp.port": "443",
+          "tcp.stream": "3",
+          "tcp.completeness": "8",
+          "tcp.len": "181",
+          "tcp.seq": "1",
+          "tcp.seq_raw": "763774687",
+          "tcp.nxtseq": "182",
+          "tcp.ack": "1",
+          "tcp.ack_raw": "3683102587",
+          "tcp.hdr_len": "20",
+          "tcp.flags": "0x0018",
+          "tcp.flags_tree": {
+            "tcp.flags.res": "0",
+            "tcp.flags.ns": "0",
+            "tcp.flags.cwr": "0",
+            "tcp.flags.ecn": "0",
+            "tcp.flags.urg": "0",
+            "tcp.flags.ack": "1",
+            "tcp.flags.push": "1",
+            "tcp.flags.reset": "0",
+            "tcp.flags.syn": "0",
+            "tcp.flags.fin": "0",
+            "tcp.flags.str": "·······AP···"
+          },
+          "tcp.window_size_value": "515",
+          "tcp.window_size": "515",
+          "tcp.window_size_scalefactor": "-1",
+          "tcp.checksum": "0x56e3",
+          "tcp.checksum.status": "2",
+          "tcp.urgent_pointer": "0",
+          "Timestamps": {
+            "tcp.time_relative": "0.000000000",
+            "tcp.time_delta": "0.000000000"
+          },
+          "tcp.analysis": {
+            "tcp.analysis.bytes_in_flight": "181",
+            "tcp.analysis.push_bytes_sent": "181"
+          },
+          "tcp.payload": "16:03:03:00:b0:01:00:00:ac:03:03:61:d7:79:47:68:6a:27:51:51:01:a6:4b:b0:b5:90:88:e3:e2:19:d5:ae:e0:23:05:d6:a0:0f:64:14:1c:dd:d5:00:00:26:c0:2c:c0:2b:c0:30:c0:2f:c0:24:c0:23:c0:28:c0:27:c0:0a:c0:09:c0:14:c0:13:00:9d:00:9c:00:3d:00:3c:00:35:00:2f:00:0a:01:00:00:5d:00:00:00:13:00:11:00:00:0e:61:77:73:2e:61:6d:61:7a:6f:6e:2e:63:6f:6d:00:05:00:05:01:00:00:00:00:00:0a:00:08:00:06:00:1d:00:17:00:18:00:0b:00:02:01:00:00:0d:00:1a:00:18:08:04:08:05:08:06:04:01:05:01:02:01:04:03:05:03:02:03:02:02:06:01:06:03:00:23:00:00:00:17:00:00:ff:01:00:01:00"
+        },
+        "tls": {
+          "tls.record": {
+            "tls.record.content_type": "22",
+            "tls.record.version": "0x0303",
+            "tls.record.length": "176",
+            "tls.handshake": {
+              "tls.handshake.type": "1",
+              "tls.handshake.length": "172",
+              "tls.handshake.version": "0x0303",
+              "tls.handshake.random": "61:d7:79:47:68:6a:27:51:51:01:a6:4b:b0:b5:90:88:e3:e2:19:d5:ae:e0:23:05:d6:a0:0f:64:14:1c:dd:d5",
+              "tls.handshake.random_tree": {
+                "tls.handshake.random_time": "Jan  6, 2022 18:20:39.000000000 Eastern Standard Time",
+                "tls.handshake.random_bytes": "68:6a:27:51:51:01:a6:4b:b0:b5:90:88:e3:e2:19:d5:ae:e0:23:05:d6:a0:0f:64:14:1c:dd:d5"
+              },
+              "tls.handshake.session_id_length": "0",
+              "tls.handshake.cipher_suites_length": "38",
+              "tls.handshake.ciphersuites": {
+                "tls.handshake.ciphersuite": "0xc02c",
+                "tls.handshake.ciphersuite": "0xc02b",
+                "tls.handshake.ciphersuite": "0xc030",
+                "tls.handshake.ciphersuite": "0xc02f",
+                "tls.handshake.ciphersuite": "0xc024",
+                "tls.handshake.ciphersuite": "0xc023",
+                "tls.handshake.ciphersuite": "0xc028",
+                "tls.handshake.ciphersuite": "0xc027",
+                "tls.handshake.ciphersuite": "0xc00a",
+                "tls.handshake.ciphersuite": "0xc009",
+                "tls.handshake.ciphersuite": "0xc014",
+                "tls.handshake.ciphersuite": "0xc013",
+                "tls.handshake.ciphersuite": "0x009d",
+                "tls.handshake.ciphersuite": "0x009c",
+                "tls.handshake.ciphersuite": "0x003d",
+                "tls.handshake.ciphersuite": "0x003c",
+                "tls.handshake.ciphersuite": "0x0035",
+                "tls.handshake.ciphersuite": "0x002f",
+                "tls.handshake.ciphersuite": "0x000a"
+              },
+              "tls.handshake.comp_methods_length": "1",
+              "tls.handshake.comp_methods": {
+                "tls.handshake.comp_method": "0"
+              },
+              "tls.handshake.extensions_length": "93",
+              "Extension: server_name (len=19)": {
+                "tls.handshake.extension.type": "0",
+                "tls.handshake.extension.len": "19",
+                "Server Name Indication extension": {
+                  "tls.handshake.extensions_server_name_list_len": "17",
+                  "tls.handshake.extensions_server_name_type": "0",
+                  "tls.handshake.extensions_server_name_len": "14",
+                  "tls.handshake.extensions_server_name": "aws.amazon.com"
+                }
+              },
+              "Extension: status_request (len=5)": {
+                "tls.handshake.extension.type": "5",
+                "tls.handshake.extension.len": "5",
+                "tls.handshake.extensions_status_request_type": "1",
+                "tls.handshake.extensions_status_request_responder_ids_len": "0",
+                "tls.handshake.extensions_status_request_exts_len": "0"
+              },
+              "Extension: supported_groups (len=8)": {
+                "tls.handshake.extension.type": "10",
+                "tls.handshake.extension.len": "8",
+                "tls.handshake.extensions_supported_groups_length": "6",
+                "tls.handshake.extensions_supported_groups": {
+                  "tls.handshake.extensions_supported_group": "0x001d",
+                  "tls.handshake.extensions_supported_group": "0x0017",
+                  "tls.handshake.extensions_supported_group": "0x0018"
+                }
+              },
+              "Extension: ec_point_formats (len=2)": {
+                "tls.handshake.extension.type": "11",
+                "tls.handshake.extension.len": "2",
+                "tls.handshake.extensions_ec_point_formats_length": "1",
+                "tls.handshake.extensions_ec_point_formats": {
+                  "tls.handshake.extensions_ec_point_format": "0"
+                }
+              },
+              "Extension: signature_algorithms (len=26)": {
+                "tls.handshake.extension.type": "13",
+                "tls.handshake.extension.len": "26",
+                "tls.handshake.sig_hash_alg_len": "24",
+                "tls.handshake.sig_hash_algs": {
+                  "tls.handshake.sig_hash_alg": "0x0804",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "8",
+                    "tls.handshake.sig_hash_sig": "4"
+                  },
+                  "tls.handshake.sig_hash_alg": "0x0805",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "8",
+                    "tls.handshake.sig_hash_sig": "5"
+                  },
+                  "tls.handshake.sig_hash_alg": "0x0806",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "8",
+                    "tls.handshake.sig_hash_sig": "6"
+                  },
+                  "tls.handshake.sig_hash_alg": "0x0401",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "4",
+                    "tls.handshake.sig_hash_sig": "1"
+                  },
+                  "tls.handshake.sig_hash_alg": "0x0501",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "5",
+                    "tls.handshake.sig_hash_sig": "1"
+                  },
+                  "tls.handshake.sig_hash_alg": "0x0201",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "2",
+                    "tls.handshake.sig_hash_sig": "1"
+                  },
+                  "tls.handshake.sig_hash_alg": "0x0403",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "4",
+                    "tls.handshake.sig_hash_sig": "3"
+                  },
+                  "tls.handshake.sig_hash_alg": "0x0503",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "5",
+                    "tls.handshake.sig_hash_sig": "3"
+                  },
+                  "tls.handshake.sig_hash_alg": "0x0203",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "2",
+                    "tls.handshake.sig_hash_sig": "3"
+                  },
+                  "tls.handshake.sig_hash_alg": "0x0202",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "2",
+                    "tls.handshake.sig_hash_sig": "2"
+                  },
+                  "tls.handshake.sig_hash_alg": "0x0601",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "6",
+                    "tls.handshake.sig_hash_sig": "1"
+                  },
+                  "tls.handshake.sig_hash_alg": "0x0603",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "6",
+                    "tls.handshake.sig_hash_sig": "3"
+                  }
+                }
+              },
+              "Extension: session_ticket (len=0)": {
+                "tls.handshake.extension.type": "35",
+                "tls.handshake.extension.len": "0",
+                "tls.handshake.extension.data": ""
+              },
+              "Extension: extended_master_secret (len=0)": {
+                "tls.handshake.extension.type": "23",
+                "tls.handshake.extension.len": "0"
+              },
+              "Extension: renegotiation_info (len=1)": {
+                "tls.handshake.extension.type": "65281",
+                "tls.handshake.extension.len": "1",
+                "Renegotiation Info extension": {
+                  "tls.handshake.extensions_reneg_info_len": "0"
+                }
+              },
+              "tls.handshake.ja3_full": "771,49196-49195-49200-49199-49188-49187-49192-49191-49162-49161-49172-49171-157-156-61-60-53-47-10,0-5-10-11-13-35-23-65281,29-23-24,0",
+              "tls.handshake.ja3": "a0e9f5d64349fb13191bc781f81f42e1"
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2022-01-06",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.encap_type": "1",
+          "frame.time": "Jan  6, 2022 18:20:31.989220000 Eastern Standard Time",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1641511231.989220000",
+          "frame.time_delta": "3.481945000",
+          "frame.time_delta_displayed": "3.481945000",
+          "frame.time_relative": "63.557342000",
+          "frame.number": "5",
+          "frame.len": "357",
+          "frame.cap_len": "357",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:ip:tcp:http",
+          "frame.coloring_rule.name": "HTTP",
+          "frame.coloring_rule.string": "http || tcp.port == 80 || http2"
+        },
+        "eth": {
+          "eth.dst": "20:e5:2a:b6:93:f1",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "Netgear_b6:93:f1",
+            "eth.dst.oui": "2155818",
+            "eth.dst.oui_resolved": "Netgear",
+            "eth.addr": "20:e5:2a:b6:93:f1",
+            "eth.addr_resolved": "Netgear_b6:93:f1",
+            "eth.addr.oui": "2155818",
+            "eth.addr.oui_resolved": "Netgear",
+            "eth.dst.lg": "0",
+            "eth.lg": "0",
+            "eth.dst.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.src": "00:08:02:1c:47:ae",
+          "eth.src_tree": {
+            "eth.src_resolved": "HewlettP_1c:47:ae",
+            "eth.src.oui": "2050",
+            "eth.src.oui_resolved": "Hewlett Packard",
+            "eth.addr": "00:08:02:1c:47:ae",
+            "eth.addr_resolved": "HewlettP_1c:47:ae",
+            "eth.addr.oui": "2050",
+            "eth.addr.oui_resolved": "Hewlett Packard",
+            "eth.src.lg": "0",
+            "eth.lg": "0",
+            "eth.src.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x0800"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "343",
+          "ip.id": "0x4125",
+          "ip.flags": "0x40",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "1",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "128",
+          "ip.proto": "6",
+          "ip.checksum": "0x7274",
+          "ip.checksum.status": "2",
+          "ip.src": "10.1.6.101",
+          "ip.addr": "10.1.6.101",
+          "ip.src_host": "10.1.6.101",
+          "ip.host": "10.1.6.101",
+          "ip.dst": "194.147.115.14",
+          "ip.addr": "194.147.115.14",
+          "ip.dst_host": "194.147.115.14",
+          "ip.host": "194.147.115.14"
+        },
+        "tcp": {
+          "tcp.srcport": "55815",
+          "tcp.dstport": "80",
+          "tcp.port": "55815",
+          "tcp.port": "80",
+          "tcp.stream": "4",
+          "tcp.completeness": "8",
+          "tcp.len": "303",
+          "tcp.seq": "1",
+          "tcp.seq_raw": "4244352757",
+          "tcp.nxtseq": "304",
+          "tcp.ack": "1",
+          "tcp.ack_raw": "3052917034",
+          "tcp.hdr_len": "20",
+          "tcp.flags": "0x0018",
+          "tcp.flags_tree": {
+            "tcp.flags.res": "0",
+            "tcp.flags.ns": "0",
+            "tcp.flags.cwr": "0",
+            "tcp.flags.ecn": "0",
+            "tcp.flags.urg": "0",
+            "tcp.flags.ack": "1",
+            "tcp.flags.push": "1",
+            "tcp.flags.reset": "0",
+            "tcp.flags.syn": "0",
+            "tcp.flags.fin": "0",
+            "tcp.flags.str": "·······AP···"
+          },
+          "tcp.window_size_value": "515",
+          "tcp.window_size": "515",
+          "tcp.window_size_scalefactor": "-1",
+          "tcp.checksum": "0x7e16",
+          "tcp.checksum.status": "2",
+          "tcp.urgent_pointer": "0",
+          "Timestamps": {
+            "tcp.time_relative": "0.000000000",
+            "tcp.time_delta": "0.000000000"
+          },
+          "tcp.analysis": {
+            "tcp.analysis.bytes_in_flight": "303",
+            "tcp.analysis.push_bytes_sent": "303"
+          },
+          "tcp.payload": "47:45:54:20:2f:20:48:54:54:50:2f:31:2e:31:0d:0a:43:6f:6e:6e:65:63:74:69:6f:6e:3a:20:4b:65:65:70:2d:41:6c:69:76:65:0d:0a:43:6f:6f:6b:69:65:3a:20:5f:5f:67:61:64:73:3d:32:34:32:30:39:30:35:36:31:34:3a:31:3a:34:35:36:30:3a:31:34:36:3b:20:5f:67:61:74:3d:31:30:2e:30:2e:31:39:30:34:34:2e:36:34:3b:20:5f:67:61:3d:35:2e:35:32:36:30:35:39:2e:32:33:30:30:2e:38:3b:20:5f:75:3d:34:34:34:35:35:33:34:42:35:34:34:46:35:30:32:44:34:31:35:35:34:42:34:45:34:39:34:39:34:32:3a:36:36:36:35:37:32:36:45:36:31:36:45:36:34:36:46:32:45:36:44:36:31:36:43:36:46:36:45:36:35:3a:33:36:33:38:34:33:33:35:33:36:34:31:33:39:33:36:33:33:33:31:34:34:33:31:33:36:33:30:34:32:34:34:3b:20:5f:5f:69:6f:3d:32:31:5f:32:31:35:33:34:35:33:33:36:30:5f:31:32:39:33:39:36:37:36:39:38:5f:38:34:39:33:38:31:38:39:39:3b:20:5f:67:69:64:3d:30:30:30:39:44:30:34:35:38:36:46:31:0d:0a:48:6f:73:74:3a:20:6a:6f:69:6b:61:72:65:6e:64:61:6c:2e:63:6f:6d:0d:0a:0d:0a"
+        },
+        "http": {
+          "GET / HTTP/1.1\\r\\n": {
+            "_ws.expert": {
+              "http.chat": "",
+              "_ws.expert.message": "GET / HTTP/1.1\\r\\n",
+              "_ws.expert.severity": "2097152",
+              "_ws.expert.group": "33554432"
+            },
+            "http.request.method": "GET",
+            "http.request.uri": "/",
+            "http.request.version": "HTTP/1.1"
+          },
+          "http.connection": "Keep-Alive",
+          "http.request.line": "Connection: Keep-Alive\r\n",
+          "http.cookie": "__gads=2420905614:1:4560:146; _gat=10.0.19044.64; _ga=5.526059.2300.8; _u=4445534B544F502D41554B4E494942:6665726E616E646F2E6D616C6F6E65:36384335364139363331443136304244; __io=21_2153453360_1293967698_849381899; _gid=0009D04586F1",
+          "http.cookie_tree": {
+            "http.cookie_pair": "__gads=2420905614:1:4560:146",
+            "http.cookie_pair": "_gat=10.0.19044.64",
+            "http.cookie_pair": "_ga=5.526059.2300.8",
+            "http.cookie_pair": "_u=4445534B544F502D41554B4E494942:6665726E616E646F2E6D616C6F6E65:36384335364139363331443136304244",
+            "http.cookie_pair": "__io=21_2153453360_1293967698_849381899",
+            "http.cookie_pair": "_gid=0009D04586F1"
+          },
+          "http.request.line": "Cookie: __gads=2420905614:1:4560:146; _gat=10.0.19044.64; _ga=5.526059.2300.8; _u=4445534B544F502D41554B4E494942:6665726E616E646F2E6D616C6F6E65:36384335364139363331443136304244; __io=21_2153453360_1293967698_849381899; _gid=0009D04586F1\r\n",
+          "http.host": "joikarendal.com",
+          "http.request.line": "Host: joikarendal.com\r\n",
+          "\\r\\n": "",
+          "http.request.full_uri": "http://joikarendal.com/",
+          "http.request": "1",
+          "http.request_number": "1"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2022-01-06",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.encap_type": "1",
+          "frame.time": "Jan  6, 2022 18:21:01.384719000 Eastern Standard Time",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1641511261.384719000",
+          "frame.time_delta": "29.395499000",
+          "frame.time_delta_displayed": "29.395499000",
+          "frame.time_relative": "92.952841000",
+          "frame.number": "6",
+          "frame.len": "228",
+          "frame.cap_len": "228",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:ip:tcp:tls",
+          "frame.coloring_rule.name": "TCP",
+          "frame.coloring_rule.string": "tcp"
+        },
+        "eth": {
+          "eth.dst": "20:e5:2a:b6:93:f1",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "Netgear_b6:93:f1",
+            "eth.dst.oui": "2155818",
+            "eth.dst.oui_resolved": "Netgear",
+            "eth.addr": "20:e5:2a:b6:93:f1",
+            "eth.addr_resolved": "Netgear_b6:93:f1",
+            "eth.addr.oui": "2155818",
+            "eth.addr.oui_resolved": "Netgear",
+            "eth.dst.lg": "0",
+            "eth.lg": "0",
+            "eth.dst.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.src": "00:08:02:1c:47:ae",
+          "eth.src_tree": {
+            "eth.src_resolved": "HewlettP_1c:47:ae",
+            "eth.src.oui": "2050",
+            "eth.src.oui_resolved": "Hewlett Packard",
+            "eth.addr": "00:08:02:1c:47:ae",
+            "eth.addr_resolved": "HewlettP_1c:47:ae",
+            "eth.addr.oui": "2050",
+            "eth.addr.oui_resolved": "Hewlett Packard",
+            "eth.src.lg": "0",
+            "eth.lg": "0",
+            "eth.src.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x0800"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "214",
+          "ip.id": "0x3107",
+          "ip.flags": "0x40",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "1",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "128",
+          "ip.proto": "6",
+          "ip.checksum": "0x621f",
+          "ip.checksum.status": "2",
+          "ip.src": "10.1.6.101",
+          "ip.addr": "10.1.6.101",
+          "ip.src_host": "10.1.6.101",
+          "ip.host": "10.1.6.101",
+          "ip.dst": "5.181.80.225",
+          "ip.addr": "5.181.80.225",
+          "ip.dst_host": "5.181.80.225",
+          "ip.host": "5.181.80.225"
+        },
+        "tcp": {
+          "tcp.srcport": "55816",
+          "tcp.dstport": "443",
+          "tcp.port": "55816",
+          "tcp.port": "443",
+          "tcp.stream": "5",
+          "tcp.completeness": "8",
+          "tcp.len": "174",
+          "tcp.seq": "1",
+          "tcp.seq_raw": "2976469324",
+          "tcp.nxtseq": "175",
+          "tcp.ack": "1",
+          "tcp.ack_raw": "291512187",
+          "tcp.hdr_len": "20",
+          "tcp.flags": "0x0018",
+          "tcp.flags_tree": {
+            "tcp.flags.res": "0",
+            "tcp.flags.ns": "0",
+            "tcp.flags.cwr": "0",
+            "tcp.flags.ecn": "0",
+            "tcp.flags.urg": "0",
+            "tcp.flags.ack": "1",
+            "tcp.flags.push": "1",
+            "tcp.flags.reset": "0",
+            "tcp.flags.syn": "0",
+            "tcp.flags.fin": "0",
+            "tcp.flags.str": "·······AP···"
+          },
+          "tcp.window_size_value": "515",
+          "tcp.window_size": "515",
+          "tcp.window_size_scalefactor": "-1",
+          "tcp.checksum": "0x507f",
+          "tcp.checksum.status": "2",
+          "tcp.urgent_pointer": "0",
+          "Timestamps": {
+            "tcp.time_relative": "0.000000000",
+            "tcp.time_delta": "0.000000000"
+          },
+          "tcp.analysis": {
+            "tcp.analysis.bytes_in_flight": "174",
+            "tcp.analysis.push_bytes_sent": "174"
+          },
+          "tcp.payload": "16:03:03:00:a9:01:00:00:a5:03:03:61:d7:79:68:7a:88:54:21:c5:d4:23:d7:f5:27:95:00:c3:9d:04:5e:09:32:78:7f:b4:21:24:42:24:0d:7f:29:00:00:2a:c0:2c:c0:2b:c0:30:c0:2f:00:9f:00:9e:c0:24:c0:23:c0:28:c0:27:c0:0a:c0:09:c0:14:c0:13:00:9d:00:9c:00:3d:00:3c:00:35:00:2f:00:0a:01:00:00:52:00:00:00:11:00:0f:00:00:0c:75:70:70:65:72:64:6f:77:6e:2e:65:75:00:0a:00:08:00:06:00:1d:00:17:00:18:00:0b:00:02:01:00:00:0d:00:1a:00:18:08:04:08:05:08:06:04:01:05:01:02:01:04:03:05:03:02:03:02:02:06:01:06:03:00:23:00:00:00:17:00:00:ff:01:00:01:00"
+        },
+        "tls": {
+          "tls.record": {
+            "tls.record.content_type": "22",
+            "tls.record.version": "0x0303",
+            "tls.record.length": "169",
+            "tls.handshake": {
+              "tls.handshake.type": "1",
+              "tls.handshake.length": "165",
+              "tls.handshake.version": "0x0303",
+              "tls.handshake.random": "61:d7:79:68:7a:88:54:21:c5:d4:23:d7:f5:27:95:00:c3:9d:04:5e:09:32:78:7f:b4:21:24:42:24:0d:7f:29",
+              "tls.handshake.random_tree": {
+                "tls.handshake.random_time": "Jan  6, 2022 18:21:12.000000000 Eastern Standard Time",
+                "tls.handshake.random_bytes": "7a:88:54:21:c5:d4:23:d7:f5:27:95:00:c3:9d:04:5e:09:32:78:7f:b4:21:24:42:24:0d:7f:29"
+              },
+              "tls.handshake.session_id_length": "0",
+              "tls.handshake.cipher_suites_length": "42",
+              "tls.handshake.ciphersuites": {
+                "tls.handshake.ciphersuite": "0xc02c",
+                "tls.handshake.ciphersuite": "0xc02b",
+                "tls.handshake.ciphersuite": "0xc030",
+                "tls.handshake.ciphersuite": "0xc02f",
+                "tls.handshake.ciphersuite": "0x009f",
+                "tls.handshake.ciphersuite": "0x009e",
+                "tls.handshake.ciphersuite": "0xc024",
+                "tls.handshake.ciphersuite": "0xc023",
+                "tls.handshake.ciphersuite": "0xc028",
+                "tls.handshake.ciphersuite": "0xc027",
+                "tls.handshake.ciphersuite": "0xc00a",
+                "tls.handshake.ciphersuite": "0xc009",
+                "tls.handshake.ciphersuite": "0xc014",
+                "tls.handshake.ciphersuite": "0xc013",
+                "tls.handshake.ciphersuite": "0x009d",
+                "tls.handshake.ciphersuite": "0x009c",
+                "tls.handshake.ciphersuite": "0x003d",
+                "tls.handshake.ciphersuite": "0x003c",
+                "tls.handshake.ciphersuite": "0x0035",
+                "tls.handshake.ciphersuite": "0x002f",
+                "tls.handshake.ciphersuite": "0x000a"
+              },
+              "tls.handshake.comp_methods_length": "1",
+              "tls.handshake.comp_methods": {
+                "tls.handshake.comp_method": "0"
+              },
+              "tls.handshake.extensions_length": "82",
+              "Extension: server_name (len=17)": {
+                "tls.handshake.extension.type": "0",
+                "tls.handshake.extension.len": "17",
+                "Server Name Indication extension": {
+                  "tls.handshake.extensions_server_name_list_len": "15",
+                  "tls.handshake.extensions_server_name_type": "0",
+                  "tls.handshake.extensions_server_name_len": "12",
+                  "tls.handshake.extensions_server_name": "upperdown.eu"
+                }
+              },
+              "Extension: supported_groups (len=8)": {
+                "tls.handshake.extension.type": "10",
+                "tls.handshake.extension.len": "8",
+                "tls.handshake.extensions_supported_groups_length": "6",
+                "tls.handshake.extensions_supported_groups": {
+                  "tls.handshake.extensions_supported_group": "0x001d",
+                  "tls.handshake.extensions_supported_group": "0x0017",
+                  "tls.handshake.extensions_supported_group": "0x0018"
+                }
+              },
+              "Extension: ec_point_formats (len=2)": {
+                "tls.handshake.extension.type": "11",
+                "tls.handshake.extension.len": "2",
+                "tls.handshake.extensions_ec_point_formats_length": "1",
+                "tls.handshake.extensions_ec_point_formats": {
+                  "tls.handshake.extensions_ec_point_format": "0"
+                }
+              },
+              "Extension: signature_algorithms (len=26)": {
+                "tls.handshake.extension.type": "13",
+                "tls.handshake.extension.len": "26",
+                "tls.handshake.sig_hash_alg_len": "24",
+                "tls.handshake.sig_hash_algs": {
+                  "tls.handshake.sig_hash_alg": "0x0804",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "8",
+                    "tls.handshake.sig_hash_sig": "4"
+                  },
+                  "tls.handshake.sig_hash_alg": "0x0805",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "8",
+                    "tls.handshake.sig_hash_sig": "5"
+                  },
+                  "tls.handshake.sig_hash_alg": "0x0806",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "8",
+                    "tls.handshake.sig_hash_sig": "6"
+                  },
+                  "tls.handshake.sig_hash_alg": "0x0401",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "4",
+                    "tls.handshake.sig_hash_sig": "1"
+                  },
+                  "tls.handshake.sig_hash_alg": "0x0501",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "5",
+                    "tls.handshake.sig_hash_sig": "1"
+                  },
+                  "tls.handshake.sig_hash_alg": "0x0201",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "2",
+                    "tls.handshake.sig_hash_sig": "1"
+                  },
+                  "tls.handshake.sig_hash_alg": "0x0403",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "4",
+                    "tls.handshake.sig_hash_sig": "3"
+                  },
+                  "tls.handshake.sig_hash_alg": "0x0503",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "5",
+                    "tls.handshake.sig_hash_sig": "3"
+                  },
+                  "tls.handshake.sig_hash_alg": "0x0203",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "2",
+                    "tls.handshake.sig_hash_sig": "3"
+                  },
+                  "tls.handshake.sig_hash_alg": "0x0202",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "2",
+                    "tls.handshake.sig_hash_sig": "2"
+                  },
+                  "tls.handshake.sig_hash_alg": "0x0601",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "6",
+                    "tls.handshake.sig_hash_sig": "1"
+                  },
+                  "tls.handshake.sig_hash_alg": "0x0603",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "6",
+                    "tls.handshake.sig_hash_sig": "3"
+                  }
+                }
+              },
+              "Extension: session_ticket (len=0)": {
+                "tls.handshake.extension.type": "35",
+                "tls.handshake.extension.len": "0",
+                "tls.handshake.extension.data": ""
+              },
+              "Extension: extended_master_secret (len=0)": {
+                "tls.handshake.extension.type": "23",
+                "tls.handshake.extension.len": "0"
+              },
+              "Extension: renegotiation_info (len=1)": {
+                "tls.handshake.extension.type": "65281",
+                "tls.handshake.extension.len": "1",
+                "Renegotiation Info extension": {
+                  "tls.handshake.extensions_reneg_info_len": "0"
+                }
+              },
+              "tls.handshake.ja3_full": "771,49196-49195-49200-49199-159-158-49188-49187-49192-49191-49162-49161-49172-49171-157-156-61-60-53-47-10,0-10-11-13-35-23-65281,29-23-24,0",
+              "tls.handshake.ja3": "3b5074b1b5d032e5620f69f9f700ff0e"
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2022-01-06",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.encap_type": "1",
+          "frame.time": "Jan  6, 2022 18:21:13.790502000 Eastern Standard Time",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1641511273.790502000",
+          "frame.time_delta": "12.405783000",
+          "frame.time_delta_displayed": "12.405783000",
+          "frame.time_relative": "105.358624000",
+          "frame.number": "7",
+          "frame.len": "264",
+          "frame.cap_len": "264",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:ip:tcp:tls",
+          "frame.coloring_rule.name": "TCP",
+          "frame.coloring_rule.string": "tcp"
+        },
+        "eth": {
+          "eth.dst": "20:e5:2a:b6:93:f1",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "Netgear_b6:93:f1",
+            "eth.dst.oui": "2155818",
+            "eth.dst.oui_resolved": "Netgear",
+            "eth.addr": "20:e5:2a:b6:93:f1",
+            "eth.addr_resolved": "Netgear_b6:93:f1",
+            "eth.addr.oui": "2155818",
+            "eth.addr.oui_resolved": "Netgear",
+            "eth.dst.lg": "0",
+            "eth.lg": "0",
+            "eth.dst.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.src": "00:08:02:1c:47:ae",
+          "eth.src_tree": {
+            "eth.src_resolved": "HewlettP_1c:47:ae",
+            "eth.src.oui": "2050",
+            "eth.src.oui_resolved": "Hewlett Packard",
+            "eth.addr": "00:08:02:1c:47:ae",
+            "eth.addr_resolved": "HewlettP_1c:47:ae",
+            "eth.addr.oui": "2050",
+            "eth.addr.oui_resolved": "Hewlett Packard",
+            "eth.src.lg": "0",
+            "eth.lg": "0",
+            "eth.src.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x0800"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "250",
+          "ip.id": "0xdbb6",
+          "ip.flags": "0x40",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "1",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "128",
+          "ip.proto": "6",
+          "ip.checksum": "0x8d53",
+          "ip.checksum.status": "2",
+          "ip.src": "10.1.6.101",
+          "ip.addr": "10.1.6.101",
+          "ip.src_host": "10.1.6.101",
+          "ip.host": "10.1.6.101",
+          "ip.dst": "52.109.76.33",
+          "ip.addr": "52.109.76.33",
+          "ip.dst_host": "52.109.76.33",
+          "ip.host": "52.109.76.33"
+        },
+        "tcp": {
+          "tcp.srcport": "55817",
+          "tcp.dstport": "443",
+          "tcp.port": "55817",
+          "tcp.port": "443",
+          "tcp.stream": "6",
+          "tcp.completeness": "8",
+          "tcp.len": "210",
+          "tcp.seq": "1",
+          "tcp.seq_raw": "1459480703",
+          "tcp.nxtseq": "211",
+          "tcp.ack": "1",
+          "tcp.ack_raw": "3130841866",
+          "tcp.hdr_len": "20",
+          "tcp.flags": "0x0018",
+          "tcp.flags_tree": {
+            "tcp.flags.res": "0",
+            "tcp.flags.ns": "0",
+            "tcp.flags.cwr": "0",
+            "tcp.flags.ecn": "0",
+            "tcp.flags.urg": "0",
+            "tcp.flags.ack": "1",
+            "tcp.flags.push": "1",
+            "tcp.flags.reset": "0",
+            "tcp.flags.syn": "0",
+            "tcp.flags.fin": "0",
+            "tcp.flags.str": "·······AP···"
+          },
+          "tcp.window_size_value": "515",
+          "tcp.window_size": "515",
+          "tcp.window_size_scalefactor": "-1",
+          "tcp.checksum": "0x2bca",
+          "tcp.checksum.status": "2",
+          "tcp.urgent_pointer": "0",
+          "Timestamps": {
+            "tcp.time_relative": "0.000000000",
+            "tcp.time_delta": "0.000000000"
+          },
+          "tcp.analysis": {
+            "tcp.analysis.bytes_in_flight": "210",
+            "tcp.analysis.push_bytes_sent": "210"
+          },
+          "tcp.payload": "16:03:03:00:cd:01:00:00:c9:03:03:61:d7:79:74:37:c3:d8:17:c9:76:b4:bb:ba:f5:87:ea:fd:e9:3b:89:8a:9f:9c:43:ca:85:19:c8:70:46:74:b6:00:00:26:c0:2c:c0:2b:c0:30:c0:2f:c0:24:c0:23:c0:28:c0:27:c0:0a:c0:09:c0:14:c0:13:00:9d:00:9c:00:3d:00:3c:00:35:00:2f:00:0a:01:00:00:7a:00:00:00:1e:00:1c:00:00:19:6e:65:78:75:73:2e:6f:66:66:69:63:65:61:70:70:73:2e:6c:69:76:65:2e:63:6f:6d:00:05:00:05:01:00:00:00:00:00:0a:00:08:00:06:00:1d:00:17:00:18:00:0b:00:02:01:00:00:0d:00:1a:00:18:08:04:08:05:08:06:04:01:05:01:02:01:04:03:05:03:02:03:02:02:06:01:06:03:00:23:00:00:00:10:00:0e:00:0c:02:68:32:08:68:74:74:70:2f:31:2e:31:00:17:00:00:ff:01:00:01:00"
+        },
+        "tls": {
+          "tls.record": {
+            "tls.record.content_type": "22",
+            "tls.record.version": "0x0303",
+            "tls.record.length": "205",
+            "tls.handshake": {
+              "tls.handshake.type": "1",
+              "tls.handshake.length": "201",
+              "tls.handshake.version": "0x0303",
+              "tls.handshake.random": "61:d7:79:74:37:c3:d8:17:c9:76:b4:bb:ba:f5:87:ea:fd:e9:3b:89:8a:9f:9c:43:ca:85:19:c8:70:46:74:b6",
+              "tls.handshake.random_tree": {
+                "tls.handshake.random_time": "Jan  6, 2022 18:21:24.000000000 Eastern Standard Time",
+                "tls.handshake.random_bytes": "37:c3:d8:17:c9:76:b4:bb:ba:f5:87:ea:fd:e9:3b:89:8a:9f:9c:43:ca:85:19:c8:70:46:74:b6"
+              },
+              "tls.handshake.session_id_length": "0",
+              "tls.handshake.cipher_suites_length": "38",
+              "tls.handshake.ciphersuites": {
+                "tls.handshake.ciphersuite": "0xc02c",
+                "tls.handshake.ciphersuite": "0xc02b",
+                "tls.handshake.ciphersuite": "0xc030",
+                "tls.handshake.ciphersuite": "0xc02f",
+                "tls.handshake.ciphersuite": "0xc024",
+                "tls.handshake.ciphersuite": "0xc023",
+                "tls.handshake.ciphersuite": "0xc028",
+                "tls.handshake.ciphersuite": "0xc027",
+                "tls.handshake.ciphersuite": "0xc00a",
+                "tls.handshake.ciphersuite": "0xc009",
+                "tls.handshake.ciphersuite": "0xc014",
+                "tls.handshake.ciphersuite": "0xc013",
+                "tls.handshake.ciphersuite": "0x009d",
+                "tls.handshake.ciphersuite": "0x009c",
+                "tls.handshake.ciphersuite": "0x003d",
+                "tls.handshake.ciphersuite": "0x003c",
+                "tls.handshake.ciphersuite": "0x0035",
+                "tls.handshake.ciphersuite": "0x002f",
+                "tls.handshake.ciphersuite": "0x000a"
+              },
+              "tls.handshake.comp_methods_length": "1",
+              "tls.handshake.comp_methods": {
+                "tls.handshake.comp_method": "0"
+              },
+              "tls.handshake.extensions_length": "122",
+              "Extension: server_name (len=30)": {
+                "tls.handshake.extension.type": "0",
+                "tls.handshake.extension.len": "30",
+                "Server Name Indication extension": {
+                  "tls.handshake.extensions_server_name_list_len": "28",
+                  "tls.handshake.extensions_server_name_type": "0",
+                  "tls.handshake.extensions_server_name_len": "25",
+                  "tls.handshake.extensions_server_name": "nexus.officeapps.live.com"
+                }
+              },
+              "Extension: status_request (len=5)": {
+                "tls.handshake.extension.type": "5",
+                "tls.handshake.extension.len": "5",
+                "tls.handshake.extensions_status_request_type": "1",
+                "tls.handshake.extensions_status_request_responder_ids_len": "0",
+                "tls.handshake.extensions_status_request_exts_len": "0"
+              },
+              "Extension: supported_groups (len=8)": {
+                "tls.handshake.extension.type": "10",
+                "tls.handshake.extension.len": "8",
+                "tls.handshake.extensions_supported_groups_length": "6",
+                "tls.handshake.extensions_supported_groups": {
+                  "tls.handshake.extensions_supported_group": "0x001d",
+                  "tls.handshake.extensions_supported_group": "0x0017",
+                  "tls.handshake.extensions_supported_group": "0x0018"
+                }
+              },
+              "Extension: ec_point_formats (len=2)": {
+                "tls.handshake.extension.type": "11",
+                "tls.handshake.extension.len": "2",
+                "tls.handshake.extensions_ec_point_formats_length": "1",
+                "tls.handshake.extensions_ec_point_formats": {
+                  "tls.handshake.extensions_ec_point_format": "0"
+                }
+              },
+              "Extension: signature_algorithms (len=26)": {
+                "tls.handshake.extension.type": "13",
+                "tls.handshake.extension.len": "26",
+                "tls.handshake.sig_hash_alg_len": "24",
+                "tls.handshake.sig_hash_algs": {
+                  "tls.handshake.sig_hash_alg": "0x0804",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "8",
+                    "tls.handshake.sig_hash_sig": "4"
+                  },
+                  "tls.handshake.sig_hash_alg": "0x0805",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "8",
+                    "tls.handshake.sig_hash_sig": "5"
+                  },
+                  "tls.handshake.sig_hash_alg": "0x0806",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "8",
+                    "tls.handshake.sig_hash_sig": "6"
+                  },
+                  "tls.handshake.sig_hash_alg": "0x0401",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "4",
+                    "tls.handshake.sig_hash_sig": "1"
+                  },
+                  "tls.handshake.sig_hash_alg": "0x0501",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "5",
+                    "tls.handshake.sig_hash_sig": "1"
+                  },
+                  "tls.handshake.sig_hash_alg": "0x0201",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "2",
+                    "tls.handshake.sig_hash_sig": "1"
+                  },
+                  "tls.handshake.sig_hash_alg": "0x0403",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "4",
+                    "tls.handshake.sig_hash_sig": "3"
+                  },
+                  "tls.handshake.sig_hash_alg": "0x0503",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "5",
+                    "tls.handshake.sig_hash_sig": "3"
+                  },
+                  "tls.handshake.sig_hash_alg": "0x0203",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "2",
+                    "tls.handshake.sig_hash_sig": "3"
+                  },
+                  "tls.handshake.sig_hash_alg": "0x0202",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "2",
+                    "tls.handshake.sig_hash_sig": "2"
+                  },
+                  "tls.handshake.sig_hash_alg": "0x0601",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "6",
+                    "tls.handshake.sig_hash_sig": "1"
+                  },
+                  "tls.handshake.sig_hash_alg": "0x0603",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "6",
+                    "tls.handshake.sig_hash_sig": "3"
+                  }
+                }
+              },
+              "Extension: session_ticket (len=0)": {
+                "tls.handshake.extension.type": "35",
+                "tls.handshake.extension.len": "0",
+                "tls.handshake.extension.data": ""
+              },
+              "Extension: application_layer_protocol_negotiation (len=14)": {
+                "tls.handshake.extension.type": "16",
+                "tls.handshake.extension.len": "14",
+                "tls.handshake.extensions_alpn_len": "12",
+                "tls.handshake.extensions_alpn_list": {
+                  "tls.handshake.extensions_alpn_str_len": "2",
+                  "tls.handshake.extensions_alpn_str": "h2",
+                  "tls.handshake.extensions_alpn_str_len": "8",
+                  "tls.handshake.extensions_alpn_str": "http/1.1"
+                }
+              },
+              "Extension: extended_master_secret (len=0)": {
+                "tls.handshake.extension.type": "23",
+                "tls.handshake.extension.len": "0"
+              },
+              "Extension: renegotiation_info (len=1)": {
+                "tls.handshake.extension.type": "65281",
+                "tls.handshake.extension.len": "1",
+                "Renegotiation Info extension": {
+                  "tls.handshake.extensions_reneg_info_len": "0"
+                }
+              },
+              "tls.handshake.ja3_full": "771,49196-49195-49200-49199-49188-49187-49192-49191-49162-49161-49172-49171-157-156-61-60-53-47-10,0-5-10-11-13-35-16-23-65281,29-23-24,0",
+              "tls.handshake.ja3": "28a2c9bd18a11de089ef85a160da29e4"
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2022-01-06",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.encap_type": "1",
+          "frame.time": "Jan  6, 2022 18:22:01.056659000 Eastern Standard Time",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1641511321.056659000",
+          "frame.time_delta": "47.266157000",
+          "frame.time_delta_displayed": "47.266157000",
+          "frame.time_relative": "152.624781000",
+          "frame.number": "8",
+          "frame.len": "235",
+          "frame.cap_len": "235",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:ip:tcp:tls",
+          "frame.coloring_rule.name": "TCP",
+          "frame.coloring_rule.string": "tcp"
+        },
+        "eth": {
+          "eth.dst": "20:e5:2a:b6:93:f1",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "Netgear_b6:93:f1",
+            "eth.dst.oui": "2155818",
+            "eth.dst.oui_resolved": "Netgear",
+            "eth.addr": "20:e5:2a:b6:93:f1",
+            "eth.addr_resolved": "Netgear_b6:93:f1",
+            "eth.addr.oui": "2155818",
+            "eth.addr.oui_resolved": "Netgear",
+            "eth.dst.lg": "0",
+            "eth.lg": "0",
+            "eth.dst.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.src": "00:08:02:1c:47:ae",
+          "eth.src_tree": {
+            "eth.src_resolved": "HewlettP_1c:47:ae",
+            "eth.src.oui": "2050",
+            "eth.src.oui_resolved": "Hewlett Packard",
+            "eth.addr": "00:08:02:1c:47:ae",
+            "eth.addr_resolved": "HewlettP_1c:47:ae",
+            "eth.addr.oui": "2050",
+            "eth.addr.oui_resolved": "Hewlett Packard",
+            "eth.src.lg": "0",
+            "eth.lg": "0",
+            "eth.src.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x0800"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "221",
+          "ip.id": "0x88c4",
+          "ip.flags": "0x40",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "1",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "128",
+          "ip.proto": "6",
+          "ip.checksum": "0x9239",
+          "ip.checksum.status": "2",
+          "ip.src": "10.1.6.101",
+          "ip.addr": "10.1.6.101",
+          "ip.src_host": "10.1.6.101",
+          "ip.host": "10.1.6.101",
+          "ip.dst": "94.140.112.43",
+          "ip.addr": "94.140.112.43",
+          "ip.dst_host": "94.140.112.43",
+          "ip.host": "94.140.112.43"
+        },
+        "tcp": {
+          "tcp.srcport": "55818",
+          "tcp.dstport": "443",
+          "tcp.port": "55818",
+          "tcp.port": "443",
+          "tcp.stream": "7",
+          "tcp.completeness": "8",
+          "tcp.len": "181",
+          "tcp.seq": "1",
+          "tcp.seq_raw": "1713375855",
+          "tcp.nxtseq": "182",
+          "tcp.ack": "1",
+          "tcp.ack_raw": "2610826134",
+          "tcp.hdr_len": "20",
+          "tcp.flags": "0x0018",
+          "tcp.flags_tree": {
+            "tcp.flags.res": "0",
+            "tcp.flags.ns": "0",
+            "tcp.flags.cwr": "0",
+            "tcp.flags.ecn": "0",
+            "tcp.flags.urg": "0",
+            "tcp.flags.ack": "1",
+            "tcp.flags.push": "1",
+            "tcp.flags.reset": "0",
+            "tcp.flags.syn": "0",
+            "tcp.flags.fin": "0",
+            "tcp.flags.str": "·······AP···"
+          },
+          "tcp.window_size_value": "515",
+          "tcp.window_size": "515",
+          "tcp.window_size_scalefactor": "-1",
+          "tcp.checksum": "0x75ae",
+          "tcp.checksum.status": "2",
+          "tcp.urgent_pointer": "0",
+          "Timestamps": {
+            "tcp.time_relative": "0.000000000",
+            "tcp.time_delta": "0.000000000"
+          },
+          "tcp.analysis": {
+            "tcp.analysis.bytes_in_flight": "181",
+            "tcp.analysis.push_bytes_sent": "181"
+          },
+          "tcp.payload": "16:03:03:00:b0:01:00:00:ac:03:03:61:d7:79:a4:4d:14:3e:3b:ac:8e:6e:d6:5e:35:1e:45:d8:aa:87:6c:1d:52:d5:fd:cf:77:08:ce:50:e0:02:81:00:00:26:c0:2c:c0:2b:c0:30:c0:2f:c0:24:c0:23:c0:28:c0:27:c0:0a:c0:09:c0:14:c0:13:00:9d:00:9c:00:3d:00:3c:00:35:00:2f:00:0a:01:00:00:5d:00:00:00:13:00:11:00:00:0e:6c:61:6e:64:6f:66:72:61:79:7a:2e:63:6f:6d:00:05:00:05:01:00:00:00:00:00:0a:00:08:00:06:00:1d:00:17:00:18:00:0b:00:02:01:00:00:0d:00:1a:00:18:08:04:08:05:08:06:04:01:05:01:02:01:04:03:05:03:02:03:02:02:06:01:06:03:00:23:00:00:00:17:00:00:ff:01:00:01:00"
+        },
+        "tls": {
+          "tls.record": {
+            "tls.record.content_type": "22",
+            "tls.record.version": "0x0303",
+            "tls.record.length": "176",
+            "tls.handshake": {
+              "tls.handshake.type": "1",
+              "tls.handshake.length": "172",
+              "tls.handshake.version": "0x0303",
+              "tls.handshake.random": "61:d7:79:a4:4d:14:3e:3b:ac:8e:6e:d6:5e:35:1e:45:d8:aa:87:6c:1d:52:d5:fd:cf:77:08:ce:50:e0:02:81",
+              "tls.handshake.random_tree": {
+                "tls.handshake.random_time": "Jan  6, 2022 18:22:12.000000000 Eastern Standard Time",
+                "tls.handshake.random_bytes": "4d:14:3e:3b:ac:8e:6e:d6:5e:35:1e:45:d8:aa:87:6c:1d:52:d5:fd:cf:77:08:ce:50:e0:02:81"
+              },
+              "tls.handshake.session_id_length": "0",
+              "tls.handshake.cipher_suites_length": "38",
+              "tls.handshake.ciphersuites": {
+                "tls.handshake.ciphersuite": "0xc02c",
+                "tls.handshake.ciphersuite": "0xc02b",
+                "tls.handshake.ciphersuite": "0xc030",
+                "tls.handshake.ciphersuite": "0xc02f",
+                "tls.handshake.ciphersuite": "0xc024",
+                "tls.handshake.ciphersuite": "0xc023",
+                "tls.handshake.ciphersuite": "0xc028",
+                "tls.handshake.ciphersuite": "0xc027",
+                "tls.handshake.ciphersuite": "0xc00a",
+                "tls.handshake.ciphersuite": "0xc009",
+                "tls.handshake.ciphersuite": "0xc014",
+                "tls.handshake.ciphersuite": "0xc013",
+                "tls.handshake.ciphersuite": "0x009d",
+                "tls.handshake.ciphersuite": "0x009c",
+                "tls.handshake.ciphersuite": "0x003d",
+                "tls.handshake.ciphersuite": "0x003c",
+                "tls.handshake.ciphersuite": "0x0035",
+                "tls.handshake.ciphersuite": "0x002f",
+                "tls.handshake.ciphersuite": "0x000a"
+              },
+              "tls.handshake.comp_methods_length": "1",
+              "tls.handshake.comp_methods": {
+                "tls.handshake.comp_method": "0"
+              },
+              "tls.handshake.extensions_length": "93",
+              "Extension: server_name (len=19)": {
+                "tls.handshake.extension.type": "0",
+                "tls.handshake.extension.len": "19",
+                "Server Name Indication extension": {
+                  "tls.handshake.extensions_server_name_list_len": "17",
+                  "tls.handshake.extensions_server_name_type": "0",
+                  "tls.handshake.extensions_server_name_len": "14",
+                  "tls.handshake.extensions_server_name": "landofrayz.com"
+                }
+              },
+              "Extension: status_request (len=5)": {
+                "tls.handshake.extension.type": "5",
+                "tls.handshake.extension.len": "5",
+                "tls.handshake.extensions_status_request_type": "1",
+                "tls.handshake.extensions_status_request_responder_ids_len": "0",
+                "tls.handshake.extensions_status_request_exts_len": "0"
+              },
+              "Extension: supported_groups (len=8)": {
+                "tls.handshake.extension.type": "10",
+                "tls.handshake.extension.len": "8",
+                "tls.handshake.extensions_supported_groups_length": "6",
+                "tls.handshake.extensions_supported_groups": {
+                  "tls.handshake.extensions_supported_group": "0x001d",
+                  "tls.handshake.extensions_supported_group": "0x0017",
+                  "tls.handshake.extensions_supported_group": "0x0018"
+                }
+              },
+              "Extension: ec_point_formats (len=2)": {
+                "tls.handshake.extension.type": "11",
+                "tls.handshake.extension.len": "2",
+                "tls.handshake.extensions_ec_point_formats_length": "1",
+                "tls.handshake.extensions_ec_point_formats": {
+                  "tls.handshake.extensions_ec_point_format": "0"
+                }
+              },
+              "Extension: signature_algorithms (len=26)": {
+                "tls.handshake.extension.type": "13",
+                "tls.handshake.extension.len": "26",
+                "tls.handshake.sig_hash_alg_len": "24",
+                "tls.handshake.sig_hash_algs": {
+                  "tls.handshake.sig_hash_alg": "0x0804",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "8",
+                    "tls.handshake.sig_hash_sig": "4"
+                  },
+                  "tls.handshake.sig_hash_alg": "0x0805",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "8",
+                    "tls.handshake.sig_hash_sig": "5"
+                  },
+                  "tls.handshake.sig_hash_alg": "0x0806",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "8",
+                    "tls.handshake.sig_hash_sig": "6"
+                  },
+                  "tls.handshake.sig_hash_alg": "0x0401",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "4",
+                    "tls.handshake.sig_hash_sig": "1"
+                  },
+                  "tls.handshake.sig_hash_alg": "0x0501",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "5",
+                    "tls.handshake.sig_hash_sig": "1"
+                  },
+                  "tls.handshake.sig_hash_alg": "0x0201",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "2",
+                    "tls.handshake.sig_hash_sig": "1"
+                  },
+                  "tls.handshake.sig_hash_alg": "0x0403",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "4",
+                    "tls.handshake.sig_hash_sig": "3"
+                  },
+                  "tls.handshake.sig_hash_alg": "0x0503",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "5",
+                    "tls.handshake.sig_hash_sig": "3"
+                  },
+                  "tls.handshake.sig_hash_alg": "0x0203",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "2",
+                    "tls.handshake.sig_hash_sig": "3"
+                  },
+                  "tls.handshake.sig_hash_alg": "0x0202",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "2",
+                    "tls.handshake.sig_hash_sig": "2"
+                  },
+                  "tls.handshake.sig_hash_alg": "0x0601",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "6",
+                    "tls.handshake.sig_hash_sig": "1"
+                  },
+                  "tls.handshake.sig_hash_alg": "0x0603",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "6",
+                    "tls.handshake.sig_hash_sig": "3"
+                  }
+                }
+              },
+              "Extension: session_ticket (len=0)": {
+                "tls.handshake.extension.type": "35",
+                "tls.handshake.extension.len": "0",
+                "tls.handshake.extension.data": ""
+              },
+              "Extension: extended_master_secret (len=0)": {
+                "tls.handshake.extension.type": "23",
+                "tls.handshake.extension.len": "0"
+              },
+              "Extension: renegotiation_info (len=1)": {
+                "tls.handshake.extension.type": "65281",
+                "tls.handshake.extension.len": "1",
+                "Renegotiation Info extension": {
+                  "tls.handshake.extensions_reneg_info_len": "0"
+                }
+              },
+              "tls.handshake.ja3_full": "771,49196-49195-49200-49199-49188-49187-49192-49191-49162-49161-49172-49171-157-156-61-60-53-47-10,0-5-10-11-13-35-23-65281,29-23-24,0",
+              "tls.handshake.ja3": "a0e9f5d64349fb13191bc781f81f42e1"
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2022-01-06",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.encap_type": "1",
+          "frame.time": "Jan  6, 2022 18:22:02.291126000 Eastern Standard Time",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1641511322.291126000",
+          "frame.time_delta": "1.234467000",
+          "frame.time_delta_displayed": "1.234467000",
+          "frame.time_relative": "153.859248000",
+          "frame.number": "9",
+          "frame.len": "235",
+          "frame.cap_len": "235",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:ip:tcp:tls",
+          "frame.coloring_rule.name": "TCP",
+          "frame.coloring_rule.string": "tcp"
+        },
+        "eth": {
+          "eth.dst": "20:e5:2a:b6:93:f1",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "Netgear_b6:93:f1",
+            "eth.dst.oui": "2155818",
+            "eth.dst.oui_resolved": "Netgear",
+            "eth.addr": "20:e5:2a:b6:93:f1",
+            "eth.addr_resolved": "Netgear_b6:93:f1",
+            "eth.addr.oui": "2155818",
+            "eth.addr.oui_resolved": "Netgear",
+            "eth.dst.lg": "0",
+            "eth.lg": "0",
+            "eth.dst.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.src": "00:08:02:1c:47:ae",
+          "eth.src_tree": {
+            "eth.src_resolved": "HewlettP_1c:47:ae",
+            "eth.src.oui": "2050",
+            "eth.src.oui_resolved": "Hewlett Packard",
+            "eth.addr": "00:08:02:1c:47:ae",
+            "eth.addr_resolved": "HewlettP_1c:47:ae",
+            "eth.addr.oui": "2050",
+            "eth.addr.oui_resolved": "Hewlett Packard",
+            "eth.src.lg": "0",
+            "eth.lg": "0",
+            "eth.src.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x0800"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "221",
+          "ip.id": "0x88cd",
+          "ip.flags": "0x40",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "1",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "128",
+          "ip.proto": "6",
+          "ip.checksum": "0x9230",
+          "ip.checksum.status": "2",
+          "ip.src": "10.1.6.101",
+          "ip.addr": "10.1.6.101",
+          "ip.src_host": "10.1.6.101",
+          "ip.host": "10.1.6.101",
+          "ip.dst": "94.140.112.43",
+          "ip.addr": "94.140.112.43",
+          "ip.dst_host": "94.140.112.43",
+          "ip.host": "94.140.112.43"
+        },
+        "tcp": {
+          "tcp.srcport": "55819",
+          "tcp.dstport": "443",
+          "tcp.port": "55819",
+          "tcp.port": "443",
+          "tcp.stream": "8",
+          "tcp.completeness": "8",
+          "tcp.len": "181",
+          "tcp.seq": "1",
+          "tcp.seq_raw": "793803935",
+          "tcp.nxtseq": "182",
+          "tcp.ack": "1",
+          "tcp.ack_raw": "2771734240",
+          "tcp.hdr_len": "20",
+          "tcp.flags": "0x0018",
+          "tcp.flags_tree": {
+            "tcp.flags.res": "0",
+            "tcp.flags.ns": "0",
+            "tcp.flags.cwr": "0",
+            "tcp.flags.ecn": "0",
+            "tcp.flags.urg": "0",
+            "tcp.flags.ack": "1",
+            "tcp.flags.push": "1",
+            "tcp.flags.reset": "0",
+            "tcp.flags.syn": "0",
+            "tcp.flags.fin": "0",
+            "tcp.flags.str": "·······AP···"
+          },
+          "tcp.window_size_value": "515",
+          "tcp.window_size": "515",
+          "tcp.window_size_scalefactor": "-1",
+          "tcp.checksum": "0xa0a0",
+          "tcp.checksum.status": "2",
+          "tcp.urgent_pointer": "0",
+          "Timestamps": {
+            "tcp.time_relative": "0.000000000",
+            "tcp.time_delta": "0.000000000"
+          },
+          "tcp.analysis": {
+            "tcp.analysis.bytes_in_flight": "181",
+            "tcp.analysis.push_bytes_sent": "181"
+          },
+          "tcp.payload": "16:03:03:00:b0:01:00:00:ac:03:03:61:d7:79:a5:c6:26:de:03:8d:f8:cb:dc:06:cf:43:8c:f8:30:61:96:1d:3b:3e:5d:f8:e8:34:84:0e:0b:34:56:00:00:26:c0:2c:c0:2b:c0:30:c0:2f:c0:24:c0:23:c0:28:c0:27:c0:0a:c0:09:c0:14:c0:13:00:9d:00:9c:00:3d:00:3c:00:35:00:2f:00:0a:01:00:00:5d:00:00:00:13:00:11:00:00:0e:6c:61:6e:64:6f:66:72:61:79:7a:2e:63:6f:6d:00:05:00:05:01:00:00:00:00:00:0a:00:08:00:06:00:1d:00:17:00:18:00:0b:00:02:01:00:00:0d:00:1a:00:18:08:04:08:05:08:06:04:01:05:01:02:01:04:03:05:03:02:03:02:02:06:01:06:03:00:23:00:00:00:17:00:00:ff:01:00:01:00"
+        },
+        "tls": {
+          "tls.record": {
+            "tls.record.content_type": "22",
+            "tls.record.version": "0x0303",
+            "tls.record.length": "176",
+            "tls.handshake": {
+              "tls.handshake.type": "1",
+              "tls.handshake.length": "172",
+              "tls.handshake.version": "0x0303",
+              "tls.handshake.random": "61:d7:79:a5:c6:26:de:03:8d:f8:cb:dc:06:cf:43:8c:f8:30:61:96:1d:3b:3e:5d:f8:e8:34:84:0e:0b:34:56",
+              "tls.handshake.random_tree": {
+                "tls.handshake.random_time": "Jan  6, 2022 18:22:13.000000000 Eastern Standard Time",
+                "tls.handshake.random_bytes": "c6:26:de:03:8d:f8:cb:dc:06:cf:43:8c:f8:30:61:96:1d:3b:3e:5d:f8:e8:34:84:0e:0b:34:56"
+              },
+              "tls.handshake.session_id_length": "0",
+              "tls.handshake.cipher_suites_length": "38",
+              "tls.handshake.ciphersuites": {
+                "tls.handshake.ciphersuite": "0xc02c",
+                "tls.handshake.ciphersuite": "0xc02b",
+                "tls.handshake.ciphersuite": "0xc030",
+                "tls.handshake.ciphersuite": "0xc02f",
+                "tls.handshake.ciphersuite": "0xc024",
+                "tls.handshake.ciphersuite": "0xc023",
+                "tls.handshake.ciphersuite": "0xc028",
+                "tls.handshake.ciphersuite": "0xc027",
+                "tls.handshake.ciphersuite": "0xc00a",
+                "tls.handshake.ciphersuite": "0xc009",
+                "tls.handshake.ciphersuite": "0xc014",
+                "tls.handshake.ciphersuite": "0xc013",
+                "tls.handshake.ciphersuite": "0x009d",
+                "tls.handshake.ciphersuite": "0x009c",
+                "tls.handshake.ciphersuite": "0x003d",
+                "tls.handshake.ciphersuite": "0x003c",
+                "tls.handshake.ciphersuite": "0x0035",
+                "tls.handshake.ciphersuite": "0x002f",
+                "tls.handshake.ciphersuite": "0x000a"
+              },
+              "tls.handshake.comp_methods_length": "1",
+              "tls.handshake.comp_methods": {
+                "tls.handshake.comp_method": "0"
+              },
+              "tls.handshake.extensions_length": "93",
+              "Extension: server_name (len=19)": {
+                "tls.handshake.extension.type": "0",
+                "tls.handshake.extension.len": "19",
+                "Server Name Indication extension": {
+                  "tls.handshake.extensions_server_name_list_len": "17",
+                  "tls.handshake.extensions_server_name_type": "0",
+                  "tls.handshake.extensions_server_name_len": "14",
+                  "tls.handshake.extensions_server_name": "landofrayz.com"
+                }
+              },
+              "Extension: status_request (len=5)": {
+                "tls.handshake.extension.type": "5",
+                "tls.handshake.extension.len": "5",
+                "tls.handshake.extensions_status_request_type": "1",
+                "tls.handshake.extensions_status_request_responder_ids_len": "0",
+                "tls.handshake.extensions_status_request_exts_len": "0"
+              },
+              "Extension: supported_groups (len=8)": {
+                "tls.handshake.extension.type": "10",
+                "tls.handshake.extension.len": "8",
+                "tls.handshake.extensions_supported_groups_length": "6",
+                "tls.handshake.extensions_supported_groups": {
+                  "tls.handshake.extensions_supported_group": "0x001d",
+                  "tls.handshake.extensions_supported_group": "0x0017",
+                  "tls.handshake.extensions_supported_group": "0x0018"
+                }
+              },
+              "Extension: ec_point_formats (len=2)": {
+                "tls.handshake.extension.type": "11",
+                "tls.handshake.extension.len": "2",
+                "tls.handshake.extensions_ec_point_formats_length": "1",
+                "tls.handshake.extensions_ec_point_formats": {
+                  "tls.handshake.extensions_ec_point_format": "0"
+                }
+              },
+              "Extension: signature_algorithms (len=26)": {
+                "tls.handshake.extension.type": "13",
+                "tls.handshake.extension.len": "26",
+                "tls.handshake.sig_hash_alg_len": "24",
+                "tls.handshake.sig_hash_algs": {
+                  "tls.handshake.sig_hash_alg": "0x0804",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "8",
+                    "tls.handshake.sig_hash_sig": "4"
+                  },
+                  "tls.handshake.sig_hash_alg": "0x0805",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "8",
+                    "tls.handshake.sig_hash_sig": "5"
+                  },
+                  "tls.handshake.sig_hash_alg": "0x0806",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "8",
+                    "tls.handshake.sig_hash_sig": "6"
+                  },
+                  "tls.handshake.sig_hash_alg": "0x0401",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "4",
+                    "tls.handshake.sig_hash_sig": "1"
+                  },
+                  "tls.handshake.sig_hash_alg": "0x0501",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "5",
+                    "tls.handshake.sig_hash_sig": "1"
+                  },
+                  "tls.handshake.sig_hash_alg": "0x0201",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "2",
+                    "tls.handshake.sig_hash_sig": "1"
+                  },
+                  "tls.handshake.sig_hash_alg": "0x0403",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "4",
+                    "tls.handshake.sig_hash_sig": "3"
+                  },
+                  "tls.handshake.sig_hash_alg": "0x0503",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "5",
+                    "tls.handshake.sig_hash_sig": "3"
+                  },
+                  "tls.handshake.sig_hash_alg": "0x0203",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "2",
+                    "tls.handshake.sig_hash_sig": "3"
+                  },
+                  "tls.handshake.sig_hash_alg": "0x0202",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "2",
+                    "tls.handshake.sig_hash_sig": "2"
+                  },
+                  "tls.handshake.sig_hash_alg": "0x0601",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "6",
+                    "tls.handshake.sig_hash_sig": "1"
+                  },
+                  "tls.handshake.sig_hash_alg": "0x0603",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "6",
+                    "tls.handshake.sig_hash_sig": "3"
+                  }
+                }
+              },
+              "Extension: session_ticket (len=0)": {
+                "tls.handshake.extension.type": "35",
+                "tls.handshake.extension.len": "0",
+                "tls.handshake.extension.data": ""
+              },
+              "Extension: extended_master_secret (len=0)": {
+                "tls.handshake.extension.type": "23",
+                "tls.handshake.extension.len": "0"
+              },
+              "Extension: renegotiation_info (len=1)": {
+                "tls.handshake.extension.type": "65281",
+                "tls.handshake.extension.len": "1",
+                "Renegotiation Info extension": {
+                  "tls.handshake.extensions_reneg_info_len": "0"
+                }
+              },
+              "tls.handshake.ja3_full": "771,49196-49195-49200-49199-49188-49187-49192-49191-49162-49161-49172-49171-157-156-61-60-53-47-10,0-5-10-11-13-35-23-65281,29-23-24,0",
+              "tls.handshake.ja3": "a0e9f5d64349fb13191bc781f81f42e1"
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2022-01-06",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.encap_type": "1",
+          "frame.time": "Jan  6, 2022 18:22:02.291127000 Eastern Standard Time",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1641511322.291127000",
+          "frame.time_delta": "0.000001000",
+          "frame.time_delta_displayed": "0.000001000",
+          "frame.time_relative": "153.859249000",
+          "frame.number": "10",
+          "frame.len": "235",
+          "frame.cap_len": "235",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:ip:tcp:tls",
+          "frame.coloring_rule.name": "TCP",
+          "frame.coloring_rule.string": "tcp"
+        },
+        "eth": {
+          "eth.dst": "20:e5:2a:b6:93:f1",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "Netgear_b6:93:f1",
+            "eth.dst.oui": "2155818",
+            "eth.dst.oui_resolved": "Netgear",
+            "eth.addr": "20:e5:2a:b6:93:f1",
+            "eth.addr_resolved": "Netgear_b6:93:f1",
+            "eth.addr.oui": "2155818",
+            "eth.addr.oui_resolved": "Netgear",
+            "eth.dst.lg": "0",
+            "eth.lg": "0",
+            "eth.dst.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.src": "00:08:02:1c:47:ae",
+          "eth.src_tree": {
+            "eth.src_resolved": "HewlettP_1c:47:ae",
+            "eth.src.oui": "2050",
+            "eth.src.oui_resolved": "Hewlett Packard",
+            "eth.addr": "00:08:02:1c:47:ae",
+            "eth.addr_resolved": "HewlettP_1c:47:ae",
+            "eth.addr.oui": "2050",
+            "eth.addr.oui_resolved": "Hewlett Packard",
+            "eth.src.lg": "0",
+            "eth.lg": "0",
+            "eth.src.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x0800"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "221",
+          "ip.id": "0x88ce",
+          "ip.flags": "0x40",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "1",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "128",
+          "ip.proto": "6",
+          "ip.checksum": "0x922f",
+          "ip.checksum.status": "2",
+          "ip.src": "10.1.6.101",
+          "ip.addr": "10.1.6.101",
+          "ip.src_host": "10.1.6.101",
+          "ip.host": "10.1.6.101",
+          "ip.dst": "94.140.112.43",
+          "ip.addr": "94.140.112.43",
+          "ip.dst_host": "94.140.112.43",
+          "ip.host": "94.140.112.43"
+        },
+        "tcp": {
+          "tcp.srcport": "55820",
+          "tcp.dstport": "443",
+          "tcp.port": "55820",
+          "tcp.port": "443",
+          "tcp.stream": "9",
+          "tcp.completeness": "8",
+          "tcp.len": "181",
+          "tcp.seq": "1",
+          "tcp.seq_raw": "3133782957",
+          "tcp.nxtseq": "182",
+          "tcp.ack": "1",
+          "tcp.ack_raw": "2064997307",
+          "tcp.hdr_len": "20",
+          "tcp.flags": "0x0018",
+          "tcp.flags_tree": {
+            "tcp.flags.res": "0",
+            "tcp.flags.ns": "0",
+            "tcp.flags.cwr": "0",
+            "tcp.flags.ecn": "0",
+            "tcp.flags.urg": "0",
+            "tcp.flags.ack": "1",
+            "tcp.flags.push": "1",
+            "tcp.flags.reset": "0",
+            "tcp.flags.syn": "0",
+            "tcp.flags.fin": "0",
+            "tcp.flags.str": "·······AP···"
+          },
+          "tcp.window_size_value": "515",
+          "tcp.window_size": "515",
+          "tcp.window_size_scalefactor": "-1",
+          "tcp.checksum": "0x366b",
+          "tcp.checksum.status": "2",
+          "tcp.urgent_pointer": "0",
+          "Timestamps": {
+            "tcp.time_relative": "0.000000000",
+            "tcp.time_delta": "0.000000000"
+          },
+          "tcp.analysis": {
+            "tcp.analysis.bytes_in_flight": "181",
+            "tcp.analysis.push_bytes_sent": "181"
+          },
+          "tcp.payload": "16:03:03:00:b0:01:00:00:ac:03:03:61:d7:79:a5:37:07:0b:80:73:b9:02:45:a7:a3:bf:1a:b5:3c:8b:3b:2a:c7:ec:42:fe:ab:ae:99:21:70:19:ca:00:00:26:c0:2c:c0:2b:c0:30:c0:2f:c0:24:c0:23:c0:28:c0:27:c0:0a:c0:09:c0:14:c0:13:00:9d:00:9c:00:3d:00:3c:00:35:00:2f:00:0a:01:00:00:5d:00:00:00:13:00:11:00:00:0e:6c:61:6e:64:6f:66:72:61:79:7a:2e:63:6f:6d:00:05:00:05:01:00:00:00:00:00:0a:00:08:00:06:00:1d:00:17:00:18:00:0b:00:02:01:00:00:0d:00:1a:00:18:08:04:08:05:08:06:04:01:05:01:02:01:04:03:05:03:02:03:02:02:06:01:06:03:00:23:00:00:00:17:00:00:ff:01:00:01:00"
+        },
+        "tls": {
+          "tls.record": {
+            "tls.record.content_type": "22",
+            "tls.record.version": "0x0303",
+            "tls.record.length": "176",
+            "tls.handshake": {
+              "tls.handshake.type": "1",
+              "tls.handshake.length": "172",
+              "tls.handshake.version": "0x0303",
+              "tls.handshake.random": "61:d7:79:a5:37:07:0b:80:73:b9:02:45:a7:a3:bf:1a:b5:3c:8b:3b:2a:c7:ec:42:fe:ab:ae:99:21:70:19:ca",
+              "tls.handshake.random_tree": {
+                "tls.handshake.random_time": "Jan  6, 2022 18:22:13.000000000 Eastern Standard Time",
+                "tls.handshake.random_bytes": "37:07:0b:80:73:b9:02:45:a7:a3:bf:1a:b5:3c:8b:3b:2a:c7:ec:42:fe:ab:ae:99:21:70:19:ca"
+              },
+              "tls.handshake.session_id_length": "0",
+              "tls.handshake.cipher_suites_length": "38",
+              "tls.handshake.ciphersuites": {
+                "tls.handshake.ciphersuite": "0xc02c",
+                "tls.handshake.ciphersuite": "0xc02b",
+                "tls.handshake.ciphersuite": "0xc030",
+                "tls.handshake.ciphersuite": "0xc02f",
+                "tls.handshake.ciphersuite": "0xc024",
+                "tls.handshake.ciphersuite": "0xc023",
+                "tls.handshake.ciphersuite": "0xc028",
+                "tls.handshake.ciphersuite": "0xc027",
+                "tls.handshake.ciphersuite": "0xc00a",
+                "tls.handshake.ciphersuite": "0xc009",
+                "tls.handshake.ciphersuite": "0xc014",
+                "tls.handshake.ciphersuite": "0xc013",
+                "tls.handshake.ciphersuite": "0x009d",
+                "tls.handshake.ciphersuite": "0x009c",
+                "tls.handshake.ciphersuite": "0x003d",
+                "tls.handshake.ciphersuite": "0x003c",
+                "tls.handshake.ciphersuite": "0x0035",
+                "tls.handshake.ciphersuite": "0x002f",
+                "tls.handshake.ciphersuite": "0x000a"
+              },
+              "tls.handshake.comp_methods_length": "1",
+              "tls.handshake.comp_methods": {
+                "tls.handshake.comp_method": "0"
+              },
+              "tls.handshake.extensions_length": "93",
+              "Extension: server_name (len=19)": {
+                "tls.handshake.extension.type": "0",
+                "tls.handshake.extension.len": "19",
+                "Server Name Indication extension": {
+                  "tls.handshake.extensions_server_name_list_len": "17",
+                  "tls.handshake.extensions_server_name_type": "0",
+                  "tls.handshake.extensions_server_name_len": "14",
+                  "tls.handshake.extensions_server_name": "landofrayz.com"
+                }
+              },
+              "Extension: status_request (len=5)": {
+                "tls.handshake.extension.type": "5",
+                "tls.handshake.extension.len": "5",
+                "tls.handshake.extensions_status_request_type": "1",
+                "tls.handshake.extensions_status_request_responder_ids_len": "0",
+                "tls.handshake.extensions_status_request_exts_len": "0"
+              },
+              "Extension: supported_groups (len=8)": {
+                "tls.handshake.extension.type": "10",
+                "tls.handshake.extension.len": "8",
+                "tls.handshake.extensions_supported_groups_length": "6",
+                "tls.handshake.extensions_supported_groups": {
+                  "tls.handshake.extensions_supported_group": "0x001d",
+                  "tls.handshake.extensions_supported_group": "0x0017",
+                  "tls.handshake.extensions_supported_group": "0x0018"
+                }
+              },
+              "Extension: ec_point_formats (len=2)": {
+                "tls.handshake.extension.type": "11",
+                "tls.handshake.extension.len": "2",
+                "tls.handshake.extensions_ec_point_formats_length": "1",
+                "tls.handshake.extensions_ec_point_formats": {
+                  "tls.handshake.extensions_ec_point_format": "0"
+                }
+              },
+              "Extension: signature_algorithms (len=26)": {
+                "tls.handshake.extension.type": "13",
+                "tls.handshake.extension.len": "26",
+                "tls.handshake.sig_hash_alg_len": "24",
+                "tls.handshake.sig_hash_algs": {
+                  "tls.handshake.sig_hash_alg": "0x0804",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "8",
+                    "tls.handshake.sig_hash_sig": "4"
+                  },
+                  "tls.handshake.sig_hash_alg": "0x0805",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "8",
+                    "tls.handshake.sig_hash_sig": "5"
+                  },
+                  "tls.handshake.sig_hash_alg": "0x0806",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "8",
+                    "tls.handshake.sig_hash_sig": "6"
+                  },
+                  "tls.handshake.sig_hash_alg": "0x0401",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "4",
+                    "tls.handshake.sig_hash_sig": "1"
+                  },
+                  "tls.handshake.sig_hash_alg": "0x0501",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "5",
+                    "tls.handshake.sig_hash_sig": "1"
+                  },
+                  "tls.handshake.sig_hash_alg": "0x0201",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "2",
+                    "tls.handshake.sig_hash_sig": "1"
+                  },
+                  "tls.handshake.sig_hash_alg": "0x0403",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "4",
+                    "tls.handshake.sig_hash_sig": "3"
+                  },
+                  "tls.handshake.sig_hash_alg": "0x0503",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "5",
+                    "tls.handshake.sig_hash_sig": "3"
+                  },
+                  "tls.handshake.sig_hash_alg": "0x0203",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "2",
+                    "tls.handshake.sig_hash_sig": "3"
+                  },
+                  "tls.handshake.sig_hash_alg": "0x0202",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "2",
+                    "tls.handshake.sig_hash_sig": "2"
+                  },
+                  "tls.handshake.sig_hash_alg": "0x0601",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "6",
+                    "tls.handshake.sig_hash_sig": "1"
+                  },
+                  "tls.handshake.sig_hash_alg": "0x0603",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "6",
+                    "tls.handshake.sig_hash_sig": "3"
+                  }
+                }
+              },
+              "Extension: session_ticket (len=0)": {
+                "tls.handshake.extension.type": "35",
+                "tls.handshake.extension.len": "0",
+                "tls.handshake.extension.data": ""
+              },
+              "Extension: extended_master_secret (len=0)": {
+                "tls.handshake.extension.type": "23",
+                "tls.handshake.extension.len": "0"
+              },
+              "Extension: renegotiation_info (len=1)": {
+                "tls.handshake.extension.type": "65281",
+                "tls.handshake.extension.len": "1",
+                "Renegotiation Info extension": {
+                  "tls.handshake.extensions_reneg_info_len": "0"
+                }
+              },
+              "tls.handshake.ja3_full": "771,49196-49195-49200-49199-49188-49187-49192-49191-49162-49161-49172-49171-157-156-61-60-53-47-10,0-5-10-11-13-35-23-65281,29-23-24,0",
+              "tls.handshake.ja3": "a0e9f5d64349fb13191bc781f81f42e1"
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2022-01-06",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.encap_type": "1",
+          "frame.time": "Jan  6, 2022 18:22:02.972183000 Eastern Standard Time",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1641511322.972183000",
+          "frame.time_delta": "0.681056000",
+          "frame.time_delta_displayed": "0.681056000",
+          "frame.time_relative": "154.540305000",
+          "frame.number": "11",
+          "frame.len": "228",
+          "frame.cap_len": "228",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:ip:tcp:tls",
+          "frame.coloring_rule.name": "TCP",
+          "frame.coloring_rule.string": "tcp"
+        },
+        "eth": {
+          "eth.dst": "20:e5:2a:b6:93:f1",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "Netgear_b6:93:f1",
+            "eth.dst.oui": "2155818",
+            "eth.dst.oui_resolved": "Netgear",
+            "eth.addr": "20:e5:2a:b6:93:f1",
+            "eth.addr_resolved": "Netgear_b6:93:f1",
+            "eth.addr.oui": "2155818",
+            "eth.addr.oui_resolved": "Netgear",
+            "eth.dst.lg": "0",
+            "eth.lg": "0",
+            "eth.dst.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.src": "00:08:02:1c:47:ae",
+          "eth.src_tree": {
+            "eth.src_resolved": "HewlettP_1c:47:ae",
+            "eth.src.oui": "2050",
+            "eth.src.oui_resolved": "Hewlett Packard",
+            "eth.addr": "00:08:02:1c:47:ae",
+            "eth.addr_resolved": "HewlettP_1c:47:ae",
+            "eth.addr.oui": "2050",
+            "eth.addr.oui_resolved": "Hewlett Packard",
+            "eth.src.lg": "0",
+            "eth.lg": "0",
+            "eth.src.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x0800"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "214",
+          "ip.id": "0x3110",
+          "ip.flags": "0x40",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "1",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "128",
+          "ip.proto": "6",
+          "ip.checksum": "0x6216",
+          "ip.checksum.status": "2",
+          "ip.src": "10.1.6.101",
+          "ip.addr": "10.1.6.101",
+          "ip.src_host": "10.1.6.101",
+          "ip.host": "10.1.6.101",
+          "ip.dst": "5.181.80.225",
+          "ip.addr": "5.181.80.225",
+          "ip.dst_host": "5.181.80.225",
+          "ip.host": "5.181.80.225"
+        },
+        "tcp": {
+          "tcp.srcport": "55821",
+          "tcp.dstport": "443",
+          "tcp.port": "55821",
+          "tcp.port": "443",
+          "tcp.stream": "10",
+          "tcp.completeness": "8",
+          "tcp.len": "174",
+          "tcp.seq": "1",
+          "tcp.seq_raw": "3402154899",
+          "tcp.nxtseq": "175",
+          "tcp.ack": "1",
+          "tcp.ack_raw": "3343122559",
+          "tcp.hdr_len": "20",
+          "tcp.flags": "0x0018",
+          "tcp.flags_tree": {
+            "tcp.flags.res": "0",
+            "tcp.flags.ns": "0",
+            "tcp.flags.cwr": "0",
+            "tcp.flags.ecn": "0",
+            "tcp.flags.urg": "0",
+            "tcp.flags.ack": "1",
+            "tcp.flags.push": "1",
+            "tcp.flags.reset": "0",
+            "tcp.flags.syn": "0",
+            "tcp.flags.fin": "0",
+            "tcp.flags.str": "·······AP···"
+          },
+          "tcp.window_size_value": "515",
+          "tcp.window_size": "515",
+          "tcp.window_size_scalefactor": "-1",
+          "tcp.checksum": "0xbe03",
+          "tcp.checksum.status": "2",
+          "tcp.urgent_pointer": "0",
+          "Timestamps": {
+            "tcp.time_relative": "0.000000000",
+            "tcp.time_delta": "0.000000000"
+          },
+          "tcp.analysis": {
+            "tcp.analysis.bytes_in_flight": "174",
+            "tcp.analysis.push_bytes_sent": "174"
+          },
+          "tcp.payload": "16:03:03:00:a9:01:00:00:a5:03:03:61:d7:79:a6:ad:43:db:43:71:60:b4:67:c0:d3:5a:14:cb:93:61:6e:9c:6a:4a:a9:0f:32:f6:d0:c0:e6:4a:c0:00:00:2a:c0:2c:c0:2b:c0:30:c0:2f:00:9f:00:9e:c0:24:c0:23:c0:28:c0:27:c0:0a:c0:09:c0:14:c0:13:00:9d:00:9c:00:3d:00:3c:00:35:00:2f:00:0a:01:00:00:52:00:00:00:11:00:0f:00:00:0c:75:70:70:65:72:64:6f:77:6e:2e:65:75:00:0a:00:08:00:06:00:1d:00:17:00:18:00:0b:00:02:01:00:00:0d:00:1a:00:18:08:04:08:05:08:06:04:01:05:01:02:01:04:03:05:03:02:03:02:02:06:01:06:03:00:23:00:00:00:17:00:00:ff:01:00:01:00"
+        },
+        "tls": {
+          "tls.record": {
+            "tls.record.content_type": "22",
+            "tls.record.version": "0x0303",
+            "tls.record.length": "169",
+            "tls.handshake": {
+              "tls.handshake.type": "1",
+              "tls.handshake.length": "165",
+              "tls.handshake.version": "0x0303",
+              "tls.handshake.random": "61:d7:79:a6:ad:43:db:43:71:60:b4:67:c0:d3:5a:14:cb:93:61:6e:9c:6a:4a:a9:0f:32:f6:d0:c0:e6:4a:c0",
+              "tls.handshake.random_tree": {
+                "tls.handshake.random_time": "Jan  6, 2022 18:22:14.000000000 Eastern Standard Time",
+                "tls.handshake.random_bytes": "ad:43:db:43:71:60:b4:67:c0:d3:5a:14:cb:93:61:6e:9c:6a:4a:a9:0f:32:f6:d0:c0:e6:4a:c0"
+              },
+              "tls.handshake.session_id_length": "0",
+              "tls.handshake.cipher_suites_length": "42",
+              "tls.handshake.ciphersuites": {
+                "tls.handshake.ciphersuite": "0xc02c",
+                "tls.handshake.ciphersuite": "0xc02b",
+                "tls.handshake.ciphersuite": "0xc030",
+                "tls.handshake.ciphersuite": "0xc02f",
+                "tls.handshake.ciphersuite": "0x009f",
+                "tls.handshake.ciphersuite": "0x009e",
+                "tls.handshake.ciphersuite": "0xc024",
+                "tls.handshake.ciphersuite": "0xc023",
+                "tls.handshake.ciphersuite": "0xc028",
+                "tls.handshake.ciphersuite": "0xc027",
+                "tls.handshake.ciphersuite": "0xc00a",
+                "tls.handshake.ciphersuite": "0xc009",
+                "tls.handshake.ciphersuite": "0xc014",
+                "tls.handshake.ciphersuite": "0xc013",
+                "tls.handshake.ciphersuite": "0x009d",
+                "tls.handshake.ciphersuite": "0x009c",
+                "tls.handshake.ciphersuite": "0x003d",
+                "tls.handshake.ciphersuite": "0x003c",
+                "tls.handshake.ciphersuite": "0x0035",
+                "tls.handshake.ciphersuite": "0x002f",
+                "tls.handshake.ciphersuite": "0x000a"
+              },
+              "tls.handshake.comp_methods_length": "1",
+              "tls.handshake.comp_methods": {
+                "tls.handshake.comp_method": "0"
+              },
+              "tls.handshake.extensions_length": "82",
+              "Extension: server_name (len=17)": {
+                "tls.handshake.extension.type": "0",
+                "tls.handshake.extension.len": "17",
+                "Server Name Indication extension": {
+                  "tls.handshake.extensions_server_name_list_len": "15",
+                  "tls.handshake.extensions_server_name_type": "0",
+                  "tls.handshake.extensions_server_name_len": "12",
+                  "tls.handshake.extensions_server_name": "upperdown.eu"
+                }
+              },
+              "Extension: supported_groups (len=8)": {
+                "tls.handshake.extension.type": "10",
+                "tls.handshake.extension.len": "8",
+                "tls.handshake.extensions_supported_groups_length": "6",
+                "tls.handshake.extensions_supported_groups": {
+                  "tls.handshake.extensions_supported_group": "0x001d",
+                  "tls.handshake.extensions_supported_group": "0x0017",
+                  "tls.handshake.extensions_supported_group": "0x0018"
+                }
+              },
+              "Extension: ec_point_formats (len=2)": {
+                "tls.handshake.extension.type": "11",
+                "tls.handshake.extension.len": "2",
+                "tls.handshake.extensions_ec_point_formats_length": "1",
+                "tls.handshake.extensions_ec_point_formats": {
+                  "tls.handshake.extensions_ec_point_format": "0"
+                }
+              },
+              "Extension: signature_algorithms (len=26)": {
+                "tls.handshake.extension.type": "13",
+                "tls.handshake.extension.len": "26",
+                "tls.handshake.sig_hash_alg_len": "24",
+                "tls.handshake.sig_hash_algs": {
+                  "tls.handshake.sig_hash_alg": "0x0804",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "8",
+                    "tls.handshake.sig_hash_sig": "4"
+                  },
+                  "tls.handshake.sig_hash_alg": "0x0805",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "8",
+                    "tls.handshake.sig_hash_sig": "5"
+                  },
+                  "tls.handshake.sig_hash_alg": "0x0806",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "8",
+                    "tls.handshake.sig_hash_sig": "6"
+                  },
+                  "tls.handshake.sig_hash_alg": "0x0401",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "4",
+                    "tls.handshake.sig_hash_sig": "1"
+                  },
+                  "tls.handshake.sig_hash_alg": "0x0501",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "5",
+                    "tls.handshake.sig_hash_sig": "1"
+                  },
+                  "tls.handshake.sig_hash_alg": "0x0201",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "2",
+                    "tls.handshake.sig_hash_sig": "1"
+                  },
+                  "tls.handshake.sig_hash_alg": "0x0403",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "4",
+                    "tls.handshake.sig_hash_sig": "3"
+                  },
+                  "tls.handshake.sig_hash_alg": "0x0503",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "5",
+                    "tls.handshake.sig_hash_sig": "3"
+                  },
+                  "tls.handshake.sig_hash_alg": "0x0203",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "2",
+                    "tls.handshake.sig_hash_sig": "3"
+                  },
+                  "tls.handshake.sig_hash_alg": "0x0202",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "2",
+                    "tls.handshake.sig_hash_sig": "2"
+                  },
+                  "tls.handshake.sig_hash_alg": "0x0601",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "6",
+                    "tls.handshake.sig_hash_sig": "1"
+                  },
+                  "tls.handshake.sig_hash_alg": "0x0603",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "6",
+                    "tls.handshake.sig_hash_sig": "3"
+                  }
+                }
+              },
+              "Extension: session_ticket (len=0)": {
+                "tls.handshake.extension.type": "35",
+                "tls.handshake.extension.len": "0",
+                "tls.handshake.extension.data": ""
+              },
+              "Extension: extended_master_secret (len=0)": {
+                "tls.handshake.extension.type": "23",
+                "tls.handshake.extension.len": "0"
+              },
+              "Extension: renegotiation_info (len=1)": {
+                "tls.handshake.extension.type": "65281",
+                "tls.handshake.extension.len": "1",
+                "Renegotiation Info extension": {
+                  "tls.handshake.extensions_reneg_info_len": "0"
+                }
+              },
+              "tls.handshake.ja3_full": "771,49196-49195-49200-49199-159-158-49188-49187-49192-49191-49162-49161-49172-49171-157-156-61-60-53-47-10,0-10-11-13-35-23-65281,29-23-24,0",
+              "tls.handshake.ja3": "3b5074b1b5d032e5620f69f9f700ff0e"
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2022-01-06",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.encap_type": "1",
+          "frame.time": "Jan  6, 2022 18:22:55.407427000 Eastern Standard Time",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1641511375.407427000",
+          "frame.time_delta": "52.435244000",
+          "frame.time_delta_displayed": "52.435244000",
+          "frame.time_relative": "206.975549000",
+          "frame.number": "12",
+          "frame.len": "270",
+          "frame.cap_len": "270",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:ip:tcp:tls",
+          "frame.coloring_rule.name": "TCP",
+          "frame.coloring_rule.string": "tcp"
+        },
+        "eth": {
+          "eth.dst": "20:e5:2a:b6:93:f1",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "Netgear_b6:93:f1",
+            "eth.dst.oui": "2155818",
+            "eth.dst.oui_resolved": "Netgear",
+            "eth.addr": "20:e5:2a:b6:93:f1",
+            "eth.addr_resolved": "Netgear_b6:93:f1",
+            "eth.addr.oui": "2155818",
+            "eth.addr.oui_resolved": "Netgear",
+            "eth.dst.lg": "0",
+            "eth.lg": "0",
+            "eth.dst.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.src": "00:08:02:1c:47:ae",
+          "eth.src_tree": {
+            "eth.src_resolved": "HewlettP_1c:47:ae",
+            "eth.src.oui": "2050",
+            "eth.src.oui_resolved": "Hewlett Packard",
+            "eth.addr": "00:08:02:1c:47:ae",
+            "eth.addr_resolved": "HewlettP_1c:47:ae",
+            "eth.addr.oui": "2050",
+            "eth.addr.oui_resolved": "Hewlett Packard",
+            "eth.src.lg": "0",
+            "eth.lg": "0",
+            "eth.src.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x0800"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "256",
+          "ip.id": "0x98f0",
+          "ip.flags": "0x40",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "1",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "128",
+          "ip.proto": "6",
+          "ip.checksum": "0x3f55",
+          "ip.checksum.status": "2",
+          "ip.src": "10.1.6.101",
+          "ip.addr": "10.1.6.101",
+          "ip.src_host": "10.1.6.101",
+          "ip.host": "10.1.6.101",
+          "ip.dst": "52.183.220.149",
+          "ip.addr": "52.183.220.149",
+          "ip.dst_host": "52.183.220.149",
+          "ip.host": "52.183.220.149"
+        },
+        "tcp": {
+          "tcp.srcport": "55827",
+          "tcp.dstport": "443",
+          "tcp.port": "55827",
+          "tcp.port": "443",
+          "tcp.stream": "11",
+          "tcp.completeness": "8",
+          "tcp.len": "216",
+          "tcp.seq": "1",
+          "tcp.seq_raw": "2833627091",
+          "tcp.nxtseq": "217",
+          "tcp.ack": "1",
+          "tcp.ack_raw": "4132920421",
+          "tcp.hdr_len": "20",
+          "tcp.flags": "0x0018",
+          "tcp.flags_tree": {
+            "tcp.flags.res": "0",
+            "tcp.flags.ns": "0",
+            "tcp.flags.cwr": "0",
+            "tcp.flags.ecn": "0",
+            "tcp.flags.urg": "0",
+            "tcp.flags.ack": "1",
+            "tcp.flags.push": "1",
+            "tcp.flags.reset": "0",
+            "tcp.flags.syn": "0",
+            "tcp.flags.fin": "0",
+            "tcp.flags.str": "·······AP···"
+          },
+          "tcp.window_size_value": "515",
+          "tcp.window_size": "515",
+          "tcp.window_size_scalefactor": "-1",
+          "tcp.checksum": "0xc726",
+          "tcp.checksum.status": "2",
+          "tcp.urgent_pointer": "0",
+          "Timestamps": {
+            "tcp.time_relative": "0.000000000",
+            "tcp.time_delta": "0.000000000"
+          },
+          "tcp.analysis": {
+            "tcp.analysis.bytes_in_flight": "216",
+            "tcp.analysis.push_bytes_sent": "216"
+          },
+          "tcp.payload": "16:03:03:00:d3:01:00:00:cf:03:03:61:d7:79:da:76:02:79:c1:3b:d8:ee:6a:de:ab:41:84:95:87:02:09:45:5c:f2:75:c0:16:b1:92:37:a7:b5:c8:00:00:26:c0:2c:c0:2b:c0:30:c0:2f:c0:24:c0:23:c0:28:c0:27:c0:0a:c0:09:c0:14:c0:13:00:9d:00:9c:00:3d:00:3c:00:35:00:2f:00:0a:01:00:00:80:00:00:00:24:00:22:00:00:1f:73:65:74:74:69:6e:67:73:2d:77:69:6e:2e:64:61:74:61:2e:6d:69:63:72:6f:73:6f:66:74:2e:63:6f:6d:00:05:00:05:01:00:00:00:00:00:0a:00:08:00:06:00:1d:00:17:00:18:00:0b:00:02:01:00:00:0d:00:1a:00:18:08:04:08:05:08:06:04:01:05:01:02:01:04:03:05:03:02:03:02:02:06:01:06:03:00:23:00:00:00:10:00:0e:00:0c:02:68:32:08:68:74:74:70:2f:31:2e:31:00:17:00:00:ff:01:00:01:00"
+        },
+        "tls": {
+          "tls.record": {
+            "tls.record.content_type": "22",
+            "tls.record.version": "0x0303",
+            "tls.record.length": "211",
+            "tls.handshake": {
+              "tls.handshake.type": "1",
+              "tls.handshake.length": "207",
+              "tls.handshake.version": "0x0303",
+              "tls.handshake.random": "61:d7:79:da:76:02:79:c1:3b:d8:ee:6a:de:ab:41:84:95:87:02:09:45:5c:f2:75:c0:16:b1:92:37:a7:b5:c8",
+              "tls.handshake.random_tree": {
+                "tls.handshake.random_time": "Jan  6, 2022 18:23:06.000000000 Eastern Standard Time",
+                "tls.handshake.random_bytes": "76:02:79:c1:3b:d8:ee:6a:de:ab:41:84:95:87:02:09:45:5c:f2:75:c0:16:b1:92:37:a7:b5:c8"
+              },
+              "tls.handshake.session_id_length": "0",
+              "tls.handshake.cipher_suites_length": "38",
+              "tls.handshake.ciphersuites": {
+                "tls.handshake.ciphersuite": "0xc02c",
+                "tls.handshake.ciphersuite": "0xc02b",
+                "tls.handshake.ciphersuite": "0xc030",
+                "tls.handshake.ciphersuite": "0xc02f",
+                "tls.handshake.ciphersuite": "0xc024",
+                "tls.handshake.ciphersuite": "0xc023",
+                "tls.handshake.ciphersuite": "0xc028",
+                "tls.handshake.ciphersuite": "0xc027",
+                "tls.handshake.ciphersuite": "0xc00a",
+                "tls.handshake.ciphersuite": "0xc009",
+                "tls.handshake.ciphersuite": "0xc014",
+                "tls.handshake.ciphersuite": "0xc013",
+                "tls.handshake.ciphersuite": "0x009d",
+                "tls.handshake.ciphersuite": "0x009c",
+                "tls.handshake.ciphersuite": "0x003d",
+                "tls.handshake.ciphersuite": "0x003c",
+                "tls.handshake.ciphersuite": "0x0035",
+                "tls.handshake.ciphersuite": "0x002f",
+                "tls.handshake.ciphersuite": "0x000a"
+              },
+              "tls.handshake.comp_methods_length": "1",
+              "tls.handshake.comp_methods": {
+                "tls.handshake.comp_method": "0"
+              },
+              "tls.handshake.extensions_length": "128",
+              "Extension: server_name (len=36)": {
+                "tls.handshake.extension.type": "0",
+                "tls.handshake.extension.len": "36",
+                "Server Name Indication extension": {
+                  "tls.handshake.extensions_server_name_list_len": "34",
+                  "tls.handshake.extensions_server_name_type": "0",
+                  "tls.handshake.extensions_server_name_len": "31",
+                  "tls.handshake.extensions_server_name": "settings-win.data.microsoft.com"
+                }
+              },
+              "Extension: status_request (len=5)": {
+                "tls.handshake.extension.type": "5",
+                "tls.handshake.extension.len": "5",
+                "tls.handshake.extensions_status_request_type": "1",
+                "tls.handshake.extensions_status_request_responder_ids_len": "0",
+                "tls.handshake.extensions_status_request_exts_len": "0"
+              },
+              "Extension: supported_groups (len=8)": {
+                "tls.handshake.extension.type": "10",
+                "tls.handshake.extension.len": "8",
+                "tls.handshake.extensions_supported_groups_length": "6",
+                "tls.handshake.extensions_supported_groups": {
+                  "tls.handshake.extensions_supported_group": "0x001d",
+                  "tls.handshake.extensions_supported_group": "0x0017",
+                  "tls.handshake.extensions_supported_group": "0x0018"
+                }
+              },
+              "Extension: ec_point_formats (len=2)": {
+                "tls.handshake.extension.type": "11",
+                "tls.handshake.extension.len": "2",
+                "tls.handshake.extensions_ec_point_formats_length": "1",
+                "tls.handshake.extensions_ec_point_formats": {
+                  "tls.handshake.extensions_ec_point_format": "0"
+                }
+              },
+              "Extension: signature_algorithms (len=26)": {
+                "tls.handshake.extension.type": "13",
+                "tls.handshake.extension.len": "26",
+                "tls.handshake.sig_hash_alg_len": "24",
+                "tls.handshake.sig_hash_algs": {
+                  "tls.handshake.sig_hash_alg": "0x0804",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "8",
+                    "tls.handshake.sig_hash_sig": "4"
+                  },
+                  "tls.handshake.sig_hash_alg": "0x0805",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "8",
+                    "tls.handshake.sig_hash_sig": "5"
+                  },
+                  "tls.handshake.sig_hash_alg": "0x0806",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "8",
+                    "tls.handshake.sig_hash_sig": "6"
+                  },
+                  "tls.handshake.sig_hash_alg": "0x0401",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "4",
+                    "tls.handshake.sig_hash_sig": "1"
+                  },
+                  "tls.handshake.sig_hash_alg": "0x0501",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "5",
+                    "tls.handshake.sig_hash_sig": "1"
+                  },
+                  "tls.handshake.sig_hash_alg": "0x0201",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "2",
+                    "tls.handshake.sig_hash_sig": "1"
+                  },
+                  "tls.handshake.sig_hash_alg": "0x0403",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "4",
+                    "tls.handshake.sig_hash_sig": "3"
+                  },
+                  "tls.handshake.sig_hash_alg": "0x0503",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "5",
+                    "tls.handshake.sig_hash_sig": "3"
+                  },
+                  "tls.handshake.sig_hash_alg": "0x0203",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "2",
+                    "tls.handshake.sig_hash_sig": "3"
+                  },
+                  "tls.handshake.sig_hash_alg": "0x0202",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "2",
+                    "tls.handshake.sig_hash_sig": "2"
+                  },
+                  "tls.handshake.sig_hash_alg": "0x0601",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "6",
+                    "tls.handshake.sig_hash_sig": "1"
+                  },
+                  "tls.handshake.sig_hash_alg": "0x0603",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "6",
+                    "tls.handshake.sig_hash_sig": "3"
+                  }
+                }
+              },
+              "Extension: session_ticket (len=0)": {
+                "tls.handshake.extension.type": "35",
+                "tls.handshake.extension.len": "0",
+                "tls.handshake.extension.data": ""
+              },
+              "Extension: application_layer_protocol_negotiation (len=14)": {
+                "tls.handshake.extension.type": "16",
+                "tls.handshake.extension.len": "14",
+                "tls.handshake.extensions_alpn_len": "12",
+                "tls.handshake.extensions_alpn_list": {
+                  "tls.handshake.extensions_alpn_str_len": "2",
+                  "tls.handshake.extensions_alpn_str": "h2",
+                  "tls.handshake.extensions_alpn_str_len": "8",
+                  "tls.handshake.extensions_alpn_str": "http/1.1"
+                }
+              },
+              "Extension: extended_master_secret (len=0)": {
+                "tls.handshake.extension.type": "23",
+                "tls.handshake.extension.len": "0"
+              },
+              "Extension: renegotiation_info (len=1)": {
+                "tls.handshake.extension.type": "65281",
+                "tls.handshake.extension.len": "1",
+                "Renegotiation Info extension": {
+                  "tls.handshake.extensions_reneg_info_len": "0"
+                }
+              },
+              "tls.handshake.ja3_full": "771,49196-49195-49200-49199-49188-49187-49192-49191-49162-49161-49172-49171-157-156-61-60-53-47-10,0-5-10-11-13-35-16-23-65281,29-23-24,0",
+              "tls.handshake.ja3": "28a2c9bd18a11de089ef85a160da29e4"
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2022-01-06",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.encap_type": "1",
+          "frame.time": "Jan  6, 2022 18:25:03.421566000 Eastern Standard Time",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1641511503.421566000",
+          "frame.time_delta": "128.014139000",
+          "frame.time_delta_displayed": "128.014139000",
+          "frame.time_relative": "334.989688000",
+          "frame.number": "13",
+          "frame.len": "264",
+          "frame.cap_len": "264",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:ip:tcp:tls",
+          "frame.coloring_rule.name": "TCP",
+          "frame.coloring_rule.string": "tcp"
+        },
+        "eth": {
+          "eth.dst": "20:e5:2a:b6:93:f1",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "Netgear_b6:93:f1",
+            "eth.dst.oui": "2155818",
+            "eth.dst.oui_resolved": "Netgear",
+            "eth.addr": "20:e5:2a:b6:93:f1",
+            "eth.addr_resolved": "Netgear_b6:93:f1",
+            "eth.addr.oui": "2155818",
+            "eth.addr.oui_resolved": "Netgear",
+            "eth.dst.lg": "0",
+            "eth.lg": "0",
+            "eth.dst.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.src": "00:08:02:1c:47:ae",
+          "eth.src_tree": {
+            "eth.src_resolved": "HewlettP_1c:47:ae",
+            "eth.src.oui": "2050",
+            "eth.src.oui_resolved": "Hewlett Packard",
+            "eth.addr": "00:08:02:1c:47:ae",
+            "eth.addr_resolved": "HewlettP_1c:47:ae",
+            "eth.addr.oui": "2050",
+            "eth.addr.oui_resolved": "Hewlett Packard",
+            "eth.src.lg": "0",
+            "eth.lg": "0",
+            "eth.src.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x0800"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "250",
+          "ip.id": "0x88fa",
+          "ip.flags": "0x40",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "1",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "128",
+          "ip.proto": "6",
+          "ip.checksum": "0x201a",
+          "ip.checksum.status": "2",
+          "ip.src": "10.1.6.101",
+          "ip.addr": "10.1.6.101",
+          "ip.src_host": "10.1.6.101",
+          "ip.host": "10.1.6.101",
+          "ip.dst": "52.109.12.23",
+          "ip.addr": "52.109.12.23",
+          "ip.dst_host": "52.109.12.23",
+          "ip.host": "52.109.12.23"
+        },
+        "tcp": {
+          "tcp.srcport": "55828",
+          "tcp.dstport": "443",
+          "tcp.port": "55828",
+          "tcp.port": "443",
+          "tcp.stream": "12",
+          "tcp.completeness": "8",
+          "tcp.len": "210",
+          "tcp.seq": "1",
+          "tcp.seq_raw": "2841056599",
+          "tcp.nxtseq": "211",
+          "tcp.ack": "1",
+          "tcp.ack_raw": "3093685752",
+          "tcp.hdr_len": "20",
+          "tcp.flags": "0x0018",
+          "tcp.flags_tree": {
+            "tcp.flags.res": "0",
+            "tcp.flags.ns": "0",
+            "tcp.flags.cwr": "0",
+            "tcp.flags.ecn": "0",
+            "tcp.flags.urg": "0",
+            "tcp.flags.ack": "1",
+            "tcp.flags.push": "1",
+            "tcp.flags.reset": "0",
+            "tcp.flags.syn": "0",
+            "tcp.flags.fin": "0",
+            "tcp.flags.str": "·······AP···"
+          },
+          "tcp.window_size_value": "515",
+          "tcp.window_size": "515",
+          "tcp.window_size_scalefactor": "-1",
+          "tcp.checksum": "0xc513",
+          "tcp.checksum.status": "2",
+          "tcp.urgent_pointer": "0",
+          "Timestamps": {
+            "tcp.time_relative": "0.000000000",
+            "tcp.time_delta": "0.000000000"
+          },
+          "tcp.analysis": {
+            "tcp.analysis.bytes_in_flight": "210",
+            "tcp.analysis.push_bytes_sent": "210"
+          },
+          "tcp.payload": "16:03:03:00:cd:01:00:00:c9:03:03:61:d7:7a:5a:ed:22:84:2d:07:87:b7:b0:36:31:ca:f6:f8:b7:b0:99:bf:95:19:a5:ff:b4:b0:63:54:47:0e:2b:00:00:26:c0:2c:c0:2b:c0:30:c0:2f:c0:24:c0:23:c0:28:c0:27:c0:0a:c0:09:c0:14:c0:13:00:9d:00:9c:00:3d:00:3c:00:35:00:2f:00:0a:01:00:00:7a:00:00:00:1e:00:1c:00:00:19:6e:65:78:75:73:2e:6f:66:66:69:63:65:61:70:70:73:2e:6c:69:76:65:2e:63:6f:6d:00:05:00:05:01:00:00:00:00:00:0a:00:08:00:06:00:1d:00:17:00:18:00:0b:00:02:01:00:00:0d:00:1a:00:18:08:04:08:05:08:06:04:01:05:01:02:01:04:03:05:03:02:03:02:02:06:01:06:03:00:23:00:00:00:10:00:0e:00:0c:02:68:32:08:68:74:74:70:2f:31:2e:31:00:17:00:00:ff:01:00:01:00"
+        },
+        "tls": {
+          "tls.record": {
+            "tls.record.content_type": "22",
+            "tls.record.version": "0x0303",
+            "tls.record.length": "205",
+            "tls.handshake": {
+              "tls.handshake.type": "1",
+              "tls.handshake.length": "201",
+              "tls.handshake.version": "0x0303",
+              "tls.handshake.random": "61:d7:7a:5a:ed:22:84:2d:07:87:b7:b0:36:31:ca:f6:f8:b7:b0:99:bf:95:19:a5:ff:b4:b0:63:54:47:0e:2b",
+              "tls.handshake.random_tree": {
+                "tls.handshake.random_time": "Jan  6, 2022 18:25:14.000000000 Eastern Standard Time",
+                "tls.handshake.random_bytes": "ed:22:84:2d:07:87:b7:b0:36:31:ca:f6:f8:b7:b0:99:bf:95:19:a5:ff:b4:b0:63:54:47:0e:2b"
+              },
+              "tls.handshake.session_id_length": "0",
+              "tls.handshake.cipher_suites_length": "38",
+              "tls.handshake.ciphersuites": {
+                "tls.handshake.ciphersuite": "0xc02c",
+                "tls.handshake.ciphersuite": "0xc02b",
+                "tls.handshake.ciphersuite": "0xc030",
+                "tls.handshake.ciphersuite": "0xc02f",
+                "tls.handshake.ciphersuite": "0xc024",
+                "tls.handshake.ciphersuite": "0xc023",
+                "tls.handshake.ciphersuite": "0xc028",
+                "tls.handshake.ciphersuite": "0xc027",
+                "tls.handshake.ciphersuite": "0xc00a",
+                "tls.handshake.ciphersuite": "0xc009",
+                "tls.handshake.ciphersuite": "0xc014",
+                "tls.handshake.ciphersuite": "0xc013",
+                "tls.handshake.ciphersuite": "0x009d",
+                "tls.handshake.ciphersuite": "0x009c",
+                "tls.handshake.ciphersuite": "0x003d",
+                "tls.handshake.ciphersuite": "0x003c",
+                "tls.handshake.ciphersuite": "0x0035",
+                "tls.handshake.ciphersuite": "0x002f",
+                "tls.handshake.ciphersuite": "0x000a"
+              },
+              "tls.handshake.comp_methods_length": "1",
+              "tls.handshake.comp_methods": {
+                "tls.handshake.comp_method": "0"
+              },
+              "tls.handshake.extensions_length": "122",
+              "Extension: server_name (len=30)": {
+                "tls.handshake.extension.type": "0",
+                "tls.handshake.extension.len": "30",
+                "Server Name Indication extension": {
+                  "tls.handshake.extensions_server_name_list_len": "28",
+                  "tls.handshake.extensions_server_name_type": "0",
+                  "tls.handshake.extensions_server_name_len": "25",
+                  "tls.handshake.extensions_server_name": "nexus.officeapps.live.com"
+                }
+              },
+              "Extension: status_request (len=5)": {
+                "tls.handshake.extension.type": "5",
+                "tls.handshake.extension.len": "5",
+                "tls.handshake.extensions_status_request_type": "1",
+                "tls.handshake.extensions_status_request_responder_ids_len": "0",
+                "tls.handshake.extensions_status_request_exts_len": "0"
+              },
+              "Extension: supported_groups (len=8)": {
+                "tls.handshake.extension.type": "10",
+                "tls.handshake.extension.len": "8",
+                "tls.handshake.extensions_supported_groups_length": "6",
+                "tls.handshake.extensions_supported_groups": {
+                  "tls.handshake.extensions_supported_group": "0x001d",
+                  "tls.handshake.extensions_supported_group": "0x0017",
+                  "tls.handshake.extensions_supported_group": "0x0018"
+                }
+              },
+              "Extension: ec_point_formats (len=2)": {
+                "tls.handshake.extension.type": "11",
+                "tls.handshake.extension.len": "2",
+                "tls.handshake.extensions_ec_point_formats_length": "1",
+                "tls.handshake.extensions_ec_point_formats": {
+                  "tls.handshake.extensions_ec_point_format": "0"
+                }
+              },
+              "Extension: signature_algorithms (len=26)": {
+                "tls.handshake.extension.type": "13",
+                "tls.handshake.extension.len": "26",
+                "tls.handshake.sig_hash_alg_len": "24",
+                "tls.handshake.sig_hash_algs": {
+                  "tls.handshake.sig_hash_alg": "0x0804",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "8",
+                    "tls.handshake.sig_hash_sig": "4"
+                  },
+                  "tls.handshake.sig_hash_alg": "0x0805",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "8",
+                    "tls.handshake.sig_hash_sig": "5"
+                  },
+                  "tls.handshake.sig_hash_alg": "0x0806",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "8",
+                    "tls.handshake.sig_hash_sig": "6"
+                  },
+                  "tls.handshake.sig_hash_alg": "0x0401",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "4",
+                    "tls.handshake.sig_hash_sig": "1"
+                  },
+                  "tls.handshake.sig_hash_alg": "0x0501",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "5",
+                    "tls.handshake.sig_hash_sig": "1"
+                  },
+                  "tls.handshake.sig_hash_alg": "0x0201",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "2",
+                    "tls.handshake.sig_hash_sig": "1"
+                  },
+                  "tls.handshake.sig_hash_alg": "0x0403",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "4",
+                    "tls.handshake.sig_hash_sig": "3"
+                  },
+                  "tls.handshake.sig_hash_alg": "0x0503",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "5",
+                    "tls.handshake.sig_hash_sig": "3"
+                  },
+                  "tls.handshake.sig_hash_alg": "0x0203",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "2",
+                    "tls.handshake.sig_hash_sig": "3"
+                  },
+                  "tls.handshake.sig_hash_alg": "0x0202",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "2",
+                    "tls.handshake.sig_hash_sig": "2"
+                  },
+                  "tls.handshake.sig_hash_alg": "0x0601",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "6",
+                    "tls.handshake.sig_hash_sig": "1"
+                  },
+                  "tls.handshake.sig_hash_alg": "0x0603",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "6",
+                    "tls.handshake.sig_hash_sig": "3"
+                  }
+                }
+              },
+              "Extension: session_ticket (len=0)": {
+                "tls.handshake.extension.type": "35",
+                "tls.handshake.extension.len": "0",
+                "tls.handshake.extension.data": ""
+              },
+              "Extension: application_layer_protocol_negotiation (len=14)": {
+                "tls.handshake.extension.type": "16",
+                "tls.handshake.extension.len": "14",
+                "tls.handshake.extensions_alpn_len": "12",
+                "tls.handshake.extensions_alpn_list": {
+                  "tls.handshake.extensions_alpn_str_len": "2",
+                  "tls.handshake.extensions_alpn_str": "h2",
+                  "tls.handshake.extensions_alpn_str_len": "8",
+                  "tls.handshake.extensions_alpn_str": "http/1.1"
+                }
+              },
+              "Extension: extended_master_secret (len=0)": {
+                "tls.handshake.extension.type": "23",
+                "tls.handshake.extension.len": "0"
+              },
+              "Extension: renegotiation_info (len=1)": {
+                "tls.handshake.extension.type": "65281",
+                "tls.handshake.extension.len": "1",
+                "Renegotiation Info extension": {
+                  "tls.handshake.extensions_reneg_info_len": "0"
+                }
+              },
+              "tls.handshake.ja3_full": "771,49196-49195-49200-49199-49188-49187-49192-49191-49162-49161-49172-49171-157-156-61-60-53-47-10,0-5-10-11-13-35-16-23-65281,29-23-24,0",
+              "tls.handshake.ja3": "28a2c9bd18a11de089ef85a160da29e4"
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2022-01-06",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.encap_type": "1",
+          "frame.time": "Jan  6, 2022 18:27:02.414986000 Eastern Standard Time",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1641511622.414986000",
+          "frame.time_delta": "118.993420000",
+          "frame.time_delta_displayed": "118.993420000",
+          "frame.time_relative": "453.983108000",
+          "frame.number": "14",
+          "frame.len": "235",
+          "frame.cap_len": "235",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:ip:tcp:tls",
+          "frame.coloring_rule.name": "TCP",
+          "frame.coloring_rule.string": "tcp"
+        },
+        "eth": {
+          "eth.dst": "20:e5:2a:b6:93:f1",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "Netgear_b6:93:f1",
+            "eth.dst.oui": "2155818",
+            "eth.dst.oui_resolved": "Netgear",
+            "eth.addr": "20:e5:2a:b6:93:f1",
+            "eth.addr_resolved": "Netgear_b6:93:f1",
+            "eth.addr.oui": "2155818",
+            "eth.addr.oui_resolved": "Netgear",
+            "eth.dst.lg": "0",
+            "eth.lg": "0",
+            "eth.dst.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.src": "00:08:02:1c:47:ae",
+          "eth.src_tree": {
+            "eth.src_resolved": "HewlettP_1c:47:ae",
+            "eth.src.oui": "2050",
+            "eth.src.oui_resolved": "Hewlett Packard",
+            "eth.addr": "00:08:02:1c:47:ae",
+            "eth.addr_resolved": "HewlettP_1c:47:ae",
+            "eth.addr.oui": "2050",
+            "eth.addr.oui_resolved": "Hewlett Packard",
+            "eth.src.lg": "0",
+            "eth.lg": "0",
+            "eth.src.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x0800"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "221",
+          "ip.id": "0x8aba",
+          "ip.flags": "0x40",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "1",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "128",
+          "ip.proto": "6",
+          "ip.checksum": "0x9043",
+          "ip.checksum.status": "2",
+          "ip.src": "10.1.6.101",
+          "ip.addr": "10.1.6.101",
+          "ip.src_host": "10.1.6.101",
+          "ip.host": "10.1.6.101",
+          "ip.dst": "94.140.112.43",
+          "ip.addr": "94.140.112.43",
+          "ip.dst_host": "94.140.112.43",
+          "ip.host": "94.140.112.43"
+        },
+        "tcp": {
+          "tcp.srcport": "55829",
+          "tcp.dstport": "443",
+          "tcp.port": "55829",
+          "tcp.port": "443",
+          "tcp.stream": "13",
+          "tcp.completeness": "8",
+          "tcp.len": "181",
+          "tcp.seq": "1",
+          "tcp.seq_raw": "3503836135",
+          "tcp.nxtseq": "182",
+          "tcp.ack": "1",
+          "tcp.ack_raw": "167624069",
+          "tcp.hdr_len": "20",
+          "tcp.flags": "0x0018",
+          "tcp.flags_tree": {
+            "tcp.flags.res": "0",
+            "tcp.flags.ns": "0",
+            "tcp.flags.cwr": "0",
+            "tcp.flags.ecn": "0",
+            "tcp.flags.urg": "0",
+            "tcp.flags.ack": "1",
+            "tcp.flags.push": "1",
+            "tcp.flags.reset": "0",
+            "tcp.flags.syn": "0",
+            "tcp.flags.fin": "0",
+            "tcp.flags.str": "·······AP···"
+          },
+          "tcp.window_size_value": "515",
+          "tcp.window_size": "515",
+          "tcp.window_size_scalefactor": "-1",
+          "tcp.checksum": "0x4a42",
+          "tcp.checksum.status": "2",
+          "tcp.urgent_pointer": "0",
+          "Timestamps": {
+            "tcp.time_relative": "0.000000000",
+            "tcp.time_delta": "0.000000000"
+          },
+          "tcp.analysis": {
+            "tcp.analysis.bytes_in_flight": "181",
+            "tcp.analysis.push_bytes_sent": "181"
+          },
+          "tcp.payload": "16:03:03:00:b0:01:00:00:ac:03:03:61:d7:7a:d2:36:33:62:79:02:43:b4:78:11:92:69:66:29:3b:ad:0f:c0:8a:d1:c6:77:54:37:92:29:82:78:08:00:00:26:c0:2c:c0:2b:c0:30:c0:2f:c0:24:c0:23:c0:28:c0:27:c0:0a:c0:09:c0:14:c0:13:00:9d:00:9c:00:3d:00:3c:00:35:00:2f:00:0a:01:00:00:5d:00:00:00:13:00:11:00:00:0e:6c:61:6e:64:6f:66:72:61:79:7a:2e:63:6f:6d:00:05:00:05:01:00:00:00:00:00:0a:00:08:00:06:00:1d:00:17:00:18:00:0b:00:02:01:00:00:0d:00:1a:00:18:08:04:08:05:08:06:04:01:05:01:02:01:04:03:05:03:02:03:02:02:06:01:06:03:00:23:00:00:00:17:00:00:ff:01:00:01:00"
+        },
+        "tls": {
+          "tls.record": {
+            "tls.record.content_type": "22",
+            "tls.record.version": "0x0303",
+            "tls.record.length": "176",
+            "tls.handshake": {
+              "tls.handshake.type": "1",
+              "tls.handshake.length": "172",
+              "tls.handshake.version": "0x0303",
+              "tls.handshake.random": "61:d7:7a:d2:36:33:62:79:02:43:b4:78:11:92:69:66:29:3b:ad:0f:c0:8a:d1:c6:77:54:37:92:29:82:78:08",
+              "tls.handshake.random_tree": {
+                "tls.handshake.random_time": "Jan  6, 2022 18:27:14.000000000 Eastern Standard Time",
+                "tls.handshake.random_bytes": "36:33:62:79:02:43:b4:78:11:92:69:66:29:3b:ad:0f:c0:8a:d1:c6:77:54:37:92:29:82:78:08"
+              },
+              "tls.handshake.session_id_length": "0",
+              "tls.handshake.cipher_suites_length": "38",
+              "tls.handshake.ciphersuites": {
+                "tls.handshake.ciphersuite": "0xc02c",
+                "tls.handshake.ciphersuite": "0xc02b",
+                "tls.handshake.ciphersuite": "0xc030",
+                "tls.handshake.ciphersuite": "0xc02f",
+                "tls.handshake.ciphersuite": "0xc024",
+                "tls.handshake.ciphersuite": "0xc023",
+                "tls.handshake.ciphersuite": "0xc028",
+                "tls.handshake.ciphersuite": "0xc027",
+                "tls.handshake.ciphersuite": "0xc00a",
+                "tls.handshake.ciphersuite": "0xc009",
+                "tls.handshake.ciphersuite": "0xc014",
+                "tls.handshake.ciphersuite": "0xc013",
+                "tls.handshake.ciphersuite": "0x009d",
+                "tls.handshake.ciphersuite": "0x009c",
+                "tls.handshake.ciphersuite": "0x003d",
+                "tls.handshake.ciphersuite": "0x003c",
+                "tls.handshake.ciphersuite": "0x0035",
+                "tls.handshake.ciphersuite": "0x002f",
+                "tls.handshake.ciphersuite": "0x000a"
+              },
+              "tls.handshake.comp_methods_length": "1",
+              "tls.handshake.comp_methods": {
+                "tls.handshake.comp_method": "0"
+              },
+              "tls.handshake.extensions_length": "93",
+              "Extension: server_name (len=19)": {
+                "tls.handshake.extension.type": "0",
+                "tls.handshake.extension.len": "19",
+                "Server Name Indication extension": {
+                  "tls.handshake.extensions_server_name_list_len": "17",
+                  "tls.handshake.extensions_server_name_type": "0",
+                  "tls.handshake.extensions_server_name_len": "14",
+                  "tls.handshake.extensions_server_name": "landofrayz.com"
+                }
+              },
+              "Extension: status_request (len=5)": {
+                "tls.handshake.extension.type": "5",
+                "tls.handshake.extension.len": "5",
+                "tls.handshake.extensions_status_request_type": "1",
+                "tls.handshake.extensions_status_request_responder_ids_len": "0",
+                "tls.handshake.extensions_status_request_exts_len": "0"
+              },
+              "Extension: supported_groups (len=8)": {
+                "tls.handshake.extension.type": "10",
+                "tls.handshake.extension.len": "8",
+                "tls.handshake.extensions_supported_groups_length": "6",
+                "tls.handshake.extensions_supported_groups": {
+                  "tls.handshake.extensions_supported_group": "0x001d",
+                  "tls.handshake.extensions_supported_group": "0x0017",
+                  "tls.handshake.extensions_supported_group": "0x0018"
+                }
+              },
+              "Extension: ec_point_formats (len=2)": {
+                "tls.handshake.extension.type": "11",
+                "tls.handshake.extension.len": "2",
+                "tls.handshake.extensions_ec_point_formats_length": "1",
+                "tls.handshake.extensions_ec_point_formats": {
+                  "tls.handshake.extensions_ec_point_format": "0"
+                }
+              },
+              "Extension: signature_algorithms (len=26)": {
+                "tls.handshake.extension.type": "13",
+                "tls.handshake.extension.len": "26",
+                "tls.handshake.sig_hash_alg_len": "24",
+                "tls.handshake.sig_hash_algs": {
+                  "tls.handshake.sig_hash_alg": "0x0804",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "8",
+                    "tls.handshake.sig_hash_sig": "4"
+                  },
+                  "tls.handshake.sig_hash_alg": "0x0805",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "8",
+                    "tls.handshake.sig_hash_sig": "5"
+                  },
+                  "tls.handshake.sig_hash_alg": "0x0806",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "8",
+                    "tls.handshake.sig_hash_sig": "6"
+                  },
+                  "tls.handshake.sig_hash_alg": "0x0401",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "4",
+                    "tls.handshake.sig_hash_sig": "1"
+                  },
+                  "tls.handshake.sig_hash_alg": "0x0501",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "5",
+                    "tls.handshake.sig_hash_sig": "1"
+                  },
+                  "tls.handshake.sig_hash_alg": "0x0201",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "2",
+                    "tls.handshake.sig_hash_sig": "1"
+                  },
+                  "tls.handshake.sig_hash_alg": "0x0403",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "4",
+                    "tls.handshake.sig_hash_sig": "3"
+                  },
+                  "tls.handshake.sig_hash_alg": "0x0503",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "5",
+                    "tls.handshake.sig_hash_sig": "3"
+                  },
+                  "tls.handshake.sig_hash_alg": "0x0203",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "2",
+                    "tls.handshake.sig_hash_sig": "3"
+                  },
+                  "tls.handshake.sig_hash_alg": "0x0202",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "2",
+                    "tls.handshake.sig_hash_sig": "2"
+                  },
+                  "tls.handshake.sig_hash_alg": "0x0601",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "6",
+                    "tls.handshake.sig_hash_sig": "1"
+                  },
+                  "tls.handshake.sig_hash_alg": "0x0603",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "6",
+                    "tls.handshake.sig_hash_sig": "3"
+                  }
+                }
+              },
+              "Extension: session_ticket (len=0)": {
+                "tls.handshake.extension.type": "35",
+                "tls.handshake.extension.len": "0",
+                "tls.handshake.extension.data": ""
+              },
+              "Extension: extended_master_secret (len=0)": {
+                "tls.handshake.extension.type": "23",
+                "tls.handshake.extension.len": "0"
+              },
+              "Extension: renegotiation_info (len=1)": {
+                "tls.handshake.extension.type": "65281",
+                "tls.handshake.extension.len": "1",
+                "Renegotiation Info extension": {
+                  "tls.handshake.extensions_reneg_info_len": "0"
+                }
+              },
+              "tls.handshake.ja3_full": "771,49196-49195-49200-49199-49188-49187-49192-49191-49162-49161-49172-49171-157-156-61-60-53-47-10,0-5-10-11-13-35-23-65281,29-23-24,0",
+              "tls.handshake.ja3": "a0e9f5d64349fb13191bc781f81f42e1"
+            }
+          }
+        }
+      }
+    }
+  }
+]
