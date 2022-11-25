@@ -1,0 +1,930 @@
+field,score
+tls_tls.record_tls.handshake_Extension: server_name (len=15)_Server Name Indication extension_tls.handshake.extensions_server_name_type_1,928
+eth_eth.src_tree_eth.src.oui_0,927
+tls_tls.record_tls.handshake_Extension: session_ticket (len=0)_tls.handshake.extension.type_4,926
+tcp_tcp.checksum.status_0,925
+ip_ip.proto_4,924
+ip_ip.dsfield_4,923
+tcp_tcp.flags_tree_tcp.flags.ack_4,922
+tcp_tcp.seq_4,921
+tls_tls.record_tls.handshake_Extension: server_name (len=19)_Server Name Indication extension_tls.handshake.extensions_server_name_list_len_1,920
+eth_eth.dst_tree_eth.addr.oui_0,919
+tls_tls.record_tls.handshake_tls.handshake.session_id_4,918
+tls_tls.record_tls.handshake_tls.handshake.comp_methods_tls.handshake.comp_method_4,917
+tls_tls.record_tls.handshake_Extension: supported_groups (len=6)_tls.handshake.extension.type_4,916
+tls_tls.record_tls.handshake_Extension: ec_point_formats (len=2)_tls.handshake.extensions_ec_point_formats_tls.handshake.extensions_ec_point_format_1,915
+tcp_tcp.nxtseq_2,914
+tls_tls.record_tls.handshake_tls.handshake.ja3_4,913
+eth_eth.dst_tree_eth.addr.oui_resolved_4,912
+tcp_tcp.flags_tree_tcp.flags.str_2,911
+eth_eth.dst_tree_eth.ig_4,910
+eth_eth.src_tree_eth.src.ig_0,909
+tls_tls.record_tls.record.content_type_2,908
+tls_tls.record_tls.handshake_Extension: server_name (len=15)_Server Name Indication extension_tls.handshake.extensions_server_name_3,907
+ip_ip.hdr_len_3,906
+tls_tls.record_tls.handshake_Extension: server_name (len=19)_Server Name Indication extension_tls.handshake.extensions_server_name_1,905
+tls_tls.record_tls.handshake_Extension: signature_algorithms (len=20)_tls.handshake.sig_hash_algs_tls.handshake.sig_hash_alg_1,904
+tcp_tcp.flags_tree_tcp.flags.res_0,903
+frame_frame.time_relative_3,902
+tcp_tcp.hdr_len_3,901
+tcp_tcp.completeness_2,900
+tls_tls.record_tls.handshake_Extension: server_name (len=17)_Server Name Indication extension_tls.handshake.extensions_server_name_type_1,899
+tls_tls.record_tls.handshake_Extension: application_layer_protocol_negotiation (len=14)_tls.handshake.extension.type_2,898
+tcp_tcp.flags_tree_tcp.flags.urg_4,897
+tls_tls.record_tls.handshake_Extension: server_name (len=24)_tls.handshake.extension.len_4,896
+tls_tls.record_tls.handshake_Extension: server_name (len=21)_Server Name Indication extension_tls.handshake.extensions_server_name_list_len_1,895
+tcp_tcp.flags_tree_tcp.flags.push_1,894
+eth_eth.src_tree_eth.src.lg_1,893
+tls_tls.record_tls.handshake_Extension: server_name (len=30)_tls.handshake.extension.type_2,892
+ip_ip.frag_offset_0,891
+tls_tls.record_tls.handshake_Extension: signature_algorithms (len=26)_tls.handshake.sig_hash_alg_len_4,890
+tls_tls.record_tls.handshake_Extension: status_request (len=5)_tls.handshake.extensions_status_request_exts_len_4,889
+ip_ip.ttl_1,888
+tls_tls.record_tls.handshake_Extension: server_name (len=26)_tls.handshake.extension.len_1,887
+tls_tls.record_tls.handshake_Extension: server_name (len=20)_tls.handshake.extension.len_3,886
+tcp_tcp.flags_3,885
+tls_tls.record_tls.handshake_Extension: signature_algorithms (len=26)_tls.handshake.extension.len_4,884
+eth_eth.src_tree_eth.addr.oui_4,883
+tcp_tcp.window_size_4,882
+tcp_tcp.checksum.status_1,881
+tcp_tcp.len_0,880
+ip_ip.version_1,879
+tls_tls.record_tls.handshake_Extension: supported_versions (len=5)_tls.handshake.extensions.supported_version_1,878
+tls_tls.record_tls.handshake_Extension: server_name (len=21)_Server Name Indication extension_tls.handshake.extensions_server_name_type_2,877
+ip_ip.flags_tree_ip.flags.df_4,876
+tls_tls.record_tls.handshake_Extension: signature_algorithms (len=20)_tls.handshake.extension.type_1,875
+tls_tls.record_tls.handshake_Extension: ec_point_formats (len=2)_tls.handshake.extension.len_1,874
+ip_ip.flags_tree_ip.flags.rb_0,873
+eth_eth.dst_tree_eth.lg_4,872
+tls_tls.record_tls.handshake_Extension: renegotiation_info (len=1)_Renegotiation Info extension_tls.handshake.extensions_reneg_info_len_4,871
+ip_ip.checksum.status_4,870
+http_http.request_number_0,869
+tls_tls.record_tls.handshake_Extension: supported_groups (len=8)_tls.handshake.extension.type_4,868
+tls_tls.record_tls.handshake_Extension: server_name (len=21)_Server Name Indication extension_tls.handshake.extensions_server_name_len_3,867
+tls_tls.record_tls.handshake_Extension: ec_point_formats (len=2)_tls.handshake.extensions_ec_point_formats_length_4,866
+ip_ip.id_0,865
+tls_tls.record_tls.handshake_Extension: ec_point_formats (len=2)_tls.handshake.extension.type_1,864
+tls_tls.record_tls.handshake_Extension: supported_groups (len=8)_tls.handshake.extension.len_4,863
+tcp_tcp.flags_tree_tcp.flags.ece_1,862
+tcp_tcp.flags_0,861
+eth_eth.dst_tree_eth.dst.lg_4,860
+tls_tls.record_tls.handshake_Extension: server_name (len=16)_Server Name Indication extension_tls.handshake.extensions_server_name_len_1,859
+tls_tls.record_tls.handshake_Extension: server_name (len=19)_Server Name Indication extension_tls.handshake.extensions_server_name_list_len_3,858
+tls_tls.record_tls.handshake_Extension: server_name (len=19)_Server Name Indication extension_tls.handshake.extensions_server_name_len_2,857
+tcp_tcp.window_size_value_2,856
+tcp_tcp.ack_raw_4,855
+frame_frame.cap_len_4,854
+frame_frame.protocols_1,853
+tls_tls.record_tls.handshake_Extension: server_name (len=25)_Server Name Indication extension_tls.handshake.extensions_server_name_len_1,852
+tls_tls.record_tls.handshake_Extension: server_name (len=20)_Server Name Indication extension_tls.handshake.extensions_server_name_len_3,851
+tls_tls.record_tls.handshake_Extension: status_request (len=5)_tls.handshake.extension.len_3,850
+tls_tls.record_tls.handshake_Extension: signature_algorithms (len=26)_tls.handshake.sig_hash_algs_tls.handshake.sig_hash_alg_tree_tls.handshake.sig_hash_hash_1,849
+tcp_tcp.flags_tree_tcp.flags.urg_0,848
+ip_ip.flags_3,847
+eth_eth.src_tree_eth.ig_3,846
+tls_tls.record_tls.handshake_Extension: signature_algorithms (len=26)_tls.handshake.sig_hash_algs_tls.handshake.sig_hash_alg_3,845
+ip_ip.len_0,844
+tls_tls.record_tls.handshake_Extension: server_name (len=25)_tls.handshake.extension.len_1,843
+tcp_tcp.seq_0,842
+tls_tls.record_tls.handshake_Extension: server_name (len=16)_tls.handshake.extension.len_3,841
+tls_tls.record_tls.handshake_Extension: session_ticket (len=0)_tls.handshake.extension.len_3,840
+tcp_tcp.ack_0,839
+ip_ip.dsfield_tree_ip.dsfield.ecn_1,838
+eth_eth.src_tree_eth.src.oui_3,837
+tcp_tcp.ack_1,836
+eth_eth.src_tree_eth.ig_1,835
+tcp_tcp.nxtseq_3,834
+tls_tls.record_tls.handshake_Extension: signature_algorithms (len=20)_tls.handshake.sig_hash_algs_tls.handshake.sig_hash_alg_tree_tls.handshake.sig_hash_hash_1,833
+tls_tls.record_tls.handshake_Extension: psk_key_exchange_modes (len=2)_tls.handshake.extension.type_3,832
+tls_tls.record_tls.handshake_Extension: server_name (len=16)_tls.handshake.extension.type_2,831
+tls_tls.record_tls.handshake_Extension: extended_master_secret (len=0)_tls.handshake.extension.type_3,830
+eth_eth.dst_tree_eth.addr_3,829
+eth_eth.dst_tree_eth.dst.oui_resolved_0,828
+tls_tls.record_tls.handshake_tls.handshake.length_3,827
+frame_frame.number_3,826
+tcp_tcp.completeness_3,825
+ip_ip.dst_3,824
+frame_frame.offset_shift_1,823
+ip_ip.hdr_len_2,822
+ip_ip.flags_0,821
+tcp_tcp.urgent_pointer_3,820
+frame_frame.offset_shift_2,819
+tls_tls.record_tls.handshake_Extension: signature_algorithms (len=26)_tls.handshake.sig_hash_algs_tls.handshake.sig_hash_alg_2,818
+tls_tls.record_tls.handshake_Extension: server_name (len=23)_Server Name Indication extension_tls.handshake.extensions_server_name_len_3,817
+ip_ip.src_0,816
+tls_tls.record_tls.handshake_Extension: server_name (len=15)_tls.handshake.extension.type_2,815
+tls_tls.record_tls.handshake_Extension: session_ticket (len=0)_tls.handshake.extension.len_2,814
+tls_tls.record_tls.handshake_Extension: server_name (len=19)_Server Name Indication extension_tls.handshake.extensions_server_name_type_1,813
+tls_tls.record_tls.handshake_Extension: signature_algorithms (len=20)_tls.handshake.sig_hash_algs_tls.handshake.sig_hash_alg_2,812
+frame_frame.time_delta_2,811
+tls_tls.record_tls.handshake_Extension: supported_versions (len=5)_tls.handshake.extensions.supported_version_2,810
+tls_tls.record_tls.handshake_Extension: status_request (len=5)_tls.handshake.extension.len_2,809
+ip_ip.flags_tree_ip.flags.mf_2,808
+tcp_tcp.checksum_0,807
+ip_ip.flags_tree_ip.flags.mf_3,806
+tls_tls.record_tls.handshake_Extension: server_name (len=20)_Server Name Indication extension_tls.handshake.extensions_server_name_3,805
+tls_tls.record_tls.handshake_Extension: key_share (len=38)_Key Share extension_tls.handshake.extensions_key_share_client_length_2,804
+tls_tls.record_tls.handshake_Extension: server_name (len=15)_tls.handshake.extension.len_3,803
+eth_eth.src_tree_eth.addr.oui_resolved_1,802
+tls_tls.record_tls.handshake_tls.handshake.session_id_length_1,801
+tls_tls.record_tls.handshake_Extension: server_name (len=23)_Server Name Indication extension_tls.handshake.extensions_server_name_type_3,800
+eth_eth.src_tree_eth.addr.oui_3,799
+frame_frame.time_epoch_0,798
+eth_eth.src_tree_eth.src.ig_4,797
+tls_tls.record_tls.handshake_tls.handshake.type_2,796
+tls_tls.record_tls.handshake_Extension: server_name (len=16)_tls.handshake.extension.type_1,795
+eth_eth.dst_tree_eth.dst.ig_2,794
+tls_tls.record_tls.handshake_Extension: supported_versions (len=5)_tls.handshake.extension.type_2,793
+ip_ip.hdr_len_1,792
+eth_eth.src_tree_eth.addr_resolved_1,791
+eth_eth.src_2,790
+tls_tls.record_tls.handshake_tls.handshake.version_3,789
+ip_ip.len_3,788
+tls_tls.record_tls.handshake_tls.handshake.ciphersuites_tls.handshake.ciphersuite_4,787
+frame_frame.encap_type_2,786
+tcp_tcp.dstport_1,785
+tls_tls.record_tls.handshake_tls.handshake.extensions_length_1,784
+tls_tls.record_tls.handshake_Extension: signature_algorithms (len=26)_tls.handshake.sig_hash_alg_len_3,783
+tls_tls.record_tls.handshake_Extension: status_request (len=5)_tls.handshake.extensions_status_request_exts_len_1,782
+tls_tls.record_tls.record.version_3,781
+tls_tls.record_tls.handshake_Extension: server_name (len=17)_Server Name Indication extension_tls.handshake.extensions_server_name_len_1,780
+tls_tls.record_tls.handshake_Extension: supported_groups (len=8)_tls.handshake.extension.type_3,779
+tls_tls.record_tls.handshake_Extension: status_request (len=5)_tls.handshake.extension.type_3,778
+tcp_tcp.srcport_1,777
+frame_frame.cap_len_3,776
+tcp_tcp.window_size_value_1,775
+ip_ip.flags_4,774
+tls_tls.record_tls.handshake_Extension: supported_groups (len=6)_tls.handshake.extension.len_3,773
+eth_eth.src_tree_eth.src.oui_resolved_3,772
+tls_tls.record_tls.record.length_3,771
+tls_tls.record_tls.handshake_Extension: server_name (len=15)_Server Name Indication extension_tls.handshake.extensions_server_name_len_1,770
+tls_tls.record_tls.handshake_Extension: ec_point_formats (len=2)_tls.handshake.extensions_ec_point_formats_length_3,769
+eth_eth.dst_tree_eth.dst.oui_3,768
+ip_ip.dsfield_1,767
+ip_ip.checksum.status_3,766
+tls_tls.record_tls.handshake_Extension: server_name (len=16)_Server Name Indication extension_tls.handshake.extensions_server_name_2,765
+eth_eth.dst_tree_eth.dst.lg_3,764
+tcp_tcp.stream_2,763
+ip_ip.flags_tree_ip.flags.mf_1,762
+tls_tls.record_tls.handshake_Extension: server_name (len=25)_Server Name Indication extension_tls.handshake.extensions_server_name_1,761
+tls_tls.record_tls.handshake_Extension: supported_groups (len=6)_tls.handshake.extension.type_1,760
+tls_tls.record_tls.handshake_Extension: server_name (len=19)_Server Name Indication extension_tls.handshake.extensions_server_name_3,759
+tls_tls.record_tls.handshake_Extension: server_name (len=19)_tls.handshake.extension.len_3,758
+tls_tls.record_tls.handshake_Extension: server_name (len=17)_tls.handshake.extension.type_2,757
+ip_ip.checksum_1,756
+tls_tls.record_tls.handshake_Extension: server_name (len=21)_tls.handshake.extension.type_1,755
+tls_tls.record_tls.handshake_Extension: server_name (len=17)_tls.handshake.extension.len_3,754
+tcp_tcp.checksum.status_3,753
+tls_tls.record_tls.handshake_Extension: post_handshake_auth (len=0)_tls.handshake.extension.type_4,752
+tls_tls.record_tls.handshake_Extension: supported_versions (len=5)_tls.handshake.extensions.supported_versions_len_3,751
+tcp_tcp.checksum_1,750
+tls_tls.record_tls.handshake_Extension: server_name (len=21)_Server Name Indication extension_tls.handshake.extensions_server_name_len_4,749
+eth_eth.src_tree_eth.addr_resolved_3,748
+tls_tls.record_tls.handshake_tls.handshake.version_1,747
+tls_tls.record_tls.handshake_Extension: server_name (len=21)_tls.handshake.extension.type_3,746
+tls_tls.record_tls.handshake_Extension: signature_algorithms (len=20)_tls.handshake.extension.len_3,745
+tcp_tcp.urgent_pointer_4,744
+tcp_Timestamps_tcp.time_delta_4,743
+tcp_tcp.flags_tree_tcp.flags.urg_3,742
+tls_tls.record_tls.handshake_Extension: signature_algorithms (len=16)_tls.handshake.extension.len_1,741
+ip_ip.dst_4,740
+eth_eth.src_tree_eth.addr.oui_resolved_0,739
+tcp_tcp.flags_tree_tcp.flags.ae_3,738
+tls_tls.record_tls.handshake_Extension: server_name (len=16)_Server Name Indication extension_tls.handshake.extensions_server_name_len_2,737
+tls_tls.record_tls.handshake_Extension: renegotiation_info (len=1)_tls.handshake.extension.len_2,736
+eth_eth.src_tree_eth.lg_3,735
+tls_tls.record_tls.handshake_Extension: signature_algorithms (len=26)_tls.handshake.sig_hash_algs_tls.handshake.sig_hash_alg_tree_tls.handshake.sig_hash_sig_3,734
+eth_eth.dst_tree_eth.ig_3,733
+ip_ip.checksum_0,732
+eth_eth.dst_tree_eth.lg_2,731
+tls_tls.record_tls.handshake_Extension: ec_point_formats (len=2)_tls.handshake.extensions_ec_point_formats_length_2,730
+ip_ip.proto_3,729
+ip_ip.dsfield_3,728
+tls_tls.record_tls.handshake_Extension: psk_key_exchange_modes (len=2)_tls.handshake.extension.type_4,727
+tls_tls.record_tls.handshake_Extension: server_name (len=16)_Server Name Indication extension_tls.handshake.extensions_server_name_type_3,726
+tls_tls.record_tls.handshake_tls.handshake.ja3_3,725
+tls_tls.record_tls.handshake_tls.handshake.ja3_full_1,724
+eth_eth.dst_tree_eth.dst_resolved_4,723
+tcp_tcp.flags_tree_tcp.flags.syn_1,722
+tls_tls.record_tls.handshake_Extension: status_request (len=5)_tls.handshake.extension.type_1,721
+eth_eth.src_tree_eth.addr_3,720
+ip_ip.dsfield_tree_ip.dsfield.dscp_3,719
+tls_tls.record_tls.handshake_Extension: supported_groups (len=6)_tls.handshake.extension.type_3,718
+tls_tls.record_tls.handshake_Extension: server_name (len=26)_Server Name Indication extension_tls.handshake.extensions_server_name_type_1,717
+frame_frame.ignored_2,716
+tls_tls.record_tls.handshake_Extension: signature_algorithms (len=26)_tls.handshake.extension.type_3,715
+tls_tls.record_tls.handshake_Extension: server_name (len=19)_tls.handshake.extension.type_3,714
+tls_tls.record_tls.handshake_Extension: psk_key_exchange_modes (len=2)_tls.handshake.extension.len_2,713
+frame_frame.time_relative_2,712
+tls_tls.record_tls.handshake_Extension: server_name (len=17)_tls.handshake.extension.type_1,711
+eth_eth.src_tree_eth.addr.oui_2,710
+tcp_tcp.flags_tree_tcp.flags.ecn_3,709
+tls_tls.record_tls.handshake_Extension: supported_groups (len=8)_tls.handshake.extensions_supported_groups_tls.handshake.extensions_supported_group_1,708
+tls_tls.record_tls.handshake_Extension: psk_key_exchange_modes (len=2)_tls.extension.psk_ke_modes_length_4,707
+ip_ip.frag_offset_2,706
+eth_eth.dst_tree_eth.addr.oui_3,705
+eth_eth.src_tree_eth.addr.oui_resolved_4,704
+tls_tls.record_tls.handshake_Extension: server_name (len=15)_Server Name Indication extension_tls.handshake.extensions_server_name_len_4,703
+tls_tls.record_tls.handshake_Extension: server_name (len=21)_tls.handshake.extension.len_2,702
+tls_tls.record_tls.handshake_tls.handshake.version_2,701
+ip_ip.flags_tree_ip.flags.df_3,700
+tls_tls.record_tls.handshake_Extension: server_name (len=20)_Server Name Indication extension_tls.handshake.extensions_server_name_2,699
+tcp_tcp.checksum_2,698
+tls_tls.record_tls.handshake_Extension: signature_algorithms (len=26)_tls.handshake.extension.len_1,697
+tls_tls.record_tls.handshake_tls.handshake.ja3_full_2,696
+tls_tls.record_tls.handshake_Extension: renegotiation_info (len=1)_Renegotiation Info extension_tls.handshake.extensions_reneg_info_len_3,695
+tls_tls.record_tls.handshake_Extension: signature_algorithms (len=20)_tls.handshake.extension.len_1,694
+tcp_tcp.flags_tree_tcp.flags.fin_0,693
+ip_ip.frag_offset_3,692
+tcp_tcp.flags_tree_tcp.flags.ns_4,691
+tcp_tcp.analysis_tcp.analysis.push_bytes_sent_2,690
+tls_tls.record_tls.record.length_4,689
+tcp_tcp.checksum.status_2,688
+tls_tls.record_tls.handshake_Extension: server_name (len=23)_tls.handshake.extension.len_3,687
+tls_tls.record_tls.handshake_Extension: server_name (len=19)_Server Name Indication extension_tls.handshake.extensions_server_name_2,686
+tls_tls.record_tls.handshake_Extension: ec_point_formats (len=2)_tls.handshake.extensions_ec_point_formats_tls.handshake.extensions_ec_point_format_2,685
+tls_tls.record_tls.handshake_Extension: server_name (len=23)_tls.handshake.extension.type_2,684
+ip_ip.frag_offset_4,683
+eth_eth.src_tree_eth.src.ig_2,682
+tls_tls.record_tls.handshake_Extension: post_handshake_auth (len=0)_tls.handshake.extension.len_2,681
+tcp_tcp.flags_tree_tcp.flags.fin_2,680
+tcp_tcp.stream_3,679
+tls_tls.record_tls.handshake_Extension: psk_key_exchange_modes (len=2)_tls.extension.psk_ke_modes_length_1,678
+tls_tls.record_tls.handshake_Extension: server_name (len=15)_tls.handshake.extension.len_2,677
+tls_tls.record_tls.handshake_Extension: server_name (len=16)_tls.handshake.extension.len_1,676
+tls_tls.record_tls.handshake_Extension: signature_algorithms (len=26)_tls.handshake.extension.len_3,675
+ip_ip.id_3,674
+tcp_tcp.window_size_3,673
+"tls_tls.record_tls.handshake_Extension: key_share (len=38)_Key Share extension_Key Share Entry: Group: x25519, Key Exchange length: 32_tls.handshake.extensions_key_share_group_2",672
+tls_tls.record_tls.handshake_Extension: supported_groups (len=6)_tls.handshake.extensions_supported_groups_tls.handshake.extensions_supported_group_1,671
+tls_tls.record_tls.handshake_Extension: server_name (len=21)_tls.handshake.extension.type_2,670
+frame_frame.len_1,669
+eth_eth.dst_1,668
+tls_tls.record_tls.handshake_tls.handshake.ja3_1,667
+eth_eth.src_tree_eth.src_resolved_1,666
+tls_tls.record_tls.handshake_Extension: psk_key_exchange_modes (len=2)_tls.extension.psk_ke_modes_length_2,665
+tcp_tcp.flags_tree_tcp.flags.ns_2,664
+tcp_tcp.flags_tree_tcp.flags.res_1,663
+tls_tls.record_tls.handshake_Extension: ec_point_formats (len=2)_tls.handshake.extension.type_2,662
+tls_tls.record_tls.handshake_Extension: server_name (len=15)_tls.handshake.extension.type_4,661
+tcp_tcp.srcport_3,660
+tcp_tcp.ack_3,659
+ip_ip.version_2,658
+tcp_tcp.len_2,657
+frame_frame.marked_3,656
+tls_tls.record_tls.handshake_tls.handshake.comp_methods_tls.handshake.comp_method_1,655
+tcp_tcp.seq_raw_4,654
+tcp_tcp.flags_1,653
+tls_tls.record_tls.handshake_Extension: supported_groups (len=6)_tls.handshake.extensions_supported_groups_tls.handshake.extensions_supported_group_4,652
+tls_tls.record_tls.handshake_Extension: supported_groups (len=6)_tls.handshake.extensions_supported_groups_tls.handshake.extensions_supported_group_3,651
+tls_tls.record_tls.handshake_Extension: server_name (len=19)_Server Name Indication extension_tls.handshake.extensions_server_name_list_len_2,650
+tls_tls.record_tls.handshake_Extension: server_name (len=21)_Server Name Indication extension_tls.handshake.extensions_server_name_list_len_2,649
+tls_tls.record_tls.handshake_Extension: status_request (len=5)_tls.handshake.extensions_status_request_exts_len_3,648
+eth_eth.dst_tree_eth.addr.oui_2,647
+tls_tls.record_tls.handshake_Extension: signature_algorithms (len=20)_tls.handshake.sig_hash_alg_len_2,646
+tls_tls.record_tls.handshake_Extension: application_layer_protocol_negotiation (len=14)_tls.handshake.extensions_alpn_list_tls.handshake.extensions_alpn_str_2,645
+tls_tls.record_tls.handshake_Extension: server_name (len=20)_Server Name Indication extension_tls.handshake.extensions_server_name_list_len_2,644
+"tls_tls.record_tls.handshake_Extension: key_share (len=38)_Key Share extension_Key Share Entry: Group: x25519, Key Exchange length: 32_tls.handshake.extensions_key_share_key_exchange_3",643
+tls_tls.record_tls.handshake_Extension: session_ticket (len=0)_tls.handshake.extension.data_2,642
+tls_tls.record_tls.handshake_Extension: signature_algorithms (len=26)_tls.handshake.extension.type_1,641
+tcp_tcp.flags_4,640
+tls_tls.record_tls.handshake_Extension: ec_point_formats (len=2)_tls.handshake.extensions_ec_point_formats_tls.handshake.extensions_ec_point_format_3,639
+eth_eth.dst_tree_eth.lg_3,638
+eth_eth.dst_tree_eth.dst.oui_resolved_3,637
+frame_frame.marked_2,636
+tcp_tcp.flags_tree_tcp.flags.push_3,635
+tls_tls.record_tls.handshake_Extension: server_name (len=23)_Server Name Indication extension_tls.handshake.extensions_server_name_2,634
+frame_frame.offset_shift_0,633
+tls_tls.record_tls.handshake_Extension: server_name (len=21)_tls.handshake.extension.len_1,632
+tls_tls.record_tls.handshake_Extension: ec_point_formats (len=2)_tls.handshake.extensions_ec_point_formats_tls.handshake.extensions_ec_point_format_4,631
+tcp_tcp.seq_raw_1,630
+tls_tls.record_tls.handshake_Extension: server_name (len=21)_tls.handshake.extension.len_3,629
+tls_tls.record_tls.handshake_Extension: server_name (len=16)_Server Name Indication extension_tls.handshake.extensions_server_name_3,628
+tls_tls.record_tls.handshake_Extension: server_name (len=23)_Server Name Indication extension_tls.handshake.extensions_server_name_len_1,627
+eth_eth.dst_tree_eth.dst.oui_resolved_2,626
+frame_frame.time_epoch_1,625
+eth_eth.src_tree_eth.src.lg_4,624
+tls_tls.record_tls.handshake_Extension: session_ticket (len=0)_tls.handshake.extension.data_3,623
+ip_ip.dsfield_tree_ip.dsfield.ecn_4,622
+tls_tls.record_tls.handshake_Extension: status_request (len=5)_tls.handshake.extension.type_2,621
+tls_tls.record_tls.handshake_Extension: key_share (len=38)_tls.handshake.extension.len_4,620
+ip_ip.ttl_3,619
+ip_ip.dsfield_tree_ip.dsfield.dscp_2,618
+tls_tls.record_tls.handshake_Extension: server_name (len=30)_Server Name Indication extension_tls.handshake.extensions_server_name_list_len_2,617
+eth_eth.src_tree_eth.addr.oui_1,616
+tls_tls.record_tls.handshake_Extension: application_layer_protocol_negotiation (len=14)_tls.handshake.extensions_alpn_list_tls.handshake.extensions_alpn_str_len_2,615
+ip_ip.id_1,614
+ip_ip.checksum_4,613
+tcp_tcp.flags_tree_tcp.flags.syn_3,612
+tcp_tcp.flags_tree_tcp.flags.ecn_2,611
+tls_tls.record_tls.handshake_Extension: extended_master_secret (len=0)_tls.handshake.extension.len_4,610
+tcp_tcp.flags_tree_tcp.flags.cwr_2,609
+tcp_tcp.flags_tree_tcp.flags.ack_3,608
+tls_tls.record_tls.handshake_Extension: server_name (len=15)_Server Name Indication extension_tls.handshake.extensions_server_name_4,607
+tls_tls.record_tls.handshake_Extension: server_name (len=24)_Server Name Indication extension_tls.handshake.extensions_server_name_1,606
+tls_tls.record_tls.handshake_Extension: renegotiation_info (len=1)_tls.handshake.extension.type_1,605
+tls_tls.record_tls.handshake_Extension: psk_key_exchange_modes (len=2)_tls.handshake.extension.len_1,604
+ip_ip.ttl_0,603
+frame_frame.time_epoch_4,602
+tcp_tcp.flags_tree_tcp.flags.ack_2,601
+tls_tls.record_tls.handshake_Extension: signature_algorithms (len=20)_tls.handshake.extension.len_4,600
+tls_tls.record_tls.handshake_Extension: server_name (len=15)_Server Name Indication extension_tls.handshake.extensions_server_name_list_len_2,599
+http_GET / HTTP/1.1\r\n_http.request.uri_0,598
+tls_tls.record_tls.handshake_Extension: server_name (len=15)_Server Name Indication extension_tls.handshake.extensions_server_name_list_len_4,597
+tcp_tcp.flags_tree_tcp.flags.ecn_4,596
+tls_tls.record_tls.handshake_Extension: server_name (len=16)_tls.handshake.extension.type_3,595
+tls_tls.record_tls.handshake_tls.handshake.comp_methods_tls.handshake.comp_method_2,594
+tls_tls.record_tls.handshake_tls.handshake.ja3_2,593
+tcp_tcp.seq_2,592
+tls_tls.record_tls.handshake_Extension: server_name (len=30)_tls.handshake.extension.len_2,591
+tcp_tcp.analysis_tcp.analysis.push_bytes_sent_0,590
+tls_tls.record_tls.handshake_Extension: server_name (len=20)_tls.handshake.extension.type_4,589
+eth_eth.src_tree_eth.addr_2,588
+tcp_tcp.flags_tree_tcp.flags.ece_2,587
+eth_eth.src_tree_eth.lg_2,586
+tls_tls.record_tls.handshake_Extension: server_name (len=17)_Server Name Indication extension_tls.handshake.extensions_server_name_type_2,585
+eth_eth.dst_tree_eth.lg_1,584
+tls_tls.record_tls.handshake_Extension: server_name (len=17)_Server Name Indication extension_tls.handshake.extensions_server_name_len_3,583
+frame_frame.time_epoch_2,582
+ip_ip.flags_tree_ip.flags.rb_2,581
+tcp_tcp.checksum.status_4,580
+eth_eth.src_tree_eth.src.lg_0,579
+ip_ip.checksum_2,578
+frame_frame.ignored_1,577
+ip_ip.dsfield_2,576
+tls_tls.record_tls.handshake_Extension: server_name (len=23)_tls.handshake.extension.len_2,575
+tcp_tcp.flags_tree_tcp.flags.cwr_1,574
+tls_tls.record_tls.handshake_Extension: server_name (len=17)_Server Name Indication extension_tls.handshake.extensions_server_name_1,573
+eth_eth.src_tree_eth.src_resolved_4,572
+tls_tls.record_tls.handshake_tls.handshake.ja3_full_3,571
+eth_eth.type_2,570
+tls_tls.record_tls.handshake_Extension: server_name (len=24)_Server Name Indication extension_tls.handshake.extensions_server_name_4,569
+eth_eth.dst_tree_eth.dst.oui_resolved_1,568
+tcp_tcp.hdr_len_0,567
+frame_frame.encap_type_1,566
+tls_tls.record_tls.handshake_Extension: signature_algorithms (len=16)_tls.handshake.sig_hash_algs_tls.handshake.sig_hash_alg_tree_tls.handshake.sig_hash_sig_1,565
+"tls_tls.record_tls.handshake_Extension: key_share (len=38)_Key Share extension_Key Share Entry: Group: x25519, Key Exchange length: 32_tls.handshake.extensions_key_share_key_exchange_length_2",564
+tls_tls.record_tls.handshake_Extension: supported_groups (len=6)_tls.handshake.extensions_supported_groups_length_1,563
+tls_tls.record_tls.handshake_Extension: server_name (len=23)_Server Name Indication extension_tls.handshake.extensions_server_name_type_1,562
+ip_ip.flags_1,561
+eth_eth.src_tree_eth.src.ig_3,560
+tcp_tcp.completeness_1,559
+eth_eth.src_1,558
+tls_tls.record_tls.handshake_Extension: server_name (len=19)_Server Name Indication extension_tls.handshake.extensions_server_name_type_4,557
+tls_tls.record_tls.handshake_Extension: status_request (len=5)_tls.handshake.extensions_status_request_type_1,556
+tls_tls.record_tls.handshake_Extension: signature_algorithms (len=26)_tls.handshake.sig_hash_algs_tls.handshake.sig_hash_alg_1,555
+tcp_tcp.window_size_1,554
+tls_tls.record_tls.handshake_Extension: server_name (len=24)_Server Name Indication extension_tls.handshake.extensions_server_name_list_len_1,553
+ip_ip.dst_1,552
+ip_ip.flags_tree_ip.flags.rb_1,551
+eth_eth.dst_tree_eth.dst.oui_2,550
+tls_tls.record_tls.handshake_Extension: signature_algorithms (len=20)_tls.handshake.sig_hash_algs_tls.handshake.sig_hash_alg_tree_tls.handshake.sig_hash_sig_1,549
+ip_ip.flags_tree_ip.flags.df_2,548
+tls_tls.record_tls.handshake_Extension: key_share (len=38)_tls.handshake.extension.type_1,547
+tls_tls.record_tls.handshake_Extension: server_name (len=19)_tls.handshake.extension.len_1,546
+tls_tls.record_tls.handshake_tls.handshake.session_id_1,545
+ip_ip.checksum.status_2,544
+tls_tls.record_tls.handshake_Extension: supported_groups (len=6)_tls.handshake.extensions_supported_groups_length_3,543
+tls_tls.record_tls.handshake_Extension: extended_master_secret (len=0)_tls.handshake.extension.type_1,542
+eth_eth.dst_tree_eth.addr_1,541
+tls_tls.record_tls.handshake_Extension: server_name (len=23)_tls.handshake.extension.len_1,540
+frame_frame.ignored_3,539
+tls_tls.record_tls.handshake_Extension: server_name (len=30)_Server Name Indication extension_tls.handshake.extensions_server_name_type_2,538
+tcp_tcp.seq_raw_3,537
+tls_tls.record_tls.handshake_Extension: session_ticket (len=0)_tls.handshake.extension.data_4,536
+eth_eth.src_tree_eth.addr_resolved_2,535
+tls_tls.record_tls.handshake_Extension: supported_groups (len=8)_tls.handshake.extension.len_1,534
+ip_ip.hdr_len_4,533
+tls_tls.record_tls.handshake_Extension: status_request (len=5)_tls.handshake.extensions_status_request_exts_len_2,532
+tls_tls.record_tls.handshake_Extension: supported_groups (len=6)_tls.handshake.extension.len_1,531
+ip_ip.version_3,530
+tcp_tcp.flags_tree_tcp.flags.reset_1,529
+tls_tls.record_tls.handshake_Extension: server_name (len=20)_Server Name Indication extension_tls.handshake.extensions_server_name_list_len_3,528
+tls_tls.record_tls.handshake_Extension: renegotiation_info (len=1)_tls.handshake.extension.type_2,527
+eth_eth.dst_tree_eth.dst_resolved_1,526
+tcp_tcp.flags_tree_tcp.flags.ns_3,525
+tls_tls.record_tls.handshake_Extension: supported_groups (len=6)_tls.handshake.extensions_supported_groups_length_4,524
+http_GET / HTTP/1.1\r\n__ws.expert__ws.expert.group_0,523
+ip_ip.len_2,522
+tls_tls.record_tls.handshake_Extension: server_name (len=23)_Server Name Indication extension_tls.handshake.extensions_server_name_len_4,521
+tls_tls.record_tls.handshake_tls.handshake.ja3_full_4,520
+tls_tls.record_tls.handshake_Extension: server_name (len=21)_Server Name Indication extension_tls.handshake.extensions_server_name_len_1,519
+tcp_tcp.flags_2,518
+tls_tls.record_tls.handshake_Extension: renegotiation_info (len=1)_tls.handshake.extension.type_3,517
+ip_ip.src_2,516
+http_http.connection_0,515
+tls_tls.record_tls.handshake_Extension: signature_algorithms (len=20)_tls.handshake.extension.type_2,514
+tls_tls.record_tls.handshake_tls.handshake.extensions_length_2,513
+tcp_tcp.window_size_scalefactor_1,512
+tls_tls.record_tls.handshake_Extension: server_name (len=26)_tls.handshake.extension.type_1,511
+tls_tls.record_tls.handshake_Extension: server_name (len=21)_Server Name Indication extension_tls.handshake.extensions_server_name_2,510
+tcp_tcp.checksum_4,509
+tls_tls.record_tls.handshake_Extension: ec_point_formats (len=2)_tls.handshake.extensions_ec_point_formats_length_1,508
+tls_tls.record_tls.handshake_Extension: server_name (len=21)_tls.handshake.extension.len_4,507
+eth_eth.dst_tree_eth.dst.oui_1,506
+tls_tls.record_tls.handshake_Extension: signature_algorithms (len=26)_tls.handshake.sig_hash_alg_len_1,505
+frame_frame.time_epoch_3,504
+tls_tls.record_tls.handshake_Extension: server_name (len=24)_Server Name Indication extension_tls.handshake.extensions_server_name_len_4,503
+tls_tls.record_tls.handshake_Extension: server_name (len=15)_Server Name Indication extension_tls.handshake.extensions_server_name_len_3,502
+tls_tls.record_tls.handshake_Extension: server_name (len=16)_Server Name Indication extension_tls.handshake.extensions_server_name_len_3,501
+tls_tls.record_tls.handshake_Extension: status_request (len=5)_tls.handshake.extension.len_1,500
+tls_tls.record_tls.handshake_Extension: server_name (len=19)_Server Name Indication extension_tls.handshake.extensions_server_name_type_3,499
+tcp_tcp.flags_tree_tcp.flags.syn_2,498
+tls_tls.record_tls.handshake_Extension: server_name (len=25)_Server Name Indication extension_tls.handshake.extensions_server_name_list_len_1,497
+tls_tls.record_tls.handshake_Extension: server_name (len=17)_Server Name Indication extension_tls.handshake.extensions_server_name_len_2,496
+tcp_tcp.dstport_2,495
+tls_tls.record_tls.handshake_Extension: server_name (len=26)_Server Name Indication extension_tls.handshake.extensions_server_name_list_len_1,494
+tls_tls.record_tls.handshake_Extension: signature_algorithms (len=26)_tls.handshake.extension.len_2,493
+tls_tls.record_tls.handshake_Extension: server_name (len=23)_Server Name Indication extension_tls.handshake.extensions_server_name_3,492
+eth_eth.type_1,491
+tls_tls.record_tls.handshake_Extension: server_name (len=23)_Server Name Indication extension_tls.handshake.extensions_server_name_len_2,490
+eth_eth.dst_tree_eth.addr.oui_4,489
+tcp_tcp.flags_tree_tcp.flags.cwr_3,488
+tcp_Timestamps_tcp.time_relative_1,487
+ip_ip.checksum_3,486
+tls_tls.record_tls.handshake_Extension: server_name (len=20)_Server Name Indication extension_tls.handshake.extensions_server_name_list_len_4,485
+tls_tls.record_tls.record.length_2,484
+"tls_tls.record_tls.handshake_Extension: key_share (len=38)_Key Share extension_Key Share Entry: Group: x25519, Key Exchange length: 32_tls.handshake.extensions_key_share_key_exchange_length_4",483
+tcp_tcp.srcport_4,482
+tls_tls.record_tls.handshake_Extension: application_layer_protocol_negotiation (len=14)_tls.handshake.extension.len_2,481
+tls_tls.record_tls.handshake_Extension: supported_groups (len=6)_tls.handshake.extension.type_2,480
+tcp_tcp.flags_tree_tcp.flags.reset_2,479
+tls_tls.record_tls.handshake_Extension: signature_algorithms (len=20)_tls.handshake.extension.type_3,478
+eth_eth.dst_tree_eth.ig_2,477
+"tls_tls.record_tls.handshake_Extension: key_share (len=38)_Key Share extension_Key Share Entry: Group: x25519, Key Exchange length: 32_tls.handshake.extensions_key_share_key_exchange_1",476
+tls_tls.record_tls.handshake_Extension: server_name (len=19)_tls.handshake.extension.type_2,475
+tls_tls.record_tls.handshake_Extension: application_layer_protocol_negotiation (len=14)_tls.handshake.extensions_alpn_len_2,474
+eth_eth.src_tree_eth.addr_1,473
+tcp_tcp.srcport_0,472
+tls_tls.record_tls.handshake_Extension: server_name (len=17)_tls.handshake.extension.len_2,471
+tcp_tcp.dstport_3,470
+eth_eth.src_tree_eth.src.lg_3,469
+tcp_tcp.window_size_value_4,468
+tls_tls.record_tls.handshake_Extension: signature_algorithms (len=26)_tls.handshake.extension.type_2,467
+frame_frame.encap_type_4,466
+tcp_tcp.analysis_tcp.analysis.bytes_in_flight_2,465
+tls_tls.record_tls.handshake_Extension: supported_versions (len=5)_tls.handshake.extension.type_1,464
+tls_tls.record_tls.handshake_Extension: server_name (len=23)_Server Name Indication extension_tls.handshake.extensions_server_name_list_len_1,463
+tls_tls.record_tls.handshake_Extension: signature_algorithms (len=20)_tls.handshake.sig_hash_algs_tls.handshake.sig_hash_alg_tree_tls.handshake.sig_hash_hash_3,462
+frame_frame.protocols_2,461
+eth_eth.dst_tree_eth.addr.oui_resolved_2,460
+tls_tls.record_tls.handshake_tls.handshake.cipher_suites_length_4,459
+tcp_tcp.flags_tree_tcp.flags.urg_2,458
+tls_tls.record_tls.record.content_type_1,457
+frame_frame.marked_1,456
+tls_tls.record_tls.handshake_Extension: supported_versions (len=5)_tls.handshake.extension.len_2,455
+tcp_tcp.seq_1,454
+tls_tls.record_tls.handshake_Extension: server_name (len=15)_Server Name Indication extension_tls.handshake.extensions_server_name_list_len_1,453
+eth_eth.src_tree_eth.lg_1,452
+eth_eth.src_tree_eth.src_resolved_3,451
+tls_tls.record_tls.handshake_tls.handshake.length_1,450
+tcp_Timestamps_tcp.time_delta_1,449
+eth_eth.dst_tree_eth.addr_resolved_1,448
+tls_tls.record_tls.handshake_Extension: server_name (len=24)_Server Name Indication extension_tls.handshake.extensions_server_name_type_1,447
+tcp_tcp.flags_tree_tcp.flags.ece_3,446
+tls_tls.record_tls.handshake_Extension: psk_key_exchange_modes (len=2)_tls.extension.psk_ke_modes_length_3,445
+tcp_tcp.flags_tree_tcp.flags.fin_3,444
+frame_frame.len_3,443
+tls_tls.record_tls.handshake_Extension: supported_groups (len=6)_tls.handshake.extension.len_2,442
+ip_ip.dsfield_tree_ip.dsfield.ecn_3,441
+tls_tls.record_tls.handshake_Extension: supported_versions (len=5)_tls.handshake.extension.len_1,440
+tls_tls.record_tls.handshake_Extension: session_ticket (len=0)_tls.handshake.extension.type_3,439
+tls_tls.record_tls.handshake_Extension: key_share (len=38)_tls.handshake.extension.len_1,438
+tls_tls.record_tls.handshake_Extension: server_name (len=20)_tls.handshake.extension.type_3,437
+tls_tls.record_tls.handshake_Extension: server_name (len=19)_tls.handshake.extension.len_2,436
+eth_eth.dst_tree_eth.addr_resolved_2,435
+tls_tls.record_tls.handshake_Extension: psk_key_exchange_modes (len=2)_tls.extension.psk_ke_mode_2,434
+tcp_tcp.seq_3,433
+eth_eth.dst_tree_eth.dst.ig_1,432
+eth_eth.dst_tree_eth.addr.oui_resolved_3,431
+tls_tls.record_tls.handshake_Extension: server_name (len=15)_Server Name Indication extension_tls.handshake.extensions_server_name_1,430
+tls_tls.record_tls.handshake_Extension: extended_master_secret (len=0)_tls.handshake.extension.type_4,429
+tls_tls.record_tls.handshake_Extension: server_name (len=19)_tls.handshake.extension.type_1,428
+tls_tls.record_tls.handshake_Extension: status_request (len=5)_tls.handshake.extensions_status_request_type_4,427
+eth_eth.dst_tree_eth.dst.lg_2,426
+frame_frame.number_1,425
+frame_frame.number_4,424
+tcp_tcp.window_size_2,423
+tls_tls.record_tls.handshake_Extension: supported_groups (len=8)_tls.handshake.extensions_supported_groups_tls.handshake.extensions_supported_group_2,422
+tls_tls.record_tls.handshake_Extension: server_name (len=24)_Server Name Indication extension_tls.handshake.extensions_server_name_type_4,421
+frame_frame.time_relative_0,420
+tls_tls.record_tls.handshake_Extension: server_name (len=26)_Server Name Indication extension_tls.handshake.extensions_server_name_len_1,419
+eth_eth.dst_tree_eth.addr_4,418
+ip_ip.frag_offset_1,417
+tls_tls.record_tls.handshake_Extension: server_name (len=25)_tls.handshake.extension.type_1,416
+tls_tls.record_tls.handshake_tls.handshake.type_1,415
+tls_tls.record_tls.handshake_Extension: supported_groups (len=8)_tls.handshake.extension.type_1,414
+tls_tls.record_tls.handshake_Extension: supported_groups (len=8)_tls.handshake.extension.type_2,413
+tls_tls.record_tls.handshake_Extension: server_name (len=23)_Server Name Indication extension_tls.handshake.extensions_server_name_1,412
+tcp_tcp.flags_tree_tcp.flags.res_2,411
+tls_tls.record_tls.handshake_Extension: signature_algorithms (len=16)_tls.handshake.extension.type_1,410
+"tls_tls.record_tls.handshake_Extension: key_share (len=38)_Key Share extension_Key Share Entry: Group: x25519, Key Exchange length: 32_tls.handshake.extensions_key_share_group_1",409
+ip_ip.version_4,408
+tls_tls.record_tls.handshake_Extension: ec_point_formats (len=2)_tls.handshake.extension.type_3,407
+tls_tls.record_tls.handshake_Extension: server_name (len=25)_Server Name Indication extension_tls.handshake.extensions_server_name_type_1,406
+tls_tls.record_tls.handshake_Extension: server_name (len=17)_Server Name Indication extension_tls.handshake.extensions_server_name_2,405
+eth_eth.src_tree_eth.src.oui_resolved_1,404
+tls_tls.record_tls.handshake_Extension: supported_groups (len=8)_tls.handshake.extensions_supported_groups_length_1,403
+tls_tls.record_tls.handshake_Extension: post_handshake_auth (len=0)_tls.handshake.extension.len_1,402
+tcp_tcp.hdr_len_1,401
+tls_tls.record_tls.handshake_Extension: renegotiation_info (len=1)_tls.handshake.extension.len_3,400
+tls_tls.record_tls.handshake_Extension: post_handshake_auth (len=0)_tls.handshake.extension.type_1,399
+frame_frame.protocols_3,398
+tls_tls.record_tls.handshake_Extension: server_name (len=19)_Server Name Indication extension_tls.handshake.extensions_server_name_list_len_4,397
+tcp_tcp.analysis_tcp.analysis.push_bytes_sent_3,396
+frame_frame.number_0,395
+ip_ip.version_0,394
+eth_eth.src_tree_eth.addr.oui_resolved_3,393
+frame_frame.time_relative_4,392
+tcp_tcp.analysis_tcp.analysis.bytes_in_flight_4,391
+tls_tls.record_tls.handshake_tls.handshake.extensions_length_3,390
+http_\r\n_0,389
+tcp_tcp.len_3,388
+tls_tls.record_tls.handshake_Extension: signature_algorithms (len=26)_tls.handshake.sig_hash_algs_tls.handshake.sig_hash_alg_tree_tls.handshake.sig_hash_hash_4,387
+frame_frame.offset_shift_4,386
+eth_eth.src_tree_eth.ig_4,385
+tls_tls.record_tls.handshake_Extension: session_ticket (len=0)_tls.handshake.extension.len_4,384
+frame_frame.marked_0,383
+tls_tls.record_tls.handshake_Extension: server_name (len=15)_Server Name Indication extension_tls.handshake.extensions_server_name_type_4,382
+frame_frame.time_delta_4,381
+tls_tls.record_tls.handshake_Extension: status_request (len=5)_tls.handshake.extension.len_4,380
+tls_tls.record_tls.handshake_Extension: server_name (len=21)_Server Name Indication extension_tls.handshake.extensions_server_name_type_3,379
+ip_ip.dsfield_0,378
+tls_tls.record_tls.handshake_Extension: renegotiation_info (len=1)_tls.handshake.extension.len_1,377
+ip_ip.flags_tree_ip.flags.mf_4,376
+tls_tls.record_tls.handshake_Extension: key_share (len=38)_Key Share extension_tls.handshake.extensions_key_share_client_length_4,375
+tcp_Timestamps_tcp.time_relative_4,374
+ip_ip.dsfield_tree_ip.dsfield.dscp_0,373
+tls_tls.record_tls.handshake_Extension: server_name (len=17)_Server Name Indication extension_tls.handshake.extensions_server_name_list_len_2,372
+ip_ip.flags_tree_ip.flags.df_1,371
+tls_tls.record_tls.handshake_Extension: server_name (len=23)_Server Name Indication extension_tls.handshake.extensions_server_name_list_len_4,370
+tls_tls.record_tls.handshake_Extension: psk_key_exchange_modes (len=2)_tls.extension.psk_ke_mode_3,369
+eth_eth.dst_tree_eth.addr_0,368
+tls_tls.record_tls.handshake_Extension: supported_versions (len=5)_tls.handshake.extensions.supported_versions_len_1,367
+tls_tls.record_tls.handshake_Extension: server_name (len=16)_Server Name Indication extension_tls.handshake.extensions_server_name_4,366
+tls_tls.record_tls.handshake_Extension: server_name (len=16)_Server Name Indication extension_tls.handshake.extensions_server_name_list_len_1,365
+tcp_tcp.window_size_value_3,364
+eth_eth.src_3,363
+tcp_tcp.urgent_pointer_0,362
+frame_frame.len_0,361
+tls_tls.record_tls.handshake_tls.handshake.ciphersuites_tls.handshake.ciphersuite_2,360
+ip_ip.hdr_len_0,359
+eth_eth.src_tree_eth.src.oui_2,358
+tcp_Timestamps_tcp.time_delta_0,357
+tls_tls.record_tls.handshake_Extension: key_share (len=38)_tls.handshake.extension.type_2,356
+frame_frame.cap_len_1,355
+tcp_Timestamps_tcp.time_relative_3,354
+tls_tls.record_tls.handshake_Extension: server_name (len=24)_tls.handshake.extension.len_1,353
+tls_tls.record_tls.handshake_Extension: key_share (len=38)_Key Share extension_tls.handshake.extensions_key_share_client_length_3,352
+tls_tls.record_tls.handshake_tls.handshake.ciphersuites_tls.handshake.ciphersuite_3,351
+"tls_tls.record_tls.handshake_Extension: key_share (len=38)_Key Share extension_Key Share Entry: Group: x25519, Key Exchange length: 32_tls.handshake.extensions_key_share_group_3",350
+tcp_tcp.flags_tree_tcp.flags.ack_0,349
+tls_tls.record_tls.handshake_Extension: psk_key_exchange_modes (len=2)_tls.handshake.extension.type_1,348
+tls_tls.record_tls.handshake_tls.handshake.cipher_suites_length_3,347
+tcp_tcp.flags_tree_tcp.flags.ack_1,346
+tcp_tcp.urgent_pointer_1,345
+tls_tls.record_tls.handshake_Extension: status_request (len=5)_tls.handshake.extensions_status_request_type_3,344
+tls_tls.record_tls.handshake_Extension: server_name (len=20)_tls.handshake.extension.len_2,343
+eth_eth.src_tree_eth.src.oui_1,342
+tls_tls.record_tls.handshake_Extension: psk_key_exchange_modes (len=2)_tls.extension.psk_ke_mode_1,341
+eth_eth.src_tree_eth.addr_resolved_0,340
+tls_tls.record_tls.handshake_Extension: server_name (len=16)_Server Name Indication extension_tls.handshake.extensions_server_name_list_len_2,339
+tls_tls.record_tls.handshake_Extension: supported_groups (len=8)_tls.handshake.extension.len_2,338
+tls_tls.record_tls.handshake_Extension: status_request (len=5)_tls.handshake.extensions_status_request_responder_ids_len_3,337
+tls_tls.record_tls.record.version_1,336
+tcp_tcp.analysis_tcp.analysis.bytes_in_flight_1,335
+tls_tls.record_tls.handshake_Extension: server_name (len=26)_Server Name Indication extension_tls.handshake.extensions_server_name_1,334
+tls_tls.record_tls.handshake_Extension: supported_groups (len=8)_tls.handshake.extensions_supported_groups_length_3,333
+tls_tls.record_tls.handshake_Extension: extended_master_secret (len=0)_tls.handshake.extension.len_2,332
+tcp_tcp.flags_tree_tcp.flags.ece_4,331
+tls_tls.record_tls.handshake_Extension: renegotiation_info (len=1)_tls.handshake.extension.len_4,330
+eth_eth.dst_tree_eth.dst.lg_0,329
+tls_tls.record_tls.record.version_4,328
+eth_eth.src_tree_eth.src.oui_resolved_2,327
+eth_eth.type_0,326
+tls_tls.record_tls.handshake_Extension: server_name (len=15)_Server Name Indication extension_tls.handshake.extensions_server_name_2,325
+tcp_tcp.window_size_scalefactor_2,324
+tls_tls.record_tls.handshake_Extension: ec_point_formats (len=2)_tls.handshake.extension.len_4,323
+tcp_tcp.flags_tree_tcp.flags.str_1,322
+tls_tls.record_tls.handshake_Extension: renegotiation_info (len=1)_Renegotiation Info extension_tls.handshake.extensions_reneg_info_len_1,321
+tls_tls.record_tls.handshake_Extension: server_name (len=23)_tls.handshake.extension.type_4,320
+tcp_tcp.flags_tree_tcp.flags.syn_0,319
+frame_frame.ignored_4,318
+tls_tls.record_tls.handshake_Extension: key_share (len=38)_tls.handshake.extension.len_3,317
+tcp_tcp.stream_4,316
+tls_tls.record_tls.handshake_Extension: status_request (len=5)_tls.handshake.extension.type_4,315
+eth_eth.dst_tree_eth.addr_2,314
+tls_tls.record_tls.record.version_2,313
+"tls_tls.record_tls.handshake_Extension: key_share (len=38)_Key Share extension_Key Share Entry: Group: x25519, Key Exchange length: 32_tls.handshake.extensions_key_share_key_exchange_4",312
+eth_eth.src_tree_eth.addr_0,311
+tls_tls.record_tls.handshake_Extension: server_name (len=17)_Server Name Indication extension_tls.handshake.extensions_server_name_list_len_1,310
+tls_tls.record_tls.handshake_Extension: signature_algorithms (len=20)_tls.handshake.sig_hash_algs_tls.handshake.sig_hash_alg_tree_tls.handshake.sig_hash_sig_2,309
+ip_ip.flags_tree_ip.flags.rb_4,308
+tcp_tcp.flags_tree_tcp.flags.ae_2,307
+eth_eth.src_tree_eth.lg_4,306
+eth_eth.src_tree_eth.addr_resolved_4,305
+tcp_tcp.flags_tree_tcp.flags.ece_0,304
+tls_tls.record_tls.handshake_Extension: server_name (len=19)_tls.handshake.extension.len_4,303
+ip_ip.checksum.status_0,302
+frame_frame.ignored_0,301
+tls_tls.record_tls.handshake_Extension: status_request (len=5)_tls.handshake.extensions_status_request_type_2,300
+tls_tls.record_tls.handshake_Extension: signature_algorithms (len=20)_tls.handshake.sig_hash_alg_len_3,299
+tls_tls.record_tls.handshake_tls.handshake.length_2,298
+tls_tls.record_tls.handshake_Extension: extended_master_secret (len=0)_tls.handshake.extension.type_2,297
+frame_frame.time_delta_1,296
+tls_tls.record_tls.handshake_Extension: session_ticket (len=0)_tls.handshake.extension.len_1,295
+tls_tls.record_tls.handshake_Extension: psk_key_exchange_modes (len=2)_tls.handshake.extension.type_2,294
+tcp_tcp.flags_tree_tcp.flags.res_4,293
+tls_tls.record_tls.handshake_Extension: signature_algorithms (len=26)_tls.handshake.extension.type_4,292
+tls_tls.record_tls.handshake_Extension: server_name (len=17)_Server Name Indication extension_tls.handshake.extensions_server_name_type_3,291
+tls_tls.record_tls.handshake_Extension: server_name (len=23)_tls.handshake.extension.type_1,290
+ip_ip.checksum.status_1,289
+tls_tls.record_tls.handshake_Extension: status_request (len=5)_tls.handshake.extensions_status_request_responder_ids_len_2,288
+eth_eth.dst_tree_eth.addr.oui_resolved_0,287
+tls_tls.record_tls.handshake_Extension: key_share (len=38)_tls.handshake.extension.type_3,286
+tls_tls.record_tls.handshake_Extension: server_name (len=16)_tls.handshake.extension.len_2,285
+tls_tls.record_tls.handshake_tls.handshake.cipher_suites_length_2,284
+tcp_tcp.flags_tree_tcp.flags.reset_4,283
+tls_tls.record_tls.handshake_Extension: supported_groups (len=8)_tls.handshake.extensions_supported_groups_tls.handshake.extensions_supported_group_4,282
+tcp_tcp.window_size_scalefactor_3,281
+ip_ip.len_4,280
+frame_frame.len_2,279
+eth_eth.dst_tree_eth.addr_resolved_4,278
+tcp_tcp.analysis_tcp.analysis.bytes_in_flight_3,277
+eth_eth.type_4,276
+http_GET / HTTP/1.1\r\n__ws.expert_http.chat_0,275
+eth_eth.dst_tree_eth.dst.oui_4,274
+tls_tls.record_tls.handshake_Extension: ec_point_formats (len=2)_tls.handshake.extension.len_2,273
+tls_tls.record_tls.handshake_Extension: server_name (len=15)_tls.handshake.extension.type_3,272
+http_http.host_0,271
+tls_tls.record_tls.handshake_Extension: server_name (len=21)_Server Name Indication extension_tls.handshake.extensions_server_name_type_4,270
+tls_tls.record_tls.handshake_Extension: signature_algorithms (len=26)_tls.handshake.sig_hash_algs_tls.handshake.sig_hash_alg_tree_tls.handshake.sig_hash_sig_2,269
+tls_tls.record_tls.handshake_tls.handshake.session_id_length_2,268
+tls_tls.record_tls.handshake_tls.handshake.session_id_length_3,267
+tcp_tcp.flags_tree_tcp.flags.str_3,266
+tls_tls.record_tls.record.content_type_3,265
+tls_tls.record_tls.handshake_Extension: server_name (len=21)_Server Name Indication extension_tls.handshake.extensions_server_name_3,264
+http_http.cookie_0,263
+eth_eth.src_tree_eth.ig_2,262
+tcp_tcp.ack_raw_1,261
+tls_tls.record_tls.handshake_Extension: server_name (len=21)_Server Name Indication extension_tls.handshake.extensions_server_name_type_1,260
+tls_tls.record_tls.handshake_Extension: server_name (len=19)_Server Name Indication extension_tls.handshake.extensions_server_name_len_3,259
+tls_tls.record_tls.handshake_Extension: server_name (len=21)_Server Name Indication extension_tls.handshake.extensions_server_name_list_len_3,258
+tls_tls.record_tls.handshake_tls.handshake.type_3,257
+tls_tls.record_tls.handshake_Extension: server_name (len=19)_Server Name Indication extension_tls.handshake.extensions_server_name_len_1,256
+tls_tls.record_tls.handshake_Extension: session_ticket (len=0)_tls.handshake.extension.data_1,255
+eth_eth.dst_tree_eth.dst.ig_3,254
+eth_eth.dst_tree_eth.ig_1,253
+eth_eth.src_0,252
+eth_eth.dst_tree_eth.addr.oui_resolved_1,251
+tls_tls.record_tls.handshake_Extension: server_name (len=21)_Server Name Indication extension_tls.handshake.extensions_server_name_1,250
+tls_tls.record_tls.handshake_Extension: psk_key_exchange_modes (len=2)_tls.handshake.extension.len_3,249
+tls_tls.record_tls.handshake_tls.handshake.comp_methods_length_3,248
+tls_tls.record_tls.handshake_Extension: signature_algorithms (len=16)_tls.handshake.sig_hash_alg_len_1,247
+tls_tls.record_tls.handshake_tls.handshake.extensions_length_4,246
+tls_tls.record_tls.handshake_tls.handshake.version_4,245
+tls_tls.record_tls.handshake_Extension: server_name (len=23)_Server Name Indication extension_tls.handshake.extensions_server_name_list_len_2,244
+tcp_tcp.flags_tree_tcp.flags.fin_1,243
+tls_tls.record_tls.handshake_tls.handshake.comp_methods_length_2,242
+tls_tls.record_tls.handshake_Extension: server_name (len=30)_Server Name Indication extension_tls.handshake.extensions_server_name_2,241
+eth_eth.dst_tree_eth.addr_resolved_3,240
+tcp_tcp.flags_tree_tcp.flags.ae_0,239
+eth_eth.src_tree_eth.src.oui_4,238
+tcp_Timestamps_tcp.time_relative_0,237
+tls_tls.record_tls.handshake_Extension: server_name (len=23)_tls.handshake.extension.type_3,236
+tls_tls.record_tls.handshake_tls.handshake.session_id_length_4,235
+tls_tls.record_tls.handshake_Extension: server_name (len=16)_tls.handshake.extension.len_4,234
+tcp_tcp.ack_4,233
+tls_tls.record_tls.handshake_Extension: psk_key_exchange_modes (len=2)_tls.handshake.extension.len_4,232
+IcedIdCookie_0,231
+tls_tls.record_tls.handshake_Extension: ec_point_formats (len=2)_tls.handshake.extension.len_3,230
+tls_tls.record_tls.handshake_Extension: supported_versions (len=5)_tls.handshake.extension.type_4,229
+eth_eth.src_4,228
+eth_eth.dst_tree_eth.ig_0,227
+tcp_tcp.window_size_scalefactor_4,226
+tls_tls.record_tls.handshake_Extension: renegotiation_info (len=1)_Renegotiation Info extension_tls.handshake.extensions_reneg_info_len_2,225
+tcp_tcp.hdr_len_4,224
+tls_tls.record_tls.handshake_Extension: server_name (len=15)_Server Name Indication extension_tls.handshake.extensions_server_name_list_len_3,223
+tls_tls.record_tls.handshake_Extension: server_name (len=24)_tls.handshake.extension.type_1,222
+tls_tls.record_tls.handshake_Extension: signature_algorithms (len=20)_tls.handshake.sig_hash_algs_tls.handshake.sig_hash_alg_tree_tls.handshake.sig_hash_sig_4,221
+"tls_tls.record_tls.handshake_Extension: key_share (len=38)_Key Share extension_Key Share Entry: Group: x25519, Key Exchange length: 32_tls.handshake.extensions_key_share_key_exchange_length_3",220
+eth_eth.src_tree_eth.ig_0,219
+tcp_tcp.ack_raw_0,218
+tls_tls.record_tls.handshake_tls.handshake.length_4,217
+tcp_tcp.completeness_0,216
+tls_tls.record_tls.record.content_type_4,215
+tcp_tcp.flags_tree_tcp.flags.reset_3,214
+eth_eth.dst_tree_eth.dst.oui_0,213
+tls_tls.record_tls.handshake_Extension: supported_versions (len=5)_tls.handshake.extensions.supported_versions_len_2,212
+tcp_tcp.len_1,211
+tcp_tcp.flags_tree_tcp.flags.str_4,210
+tcp_tcp.flags_tree_tcp.flags.ecn_1,209
+tls_tls.record_tls.handshake_Extension: supported_versions (len=5)_tls.handshake.extension.len_3,208
+tcp_tcp.nxtseq_4,207
+tls_tls.record_tls.handshake_Extension: server_name (len=20)_Server Name Indication extension_tls.handshake.extensions_server_name_len_4,206
+http_GET / HTTP/1.1\r\n_http.request.version_0,205
+tls_tls.record_tls.handshake_Extension: server_name (len=16)_Server Name Indication extension_tls.handshake.extensions_server_name_type_2,204
+ip_ip.dst_0,203
+tls_tls.record_tls.handshake_Extension: server_name (len=24)_Server Name Indication extension_tls.handshake.extensions_server_name_list_len_4,202
+tcp_tcp.ack_2,201
+tls_tls.record_tls.handshake_tls.handshake.comp_methods_length_4,200
+tls_tls.record_tls.handshake_Extension: server_name (len=20)_Server Name Indication extension_tls.handshake.extensions_server_name_type_2,199
+tls_tls.record_tls.handshake_Extension: extended_master_secret (len=0)_tls.handshake.extension.len_3,198
+eth_eth.dst_tree_eth.dst.ig_0,197
+frame_frame.time_delta_0,196
+ip_ip.id_2,195
+tcp_tcp.analysis_tcp.analysis.push_bytes_sent_4,194
+eth_eth.src_tree_eth.src.lg_2,193
+eth_eth.src_tree_eth.src_resolved_0,192
+tls_tls.record_tls.handshake_Extension: server_name (len=20)_Server Name Indication extension_tls.handshake.extensions_server_name_type_4,191
+eth_eth.dst_2,190
+tcp_tcp.flags_tree_tcp.flags.syn_4,189
+tcp_tcp.len_4,188
+ip_ip.id_4,187
+tcp_tcp.seq_raw_0,186
+tls_tls.record_tls.handshake_Extension: server_name (len=20)_tls.handshake.extension.len_4,185
+tls_tls.record_tls.handshake_Extension: post_handshake_auth (len=0)_tls.handshake.extension.len_4,184
+tls_tls.record_tls.handshake_Extension: server_name (len=16)_Server Name Indication extension_tls.handshake.extensions_server_name_len_4,183
+ip_ip.ttl_2,182
+frame_frame.cap_len_0,181
+tcp_tcp.flags_tree_tcp.flags.ns_1,180
+frame_frame.marked_4,179
+tls_tls.record_tls.handshake_Extension: server_name (len=23)_tls.handshake.extension.len_4,178
+tls_tls.record_tls.handshake_Extension: server_name (len=21)_tls.handshake.extension.type_4,177
+tcp_tcp.flags_tree_tcp.flags.ecn_0,176
+tls_tls.record_tls.handshake_Extension: server_name (len=20)_tls.handshake.extension.type_2,175
+tcp_tcp.stream_1,174
+tls_tls.record_tls.handshake_Extension: renegotiation_info (len=1)_tls.handshake.extension.type_4,173
+tls_tls.record_tls.handshake_Extension: server_name (len=30)_Server Name Indication extension_tls.handshake.extensions_server_name_len_2,172
+tcp_tcp.flags_tree_tcp.flags.str_0,171
+tls_tls.record_tls.handshake_Extension: server_name (len=17)_tls.handshake.extension.len_1,170
+"tls_tls.record_tls.handshake_Extension: key_share (len=38)_Key Share extension_Key Share Entry: Group: x25519, Key Exchange length: 32_tls.handshake.extensions_key_share_group_4",169
+tls_tls.record_tls.record.length_1,168
+tls_tls.record_tls.handshake_Extension: server_name (len=24)_tls.handshake.extension.type_4,167
+tls_tls.record_tls.handshake_Extension: server_name (len=15)_tls.handshake.extension.len_4,166
+tcp_tcp.nxtseq_0,165
+ip_ip.proto_0,164
+tls_tls.record_tls.handshake_Extension: server_name (len=15)_Server Name Indication extension_tls.handshake.extensions_server_name_len_2,163
+tcp_tcp.analysis_tcp.analysis.bytes_in_flight_0,162
+eth_eth.src_tree_eth.addr.oui_resolved_2,161
+tcp_tcp.window_size_value_0,160
+tls_tls.record_tls.handshake_Extension: supported_groups (len=6)_tls.handshake.extensions_supported_groups_tls.handshake.extensions_supported_group_2,159
+tls_tls.record_tls.handshake_Extension: signature_algorithms (len=16)_tls.handshake.sig_hash_algs_tls.handshake.sig_hash_alg_1,158
+ip_ip.src_4,157
+tcp_tcp.flags_tree_tcp.flags.ae_1,156
+tls_tls.record_tls.handshake_Extension: server_name (len=21)_Server Name Indication extension_tls.handshake.extensions_server_name_4,155
+tcp_tcp.flags_tree_tcp.flags.fin_4,154
+eth_eth.dst_3,153
+eth_eth.src_tree_eth.src.oui_resolved_0,152
+tls_tls.record_tls.handshake_Extension: status_request (len=5)_tls.handshake.extensions_status_request_responder_ids_len_1,151
+ip_ip.dsfield_tree_ip.dsfield.dscp_4,150
+tls_tls.record_tls.handshake_Extension: session_ticket (len=0)_tls.handshake.extension.type_1,149
+tls_tls.record_tls.handshake_Extension: session_ticket (len=0)_tls.handshake.extension.type_2,148
+tls_tls.record_tls.handshake_Extension: server_name (len=23)_Server Name Indication extension_tls.handshake.extensions_server_name_4,147
+ip_ip.dsfield_tree_ip.dsfield.ecn_2,146
+tls_tls.record_tls.handshake_Extension: key_share (len=38)_Key Share extension_tls.handshake.extensions_key_share_client_length_1,145
+ip_ip.len_1,144
+eth_eth.src_tree_eth.lg_0,143
+frame_frame.cap_len_2,142
+tls_tls.record_tls.handshake_Extension: key_share (len=38)_tls.handshake.extension.len_2,141
+eth_eth.src_tree_eth.addr_4,140
+"tls_tls.record_tls.handshake_Extension: key_share (len=38)_Key Share extension_Key Share Entry: Group: x25519, Key Exchange length: 32_tls.handshake.extensions_key_share_key_exchange_length_1",139
+eth_eth.src_tree_eth.src.ig_1,138
+tcp_tcp.analysis_tcp.analysis.push_bytes_sent_1,137
+tls_tls.record_tls.handshake_Extension: server_name (len=21)_Server Name Indication extension_tls.handshake.extensions_server_name_list_len_4,136
+tls_tls.record_tls.handshake_Extension: signature_algorithms (len=20)_tls.handshake.extension.len_2,135
+tls_tls.record_tls.handshake_Extension: server_name (len=19)_Server Name Indication extension_tls.handshake.extensions_server_name_4,134
+eth_eth.dst_4,133
+eth_eth.dst_tree_eth.lg_0,132
+"tls_tls.record_tls.handshake_Extension: key_share (len=38)_Key Share extension_Key Share Entry: Group: x25519, Key Exchange length: 32_tls.handshake.extensions_key_share_key_exchange_2",131
+frame_frame.protocols_0,130
+tcp_tcp.seq_raw_2,129
+tcp_tcp.flags_tree_tcp.flags.push_2,128
+tls_tls.record_tls.handshake_Extension: signature_algorithms (len=20)_tls.handshake.sig_hash_algs_tls.handshake.sig_hash_alg_tree_tls.handshake.sig_hash_hash_4,127
+tls_tls.record_tls.handshake_tls.handshake.cipher_suites_length_1,126
+tls_tls.record_tls.handshake_Extension: server_name (len=24)_Server Name Indication extension_tls.handshake.extensions_server_name_len_1,125
+eth_eth.dst_tree_eth.dst.oui_resolved_4,124
+tcp_tcp.flags_tree_tcp.flags.ns_0,123
+tcp_tcp.flags_tree_tcp.flags.cwr_4,122
+tcp_tcp.srcport_2,121
+tcp_tcp.dstport_4,120
+tls_tls.record_tls.handshake_Extension: server_name (len=19)_Server Name Indication extension_tls.handshake.extensions_server_name_type_2,119
+tls_tls.record_tls.handshake_Extension: server_name (len=20)_Server Name Indication extension_tls.handshake.extensions_server_name_type_3,118
+eth_eth.src_tree_eth.src_resolved_2,117
+ip_ip.dsfield_tree_ip.dsfield.ecn_0,116
+tcp_tcp.checksum_3,115
+tls_tls.record_tls.handshake_Extension: supported_groups (len=6)_tls.handshake.extensions_supported_groups_length_2,114
+tls_tls.record_tls.handshake_Extension: signature_algorithms (len=20)_tls.handshake.sig_hash_alg_len_4,113
+frame_frame.time_relative_1,112
+tls_tls.record_tls.handshake_Extension: ec_point_formats (len=2)_tls.handshake.extension.type_4,111
+tls_tls.record_tls.handshake_Extension: server_name (len=23)_Server Name Indication extension_tls.handshake.extensions_server_name_type_4,110
+tls_tls.record_tls.handshake_Extension: supported_groups (len=8)_tls.handshake.extensions_supported_groups_tls.handshake.extensions_supported_group_3,109
+tcp_tcp.window_size_0,108
+tls_tls.record_tls.handshake_Extension: status_request (len=5)_tls.handshake.extensions_status_request_responder_ids_len_4,107
+eth_eth.src_tree_eth.addr.oui_0,106
+http_GET / HTTP/1.1\r\n_http.request.method_0,105
+tls_tls.record_tls.handshake_tls.handshake.comp_methods_tls.handshake.comp_method_3,104
+tls_tls.record_tls.handshake_tls.handshake.session_id_3,103
+ip_ip.flags_tree_ip.flags.rb_3,102
+tcp_tcp.completeness_4,101
+tls_tls.record_tls.handshake_tls.handshake.ciphersuites_tls.handshake.ciphersuite_1,100
+tls_tls.record_tls.handshake_Extension: signature_algorithms (len=20)_tls.handshake.sig_hash_algs_tls.handshake.sig_hash_alg_tree_tls.handshake.sig_hash_hash_2,99
+tls_tls.record_tls.handshake_Extension: server_name (len=17)_Server Name Indication extension_tls.handshake.extensions_server_name_3,98
+tls_tls.record_tls.handshake_Extension: supported_groups (len=8)_tls.handshake.extensions_supported_groups_length_4,97
+tcp_tcp.flags_tree_tcp.flags.res_3,96
+eth_eth.type_3,95
+tcp_tcp.window_size_scalefactor_0,94
+eth_eth.dst_tree_eth.dst.lg_1,93
+tcp_tcp.ack_raw_3,92
+tcp_tcp.flags_tree_tcp.flags.reset_0,91
+ip_ip.ttl_4,90
+tcp_tcp.flags_tree_tcp.flags.push_4,89
+tls_tls.record_tls.handshake_Extension: supported_groups (len=8)_tls.handshake.extension.len_3,88
+tls_tls.record_tls.handshake_Extension: signature_algorithms (len=26)_tls.handshake.sig_hash_algs_tls.handshake.sig_hash_alg_tree_tls.handshake.sig_hash_sig_4,87
+tls_tls.record_tls.handshake_Extension: signature_algorithms (len=26)_tls.handshake.sig_hash_algs_tls.handshake.sig_hash_alg_4,86
+tls_tls.record_tls.handshake_Extension: signature_algorithms (len=20)_tls.handshake.sig_hash_algs_tls.handshake.sig_hash_alg_4,85
+tls_tls.record_tls.handshake_Extension: supported_versions (len=5)_tls.handshake.extensions.supported_version_4,84
+tls_tls.record_tls.handshake_Extension: signature_algorithms (len=26)_tls.handshake.sig_hash_algs_tls.handshake.sig_hash_alg_tree_tls.handshake.sig_hash_sig_1,83
+tls_tls.record_tls.handshake_Extension: key_share (len=38)_tls.handshake.extension.type_4,82
+tls_tls.record_tls.handshake_Extension: server_name (len=16)_Server Name Indication extension_tls.handshake.extensions_server_name_list_len_3,81
+tls_tls.record_tls.handshake_tls.handshake.type_4,80
+tcp_tcp.dstport_0,79
+eth_eth.dst_tree_eth.dst.ig_4,78
+tls_tls.record_tls.handshake_Extension: signature_algorithms (len=16)_tls.handshake.sig_hash_algs_tls.handshake.sig_hash_alg_tree_tls.handshake.sig_hash_hash_1,77
+tls_tls.record_tls.handshake_Extension: signature_algorithms (len=26)_tls.handshake.sig_hash_alg_len_2,76
+eth_eth.dst_0,75
+frame_frame.encap_type_3,74
+tcp_Timestamps_tcp.time_relative_2,73
+tls_tls.record_tls.handshake_Extension: server_name (len=17)_Server Name Indication extension_tls.handshake.extensions_server_name_list_len_3,72
+tls_tls.record_tls.handshake_Extension: server_name (len=23)_Server Name Indication extension_tls.handshake.extensions_server_name_list_len_3,71
+tls_tls.record_tls.handshake_Extension: server_name (len=15)_Server Name Indication extension_tls.handshake.extensions_server_name_type_2,70
+tls_tls.record_tls.handshake_Extension: supported_versions (len=5)_tls.handshake.extension.type_3,69
+tcp_Timestamps_tcp.time_delta_3,68
+tls_tls.record_tls.handshake_Extension: signature_algorithms (len=20)_tls.handshake.sig_hash_algs_tls.handshake.sig_hash_alg_tree_tls.handshake.sig_hash_sig_3,67
+ip_ip.src_3,66
+http_http.request.full_uri_0,65
+ip_ip.flags_2,64
+eth_eth.dst_tree_eth.addr.oui_1,63
+tls_tls.record_tls.handshake_Extension: signature_algorithms (len=20)_tls.handshake.sig_hash_alg_len_1,62
+eth_eth.dst_tree_eth.dst_resolved_3,61
+tls_tls.record_tls.handshake_Extension: signature_algorithms (len=26)_tls.handshake.sig_hash_algs_tls.handshake.sig_hash_alg_tree_tls.handshake.sig_hash_hash_2,60
+tls_tls.record_tls.handshake_Extension: server_name (len=15)_Server Name Indication extension_tls.handshake.extensions_server_name_type_3,59
+tcp_tcp.nxtseq_1,58
+tls_tls.record_tls.handshake_Extension: server_name (len=15)_tls.handshake.extension.type_1,57
+tls_tls.record_tls.handshake_Extension: signature_algorithms (len=26)_tls.handshake.sig_hash_algs_tls.handshake.sig_hash_alg_tree_tls.handshake.sig_hash_hash_3,56
+ip_ip.proto_1,55
+eth_eth.dst_tree_eth.dst_resolved_0,54
+tls_tls.record_tls.handshake_Extension: server_name (len=16)_Server Name Indication extension_tls.handshake.extensions_server_name_type_1,53
+ip_ip.src_1,52
+frame_frame.time_delta_3,51
+tls_tls.record_tls.handshake_Extension: signature_algorithms (len=20)_tls.handshake.sig_hash_algs_tls.handshake.sig_hash_alg_3,50
+tcp_tcp.flags_tree_tcp.flags.urg_1,49
+frame_frame.offset_shift_3,48
+tls_tls.record_tls.handshake_Extension: supported_versions (len=5)_tls.handshake.extensions.supported_version_3,47
+tls_tls.record_tls.handshake_Extension: server_name (len=23)_Server Name Indication extension_tls.handshake.extensions_server_name_type_2,46
+tls_tls.record_tls.handshake_tls.handshake.comp_methods_length_1,45
+tls_tls.record_tls.handshake_Extension: server_name (len=17)_tls.handshake.extension.type_3,44
+ip_ip.proto_2,43
+tls_tls.record_tls.handshake_Extension: post_handshake_auth (len=0)_tls.handshake.extension.type_2,42
+eth_eth.dst_tree_eth.addr_resolved_0,41
+tls_tls.record_tls.handshake_Extension: supported_groups (len=6)_tls.handshake.extension.len_4,40
+ip_ip.flags_tree_ip.flags.mf_0,39
+tcp_tcp.hdr_len_2,38
+tls_tls.record_tls.handshake_Extension: server_name (len=16)_Server Name Indication extension_tls.handshake.extensions_server_name_list_len_4,37
+tls_tls.record_tls.handshake_Extension: server_name (len=16)_tls.handshake.extension.type_4,36
+tls_tls.record_tls.handshake_Extension: signature_algorithms (len=20)_tls.handshake.extension.type_4,35
+tls_tls.record_tls.handshake_Extension: supported_groups (len=8)_tls.handshake.extensions_supported_groups_length_2,34
+frame_frame.encap_type_0,33
+tls_tls.record_tls.handshake_Extension: server_name (len=21)_Server Name Indication extension_tls.handshake.extensions_server_name_len_2,32
+frame_frame.protocols_4,31
+http_GET / HTTP/1.1\r\n__ws.expert__ws.expert.message_0,30
+tls_tls.record_tls.handshake_Extension: server_name (len=20)_Server Name Indication extension_tls.handshake.extensions_server_name_4,29
+tcp_tcp.ack_raw_2,28
+eth_eth.src_tree_eth.src.oui_resolved_4,27
+tcp_tcp.urgent_pointer_2,26
+tcp_Timestamps_tcp.time_delta_2,25
+tls_tls.record_tls.handshake_Extension: server_name (len=15)_tls.handshake.extension.len_1,24
+tls_tls.record_tls.handshake_Extension: server_name (len=19)_tls.handshake.extension.type_4,23
+ip_ip.dst_2,22
+tcp_tcp.flags_tree_tcp.flags.push_0,21
+tcp_tcp.stream_0,20
+tcp_tcp.flags_tree_tcp.flags.ae_4,19
+http_GET / HTTP/1.1\r\n__ws.expert__ws.expert.severity_0,18
+tls_tls.record_tls.handshake_Extension: supported_versions (len=5)_tls.handshake.extensions.supported_versions_len_4,17
+frame_frame.number_2,16
+ip_ip.flags_tree_ip.flags.df_0,15
+tls_tls.record_tls.handshake_tls.handshake.session_id_2,14
+tls_tls.record_tls.handshake_Extension: server_name (len=16)_Server Name Indication extension_tls.handshake.extensions_server_name_1,13
+tls_tls.record_tls.handshake_Extension: psk_key_exchange_modes (len=2)_tls.extension.psk_ke_mode_4,12
+tls_tls.record_tls.handshake_Extension: post_handshake_auth (len=0)_tls.handshake.extension.type_3,11
+ip_ip.dsfield_tree_ip.dsfield.dscp_1,10
+eth_eth.dst_tree_eth.dst_resolved_2,9
+tls_tls.record_tls.handshake_Extension: supported_versions (len=5)_tls.handshake.extension.len_4,8
+tls_tls.record_tls.handshake_Extension: server_name (len=16)_Server Name Indication extension_tls.handshake.extensions_server_name_type_4,7
+tcp_tcp.flags_tree_tcp.flags.cwr_0,6
+tls_tls.record_tls.handshake_Extension: extended_master_secret (len=0)_tls.handshake.extension.len_1,5
+http_http.request_0,4
+frame_frame.len_4,3
+tls_tls.record_tls.handshake_Extension: server_name (len=20)_Server Name Indication extension_tls.handshake.extensions_server_name_len_2,2
+tls_tls.record_tls.handshake_Extension: server_name (len=19)_Server Name Indication extension_tls.handshake.extensions_server_name_len_4,1
+tls_tls.record_tls.handshake_Extension: post_handshake_auth (len=0)_tls.handshake.extension.len_3,0
